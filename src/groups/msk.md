@@ -1,6 +1,6 @@
 ---
 title: Musculoskeletal
-excerpt: Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+excerpt: Skeletal imaging and intervention.
 
 tags: 
     - msk
@@ -10,6 +10,6 @@ eleventyNavigation:
 
 ---
 
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo nobis atque fuga dolores excepturi rem non repellat expedita harum aspernatur quisquam aut perferendis doloremque, laborum aliquam. Eaque sed maiores quas.
+Musculoskeletal (MSK) radiology is a large subspecialism of general radiology concerning the diagnostic imaging of bones, joints, ligaments and tendons as well as skeletal manifestations of other diseases. It also encompasses a wide gamut of interventional procedures used predominantly to reduce inflammation, pain and increase function. MSK is sufficiently large to contain a number of sub-interests in its own right.
 
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo nobis atque fuga dolores excepturi rem non repellat expedita harum aspernatur quisquam aut perferendis doloremque, laborum aliquam. Eaque sed maiores quas.
+Investigations are also frequently carried out by a diverse range of health professionals including: MSK Radiologists, Sonographers, Radiographers and also other health professionals such as Rheumatologists and some Physiotherapists. The SIG plays a vital role in overseeing shared professional standards across this landscape.
