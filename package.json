@@ -8,7 +8,7 @@
   "scripts": {
     "tailwind": "tailwind build ./src/styles/styles.css -o ./dist/styles.css",
     "dev": "export NODE_ENV=dev && eleventy --serve",
-    "build": "export NODE_ENV=production && rm -rf dist && eleventy && tailwind build ./src/styles/styles.css -o ./dist/styles.css && postcss ./dist/styles.css -o ./dist/styles.css"
+    "build": "export NODE_ENV=production && rm -rf dist && eleventy && tailwind build ./src/styles/styles.css -o ./dist/styles.css"
   },
   "dependencies": {
     "@11ty/eleventy": "github:11ty/eleventy",
