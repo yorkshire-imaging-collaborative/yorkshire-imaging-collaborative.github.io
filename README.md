@@ -2,7 +2,7 @@
 
 This is the front facing portal website for YIC which contains all of our official documentation and resource links.
 
-Created and maintained by (https://twitter.com/danfascia)[Dr Daniel Fascia]
+Created and maintained by [Dr Daniel Fascia](https://twitter.com/danfascia)
 
 ## Technical Details
 * [Created with 11ty](https://11ty.dev)
