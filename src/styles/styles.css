@@ -1,0 +1,85 @@
+@tailwind base;
+
+/* purgecss start ignore */
+@font-face {
+  font-family: 'Frutiger W01';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 300;
+  src: url("https://assets.nhs.uk/fonts/FrutigerLTW01-45Light.eot?#iefix");
+  src: url("https://assets.nhs.uk/fonts/FrutigerLTW01-45Light.eot?#iefix") format("eot"), url("https://assets.nhs.uk/fonts/FrutigerLTW01-45Light.woff2") format("woff2"), url("https://assets.nhs.uk/fonts/FrutigerLTW01-45Light.woff") format("woff"), url("https://assets.nhs.uk/fonts/FrutigerLTW01-45Light.ttf") format("truetype"), url("https://assets.nhs.uk/fonts/FrutigerLTW01-45Light.svg#29f3ff8a-1719-4e25-a757-53ee1a1114a5") format("svg"); }
+
+@font-face {
+  font-family: 'Frutiger W01';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://assets.nhs.uk/fonts/FrutigerLTW01-55Roman.eot?#iefix");
+  src: url("https://assets.nhs.uk/fonts/FrutigerLTW01-55Roman.eot?#iefix") format("eot"), url("https://assets.nhs.uk/fonts/FrutigerLTW01-55Roman.woff2") format("woff2"), url("https://assets.nhs.uk/fonts/FrutigerLTW01-55Roman.woff") format("woff"), url("https://assets.nhs.uk/fonts/FrutigerLTW01-55Roman.ttf") format("truetype"), url("https://assets.nhs.uk/fonts/FrutigerLTW01-55Roman.svg#7def0e34-f28d-434f-b2ec-472bde847115") format("svg"); }
+
+@font-face {
+  font-family: 'Frutiger W01';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+  src: url("https://assets.nhs.uk/fonts/FrutigerLTW01-65Bold.eot?#iefix");
+  src: url("https://assets.nhs.uk/fonts/FrutigerLTW01-65Bold.eot?#iefix") format("eot"), url("https://assets.nhs.uk/fonts/FrutigerLTW01-65Bold.woff2") format("woff2"), url("https://assets.nhs.uk/fonts/FrutigerLTW01-65Bold.woff") format("woff"), url("https://assets.nhs.uk/fonts/FrutigerLTW01-65Bold.ttf") format("truetype"), url("https://assets.nhs.uk/fonts/FrutigerLTW01-65Bold.svg#eae74276-dd78-47e4-9b27-dac81c3411ca") format("svg"); }
+/* purgecss end ignore */
+
+html        { 
+    @apply bg-white text-primary;
+    font-family: 'Frutiger W01', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.text-secondary { @apply text-grey-1 !important }
+
+.border { @apply border-grey-4 }
+
+.form { @apply border-grey-1 }
+
+.button { @apply bg-green text-white }
+.button-secondary { @apply bg-grey-1 text-white }
+
+main             { @apply bg-grey-5 pt-8 pb-12 }
+main a:link      { @apply text-blue }
+main a:hover     { @apply text-dark-pink no-underline }
+main a:active    { @apply text-navy }
+main a:visited   { @apply text-purple }
+
+.breadcrumbs li:not(:last-child):after {
+  content: "›";
+  @apply mr-2 ml-2 text-grey-3;
+}
+.breadcrumbs li a:hover {@apply no-underline}
+
+
+/* Lists with emdash es */
+ul.list li:before{
+  content: "—";
+  text-indent: 5px;
+  @apply text-grey-3;
+}
+ul.list li a { @apply ml-3 }
+
+.toc ul { @apply list prose }
+.toc ul li:before{
+  content: "—";
+  text-indent: 5px;
+  @apply text-grey-3;
+}
+.toc ul li a { @apply ml-3 }
+
+.arrow {
+  border: solid 32px; /* Needs a border colour supplying in HTML */
+  content: '';
+  display: block;
+  height: 0;
+  position: absolute;
+  bottom: -4;
+  transform: rotate(45deg);
+  width: 0;
+  z-index: -1
+}
+
+@tailwind components;
+@tailwind utilities;

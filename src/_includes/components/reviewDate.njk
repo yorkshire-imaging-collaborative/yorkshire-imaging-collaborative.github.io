@@ -1,0 +1,12 @@
+{% if lastReview or nextReview %}
+<div class="text-sm lg:text-base text-grey-2 pt-3">
+  <p class="leading-relaxed">
+    {% if lastReview %}
+    Page last reviewed: {{lastReview | date}}<br>
+    {% endif %} 
+    {%if nextReview %}
+    Next review due: {{nextReview | date}}
+    {%endif%}
+  </p>
+</div>
+{% endif %}

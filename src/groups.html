@@ -1,0 +1,43 @@
+---
+layout: default
+title: Special Interest Groups
+subtitle: The clinical expert groups steering our regional radiology policies, guidelines and pathways
+
+tags:
+    - nav
+    - footer
+
+eleventyNavigation:
+    parent: Home
+    key: Groups
+    title: Special Interest Groups
+
+---
+{% include 'components/header.njk' %}
+{% set hero = {
+    title: title,
+    subtitle: subtitle
+} %}
+{% include 'components/hero.njk' %}
+{% include 'components/breadcrumb.njk' %}
+
+<main id="main" role="main">
+    <div class="max-w-6xl mx-auto px-3">
+        <section id="cardList" class="flex flex-wrap">
+        {% for group in collections.groups %}
+          <div class="w-full md:w-1/2 p-2">
+          {% set card = 
+              {
+                label: group.data.title, 
+                link: group.url, 
+                excerpt: group.data.excerpt,
+                style: "transparent"
+                } %}
+          {% include 'components/card.njk' %}
+          </div>
+        {% endfor %}
+        </section>
+    </div>
+</main>
+
+{% include 'components/footer.njk' %}

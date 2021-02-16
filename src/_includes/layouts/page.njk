@@ -1,0 +1,36 @@
+---
+layout: default
+tags: page
+---
+{% include 'components/header.njk' %}
+{% include 'components/breadcrumb.njk' %}
+
+<main id="main">
+
+  <div class="max-w-6xl mx-auto px-3 mt-3 mb-8">
+    <div class="prose lg:prose-lg">
+      <h1>{{title}}</h1>
+    </div>
+  </div>
+
+  <div class="max-w-6xl mx-auto px-3 lg:flex">
+    <div class="prose lg:prose-lg">
+        
+        {% if subtitle %}
+        <p class="prose-xl lg:prose-2xl pb-5">{{subtitle}}</p>
+        {% endif %}
+
+        {{ content | safe }}
+
+      {% include 'components/reviewDate.njk' %}
+
+    </div>
+
+    {% if sidebar %}
+    {% include 'components/sidebar.njk' %}
+    {% endif %}
+
+  </div>
+</main>
+
+{% include 'components/footer.njk' %}

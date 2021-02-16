@@ -1,0 +1,44 @@
+---
+layout: default
+title: The index page
+date: 2020-04-30
+
+eleventyNavigation:
+  title: Homepage
+  key: Home
+  order: 0
+---
+{% include 'components/header.njk' %}
+
+{% set hero = {
+  title: "Transforming patient care through integrated regional medical imaging",
+  subtitle: "Driving forward the digital transformation of health and social care Driving forward the digital transformation of health and social care ",
+  image: "https://images.unsplash.com/photo-1609819260218-c94722f5bdfe?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1494&q=70"
+} %}
+{% include 'components/hero.njk' %}
+
+
+<main id="main">
+  <div class="max-w-6xl mx-auto px-3">
+
+  <section id="cardList" class="flex flex-wrap">
+
+  {% for page in collections.nav %}
+    <div class="w-full md:w-1/2 p-2">
+    {% set card = 
+        {
+          label: page.data.title,
+          link: page.url, 
+          excerpt: page.data.subtitle,
+          style: "transparent"
+          } %}
+
+    {% include 'components/card.njk' %}
+    </div>
+  {% endfor %}
+  </section>
+  
+  </div>
+</main>
+
+{% include 'components/footer.njk' %}
