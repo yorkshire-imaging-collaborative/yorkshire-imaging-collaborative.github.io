@@ -1,8 +1,7 @@
 ---
 layout: default
-tags: page
+sidebar: true
 ---
-
 {% include 'components/header.njk' %}
 {% include 'components/breadcrumb.njk' %}
 
@@ -17,13 +16,27 @@ tags: page
   <div class="max-w-6xl mx-auto px-3 lg:flex">
     <div class="prose lg:prose-lg">
         
-        {% if subtitle %}
-        <p class="prose-lg xl:prose-xl pb-5">{{subtitle}}</p>
-        {% endif %}
+    {% if subtitle %}
+    <p class="prose-lg xl:prose-xl pb-5">{{subtitle}}</p>
+    {% endif %}
 
-        {{ content | safe }}
+    <h2>Group Membership</h2>
 
-      {% include 'components/reviewDate.njk' %}
+    <h2>Group Meetings</h2>
+    {% for meeting in collections.event %}
+      {% if meeting.data.eleventyNavigation.parent in tags %}
+      <a href="{{meeting.url}}" class="block bg-grey-4 px-3 py-1 my-1">
+      {{ meeting.data.start }}
+      {{ meeting.data.title }}
+      </a>
+      {% endif %}
+    {% endfor %}
+
+    <h2>Protocols</h2>
+
+    <h2>Reporting Standards</h2>
+
+    <h2>Advice Documents</h2>
 
     </div>
 

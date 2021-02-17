@@ -1,12 +1,11 @@
 ---
 title: Paediatric
-excerpt: Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+excerpt: Imaging and intervention for babies, children and young adults
+subtitle: Paediatric radiology is a subspecialty concerning the diagnostic imaging and interventional management of diseases arising in utero through to early adult life.
 
 tags: 
     - paediatric
 
 eleventyNavigation:
-    key: Paediatric
+    key: paediatric
 ---
-
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo nobis atque fuga dolores excepturi rem non repellat expedita harum aspernatur quisquam aut perferendis doloremque, laborum aliquam. Eaque sed maiores quas.

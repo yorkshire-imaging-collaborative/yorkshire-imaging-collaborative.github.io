@@ -1,6 +1,6 @@
 {
     "tags"   : ["groups"],
-    "layout" : "layouts/page.njk",
+    "layout" : "layouts/sig.njk",
     "eleventyNavigation": {
         "parent": "Groups"
     }
