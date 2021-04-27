@@ -1,0 +1,85 @@
+local_backend: true
+
+backend:
+  name: git-gateway
+  branch: master
+  show_preview_links: false
+
+publish_mode: editorial_workflow
+media_folder: "src/images"
+public_folder: "/images"
+
+collections:
+  - name: "events"
+    label: "Events"
+    folder: "src/meetings"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Starts at", name: "start", widget: "datetime" }
+      - { label: "Ends at", name: "end", widget: "datetime" }
+      - label: "Group Assignment" 
+        name: "tags"
+        widget: "select"
+        multiple: false
+        options:
+          - { label: "Breast", value: "breast" }
+          - { label: "Chest", value: "chest" }
+          - { label: "Neuro, Head & Neck", value: "neuro-head-neck" }
+          - { label: "Nuclear Medicine", value: "nuclear-medicine" }
+          - { label: "Vascular / Interventional", value: "vascular-interventional" }
+          - { label: "Paediatric", value: "paediatric" }
+          - { label: "Genitourinary", value: "genitourinary" }
+          - { label: "Gastrointestinal", value: "gastrointestinal" }
+          - { label: "Musculoskeletal", value: "musculoskeletal" }
+          - { label: "Radiology Service Group", value: "service-group" }
+      - { label: "Location", name: "location", widget: "string" }
+      - { label: "Invitation link", name: "invitation", widget: "string" }
+      - { label: "Agenda", name: "agenda", widget: "markdown" }
+      - { label: "Minutes", name: "minutes", widget: "markdown" }
+
+  - name: "protocols"
+    label: "Protocols"
+    folder: "src/protocols"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+
+  - name: "advice"
+    label: "Advice Documents"
+    folder: "src/advice"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+
+  - name: "reporting-standards"
+    label: "Reporting Standards"
+    folder: "src/reporting-standards"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+
+  - name: "procedures"
+    label: "Procedural Documents"
+    folder: "src/procedures"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "About Page"
+        name: "about"
+        file: "src/about.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Sub-title, name: subtitle, widget: string}
+          - {label: Excerpt, name: excerpt, widget: text}
+          - {label: Sidebar, name: sidebar, widget: boolean}
+          - {label: Table of Contents, name: toc, widget: boolean}
