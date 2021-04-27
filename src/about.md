@@ -2,7 +2,10 @@
 layout: "layouts/page.njk"
 
 title: What is Yorkshire Imaging Collaborative?
-subtitle: As one of the largest fully integrated radiology networks, we provide a consistent medical imaging service to 4-million people across Yorkshire, the Humber and North Lincolnshire
+
+subtitle: The regional medical imaging interoperability network which serves 4-Million patients throughout Yorkshire, the Humber and North Lincolnshire
+
+excerpt: A deep dive into the origins, vision, roadmap and organisational structure of the regional imaging network
 
 sidebar: true
 toc: true
@@ -17,7 +20,15 @@ eleventyNavigation:
 ---
 
 ## What it is
-Medical data is notoriously difficult to integrate, and is frequently held in silos depending on each practice, clinic or hospital that you visit to maintain records and exchange data manually when referrals take place. Thankfully for some time now radiology has been a fully digital service with excellent underpinning technology standards for data exchange (HL7 for metadata and DICOM for picture data). Inspite of this fortunate starting position, integration outside of the boundaries of a hospital has relied on very manual processes and once great but now distinctly outdated technology (Image Exchange Portal).
+Yorkshire Imaging Collaborative (YIC) is the natural evolutionary step in medical imaging integration to provide quality radiology services to contemporary patient users.
+
+Through the symbiosis of our two parallel programmes of activity we are able to create a consistent and high quality medical imaging service across a the largest geographical footprint in the UK.
+
+* **Transformation Programme:** defines the culture and visionary direction of our service through engagement with senior leaders and medical experts
+
+* **Technology Programme:** strategising, procuring and deploying the technology required to realise our transformational goals
+
+## The Masterplan
 
 ## Our beginnings
 **In 2016** YIC set about to replace the Picture Archiving and Communication Systems (PACS) of 8 Trusts simultaneously by contracting at scale with [Agfa Healthcare](https://global.agfahealthcare.com/ "Agfa Healthcare") to deploy their Enterprise Imaging platform to our Trusts. This enormous undertaking took place between Q2-2017 and Q3-2020 resulting in organisations aligned in core PACS technologies.
@@ -36,7 +47,7 @@ The YIC team were seconded to NHS England to fulfil the medical imaging deployme
 ## Transformation
 Our core vision is to improve processes and facilitate great clinical care by ensuring that medical images and reports are always available at the point of care wherever a consultation takes place. Although we could never have anticipated the value prior to 2020, our success has resonated in the era of remote consultation and the inability of patients to travel for care. It has forced us as a profession to challenge ancient paradigms of presenteeism and migrate towards a more eclectic mixture of technology driven remote medicine adhering to the same underlying principles of good care.
 
-### Shared Core Services
+## Shared Core Services
 Procuring large scale infrastructure together as a region makes sense in a healthcare system where 97% of patients receive care in region (data: 2017 YIC via GE Finnamore).
 
 By operating services which scale well centrally as a region, greater benefit can be derived than with each hospital attempting to procure their own solutions and provide their own staff. This does not work for all services, but our early workshop style consultations in 2017 identified the elements which scale well.
@@ -47,13 +58,13 @@ By operating services which scale well centrally as a region, greater benefit ca
 * Remote meeting videoconferencing (Zoom, and now Microsoft Teams)
 * Programme Support Team
 
-### Common Practices
+## Common Practices
 Our programme is firmly rooted in its clinical underpinnings and is led by a Consultant Radiologist (Dr Daniel Fascia). Dan's vision has always been that the experts remain the leading light in the direction of the service and the core design of its needs. YIC provide all of the support and infrastructure required to allow experts to be just that and not need to think about things like planning meetings, creating agendas and documents.
 
 At the heart of our common practices we aim to standardise things which are suited to that, particulary tasks and documents which are tedious and repetitive but carried out by all hospitals. Through the adoption of a **minimum data set** approach we are not sufficiently prescriptive to restrict our organisations in their individuality but we do insist on achievement of minimum standards.
 
-### Special Interest Groups (SIGs) are our leading light
-Groups of expert radiologists and radiographers, and a separate group for service managers meet to discuss topics with a need for standardisation or improvement. They share ideas and review evidence to shape and drive forward minimum standard data sets for
+## Special Interest Groups
+Special Interest Groups (SIGs) are regarded as our leading light. These groups of expert radiologists and radiographers, and a separate group for service managers meet to discuss topics with a need for standardisation or improvement. They share ideas and review evidence to shape and drive forward minimum standard data sets for
 
 * Patient Advice Documents
 * Scanning Protocols

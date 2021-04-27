@@ -25,7 +25,7 @@ sidebar: true
     <h2>Group Meetings</h2>
     {% for meeting in collections.event %}
       {% if meeting.data.eleventyNavigation.parent in tags %}
-      <a href="{{meeting.url}}" class="block bg-grey-4 px-3 py-1 my-1">
+      <a href="{{meeting.url}}" class="block bg-white px-3 py-1 my-1">
       {{ meeting.data.start }}
       {{ meeting.data.title }}
       </a>

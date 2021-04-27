@@ -1,8 +1,0 @@
-{
-    "tags"   : ["meeting"],
-    "layout" : "layouts/meeting.njk",
-    "eleventyNavigation": {
-        "key": "meeting"
-    }
-
-}

@@ -21,6 +21,7 @@ module.exports = function(eleventyConfig) {
 
     /* Pass through */
     eleventyConfig.addPassthroughCopy('src/images')
+    eleventyConfig.addPassthroughCopy('src/admin')
 
     // Plugins
     eleventyConfig.addPlugin(eleventyNavigationPlugin)

@@ -1,8 +1,6 @@
 ---
-layout: 'layouts/meeting.njk'
-
-start: 2021-02-24T10:00
-end: 2021-02-24T12:00
+start: 2021-02-24
+end: 2021-02-24
 location: MS Teams
 invitation: https://whereby.com/danfascia
 
@@ -10,10 +8,12 @@ title: Winter MSK Group Meeting
 
 tags:
   - event
-  - msk
+  - musculoskeletal
+
+group: musculoskeletal
 
 eleventyNavigation:
-  parent: msk
+  parent: musculoskeletal
 ---
 
 ## Agenda
