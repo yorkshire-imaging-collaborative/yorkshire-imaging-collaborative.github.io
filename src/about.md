@@ -1,22 +1,23 @@
 ---
-layout: "layouts/page.njk"
+layout: layouts/page
 
-title: What is Yorkshire Imaging Collaborative?
+title: About our network
 
 subtitle: The regional medical imaging interoperability network which serves 4-Million patients throughout Yorkshire, the Humber and North Lincolnshire
 
-excerpt: A deep dive into the origins, vision, roadmap and organisational structure of the regional imaging network
+excerpt: A deep dive into the origins, vision, roadmap and organisational structure of our regional imaging network
 
 sidebar: true
 toc: true
 
 tags:
     - nav
+    - footer
 
 eleventyNavigation:
     parent: Home
     key: about
-    title: About YIC
+    title: About
 ---
 
 ## What it is

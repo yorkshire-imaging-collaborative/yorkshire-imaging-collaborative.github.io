@@ -1,7 +1,9 @@
 ---
 layout: default
-tags: page
+tags: mini-hub
 ---
+
+<!-- [TODO] Make this mini-hub template ala https://service-manual.nhs.uk/design-system/patterns/mini-hub -->
 
 {% include 'components/header.njk' %}
 {% include 'components/breadcrumb.njk' %}
@@ -11,6 +13,7 @@ tags: page
   <div class="max-w-6xl mx-auto px-3 mt-3 mb-8">
     <div class="prose xl:prose-lg">
       <h1>{{title}}</h1>
+      <!-- add a biggish subtitle for series title -->
     </div>
   </div>
 
@@ -25,13 +28,9 @@ tags: page
 
       {% include 'components/reviewMeta.njk' %}
 
-    </div>
+      <!-- [TODO] Add a previous next button to move through collection series -->
 
-    {% if sidebar %}
-    {% block sidebar %}
-      {% include 'components/sidebar.njk' %}
-    {% endblock %}
-    {% endif %}
+    </div>
 
   </div>
 </main>

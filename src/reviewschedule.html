@@ -1,0 +1,17 @@
+---
+title: Version Control
+layout: layouts/page
+
+tags:
+  - footer
+---
+
+Reverse chronological listing of pages by review date to help with version control of documents needing regular updating.
+
+<nav>
+{% for item in collections.all %}
+    {% if item.data.nextReview %}
+    <a class="flex items-center space-x-3 mb-1 bg-white w-full" href="{{item.url | url}}"><span class="w-1/4 bg-blue text-white pl-3 py-1">{{ item.data.nextReview | date }}</span> <span class="no-underline">{{item.data.title}}</span></a>
+    {% endif %}
+{% endfor %}
+</nav>

@@ -1,7 +1,7 @@
 // Modules
 const readableDate = require('./_11ty/date.js');
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation")
-const pluginTOC = require('eleventy-plugin-toc')
+const pluginTOC = require('eleventy-plugin-nesting-toc')
 const dotenv = require('dotenv').config()
 const markdownIt = require('markdown-it')
 const markdownItAnchor = require('markdown-it-anchor')
@@ -13,7 +13,11 @@ module.exports = function(eleventyConfig) {
     // Markdown
     eleventyConfig.setLibrary(
     'md',
-    markdownIt().use(markdownItAnchor)
+    markdownIt({ 
+      html: true,
+      linkify: true,
+      typographer: true,
+    }).use(markdownItAnchor)
     )
   
     // Layout aliases
@@ -26,11 +30,9 @@ module.exports = function(eleventyConfig) {
     // Plugins
     eleventyConfig.addPlugin(eleventyNavigationPlugin)
     eleventyConfig.addPlugin(pluginTOC, {
-      tags: ['h2', 'h3', 'h4'],
+      tags: ['h2', 'h3'],
       wrapper: 'nav',
       wrapperClass: 'toc',
-      ul: true,
-      flat: true
     })
     
 

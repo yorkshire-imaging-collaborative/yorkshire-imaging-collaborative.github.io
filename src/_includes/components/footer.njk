@@ -3,8 +3,8 @@
           
           
           <ul class="list-reset lg:flex lg:flex-wrap max-w-3xl">
-          {% for page in collections.nav | eleventyNavigation("Home") %}
-            <li class="lg:mr-6"><a href="{{page.url}}">{{page.title}}</a></li>
+          {% for page in collections.footer %}
+            <li class="lg:mr-6"><a href="{{page.url | url}}">{{page.data.eleventyNavigation.title}}</a></li>
           {% endfor %}
           </ul>
           

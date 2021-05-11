@@ -1,6 +1,9 @@
-{% if lastReview or nextReview %}
+{% if lastReview or nextReview or author %}
 <div class="text-sm lg:text-base text-grey-2 pt-3">
   <p class="leading-relaxed">
+    {% if author %}
+    Author: {{ author }}<br>
+    {% endif %}
     {% if lastReview %}
     Page last reviewed: {{lastReview | date}}<br>
     {% endif %} 

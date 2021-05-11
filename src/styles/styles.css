@@ -1,4 +1,6 @@
 @tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* purgecss start ignore */
 @font-face {
@@ -41,9 +43,9 @@ html        {
 .button-secondary { @apply bg-grey-1 text-white }
 
 main             { @apply bg-grey-5 pt-8 pb-12 }
-main a:link      { @apply text-blue }
-main a:hover     { @apply text-dark-pink no-underline }
-main a:active    { @apply text-navy }
+main a:link, .toc a:link, footer a:link { @apply text-blue }
+main a:hover, .toc a:hover, footer a:hover { @apply text-dark-pink no-underline }
+main a:active, .toc a:active, footer a:active    { @apply text-navy }
 main a:visited   { @apply text-purple }
 
 .breadcrumbs li:not(:last-child):after {
@@ -54,6 +56,7 @@ main a:visited   { @apply text-purple }
 
 
 /* Lists with emdash es */
+
 ul.list li:before{
   content: "—";
   text-indent: 5px;
@@ -61,13 +64,22 @@ ul.list li:before{
 }
 ul.list li a { @apply ml-3 }
 
-.toc ul { @apply list prose }
-.toc ul li:before{
+.toc ol { @apply list prose }
+.toc ol li:before {
   content: "—";
   text-indent: 5px;
   @apply text-grey-3;
 }
-.toc ul li a { @apply ml-3 }
+
+.toc ol ol > li::before {
+  content: "—";
+  text-indent: 5px;
+  @apply text-grey-3 ml-3;
+}
+
+.toc ol li a,
+.toc ol ol > li a { @apply ml-3 }
+ 
 
 .arrow {
   border: solid 32px; /* Needs a border colour supplying in HTML */
@@ -80,6 +92,3 @@ ul.list li a { @apply ml-3 }
   width: 0;
   z-index: -1
 }
-
-@tailwind components;
-@tailwind utilities;

@@ -12,4 +12,11 @@ eleventyNavigation:
     key: musculoskeletal
     title: Musculoskeletal
 
+members:
+  - name: Dr Neal Larkman
+    role: Group Lead
+  - name: Dr Daniel Fascia
+  - name: Dr Philip Robinson
+  - name: Dr James Rankine
+
 ---
