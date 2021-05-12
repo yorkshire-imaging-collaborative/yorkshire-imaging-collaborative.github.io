@@ -1,14 +1,22 @@
 ---
 layout: 'layouts/page.njk'
 sidebar: true
+
+minutes: Not yet published
 ---
-<h2>Musculoskeletal Special Interest Group</h2>
+{% set startDate = start | dateFormat('dd LLLL yyyy') %}
+{% set endDate = end | dateFormat('dd LLLL yyyy') %}
 
-<span class="block font-bold">{{ start | date }}</span>
-<span class="block font-bold">{{ end | date }}</span>
+<span class="font-bold">{{ start | dateFormat('dd LLLL yyyy HH:mm') }}</span>
+{% if startDate == endDate %}
+    — <span class="font-bold">{{ end | dateFormat('HH:mm') }}</span>
+    ({{ start | duration(end) }})
+{% else %}
+    — <span class="font-bold">{{ end | dateFormat('dd LLLL yyyy HH:mm') }}</span>
+{% endif %}
 
-{{ content | safe }}
+<h2>Agenda</h2>
+{{ agenda | safe }}
 
-<div>
-    {{ tags }}
-</div>
+<h2>Minutes</h2>
+{{ minutes | safe }}

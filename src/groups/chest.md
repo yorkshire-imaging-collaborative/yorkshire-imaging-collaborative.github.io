@@ -1,7 +1,7 @@
 ---
-layout: 'layouts/page.njk'
+layout: 'layouts/sig.njk'
 title: Chest
-excerpt: Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+excerpt: Thoracic and cardiac radiology
 
 lastReview: 2020-04-30
 nextReview: 2023-03-01

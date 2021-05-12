@@ -18,5 +18,6 @@ members:
   - name: Dr Daniel Fascia
   - name: Dr Philip Robinson
   - name: Dr James Rankine
-
+  - name: Dr Elly Phant
+  - name: Dr Boris Jones
 ---

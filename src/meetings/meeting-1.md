@@ -1,6 +1,6 @@
 ---
-start: 2021-02-24
-end: 2021-02-24
+start: 2022-05-12T16:46
+end: 2022-05-12T18:00
 location: MS Teams
 invitation: https://whereby.com/danfascia
 
@@ -14,6 +14,17 @@ group: musculoskeletal
 
 eleventyNavigation:
   parent: musculoskeletal
+
+agenda: |
+  <ul>
+    <li>Item one</li>
+    <li>Two</li>
+    <li>Three</li>
+  </ul>
+
+minutes: |
+  <p> It was an awesome meeeting chaired by the legend of Larkman
+  <p> It was an awesome meeeting chaired by the legend of Larkman
 ---
 
 ## Agenda

@@ -1,0 +1,18 @@
+      <!-- component:next-meeting -->
+      {% for item in collections.futureEvents | limit(1) %}
+      {% if item.data.eleventyNavigation.parent in tags %}
+      <a class="group" href="{{item.url | url}}">
+        <div class="prose rounded-sm border-2 border-transparent transition group-hover:border-warm-yellow bg-white p-4 mb-8 flex items-start">
+          <div class="w-32 ml-auto bg-blue p-3 rounded text-white text-center flex flex-col">
+          <span class="font-bold text-4xl">{{item.data.start | dateFormat('dd')}}</span>
+          <span class="text-base font-normal">{{item.data.start | dateFormat('LLL yyyy')}}</span>
+          </div>
+          <div class="w-full ml-3 py-2  flex flex-col">
+          <span class="text-grey-2 uppercase text-xs">Next meeting</span>
+          <span class="text-xl font-bold">{{item.data.title}}</span>
+          <span class="text-grey-1">{{item.data.location}}</span>
+          </div>
+        </div>
+      </a>
+      {% endif %}
+      {% endfor %}
