@@ -22,7 +22,7 @@ eleventyNavigation:
     title: Peer Learning & Feedback
 ---
 
-## Regional meeting for REALM chairs
+## Group for REALM chairs
 
 If you are already the chair of your local Radiology Events and Learning Meeting <abbr title="Radiology Events and Learning Meeting">(REALM)</abbr> or aspire to take on this role, then you will find this meeting useful. It acts as a knowledge sharing and peer support network for meeting leads, and a place to discuss
 
@@ -31,7 +31,7 @@ If you are already the chair of your local Radiology Events and Learning Meeting
 * How to record and share learning
 * Common pitfalls to avoid
 
-As a peer group meeting, there is no group lead but meetings will be formally organised by YIC and minutes shared on this website.
+As a peer group meeting, there is no group lead but meetings will be formally organised by YIC and minutes shared in the Peer Learning Special Interest Group.
 
 ## Cross regional feedback framework
 
@@ -41,15 +41,15 @@ Functioning as a sophisticated regional imaging network requires a mechanism to 
 
 Give a colleague a pat on the back for some good work.
 
-It might be a case you see come through your <abbr title="Multidisciplinary Team Meeting">MDTM</abbr> or just a case that you happen upon during comparison. However you find good work, it is important to let each other know both directly and by entering the case into the regional Pear Learning Meeting.
+It might be a case you see come through your <abbr title="Multidisciplinary Team Meeting">MDTM</abbr> or just a case that you happen upon during comparison. However you find good work, it is important to let each other know both directly and by entering the case into the Regional Peer Learning Meeting.
 
 #### Ways you can give positive feedback
-* Enter the case into the Regional Peer Learning Meeting
-* Send a digital pat on the back
+* Enter the case into the [Regional Peer Learning Meeting](#Regional Peer Learning Meeting)
+* Send a digital pat on the back _(feature to be developed after establishment of regional insource network)_
 
 ### Peer Learning
-We know that you've got robust regional <abbr title="Radiology Events and Learning Meeting">REAL</abbr>
- Meetings but it's good to share some of that learning far and wide. The Regional Peer Learning Meeting is a virtual event showcasing the best learning cases nominated by radiologists and radiographers working in our regional insource network.
+We know that you've got robust Trust <abbr title="Radiology Events and Learning Meeting">REAL</abbr>
+ Meetings but it's good to share some of that learning far and wide. The [Regional Peer Learning Meeting] is a virtual event showcasing the best learning cases nominated by radiologists and radiographers working in our regional insource network.
 
  #### What makes a good learning case?
  * Examples of a great pickup or a good report
@@ -59,7 +59,9 @@ We know that you've got robust regional <abbr title="Radiology Events and Learni
 
 ## Regional Peer Learning Meeting
 
-With CPD
+The regional peer learning meeting is a virtual event with similarities to Trust based REAL meetings. It is uniquely dedicated to the act of educating and learning from radiology practice using real life cases which have passed through out network. The event allows participants to obtain CPD points and acts as a good source for reflective practice by considering how the cases included would be handled in Trusts irrespective of the actual location of the case.
+
+_The virtual Regional REAL Meeting is planned to take place after the establishment of the regional insource network in early 2022_
 
 ## Serious Untoward Events
 Serious Untoward Events in Imaging <abbr title="Serious Untoward Events in Imanging">(SUIs)</abbr> remain a process governed and administered by the Trust in which the patient's primary care is delivered irrespective of when and where the imaging was acquired, interpreted and reported.
