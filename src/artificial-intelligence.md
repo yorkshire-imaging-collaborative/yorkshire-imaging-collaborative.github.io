@@ -21,3 +21,13 @@ eleventyNavigation:
     key: artificial-intelligence
     title: AI
 ---
+
+## Our AI Vision
+
+## People
+
+## Infrastructure for AI
+
+## The YIC-AI Sandbox
+
+## Partnerships
