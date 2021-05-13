@@ -3,7 +3,7 @@ layout: layouts/page
 title: Research & Development
 subtitle: 
 
-excerpt: Academic radiology, research, development, academic and commercial partnerships
+excerpt: Research, development, academic radiology and commercial partnerships
 
 author: Dr Daniel Fascia
 lastReview: 
