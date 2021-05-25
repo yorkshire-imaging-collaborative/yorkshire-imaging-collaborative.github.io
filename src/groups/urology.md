@@ -7,6 +7,12 @@ tags:
 
 eleventyNavigation:
     key: urology
----
+    
+groupTag: urology
 
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo nobis atque fuga dolores excepturi rem non repellat expedita harum aspernatur quisquam aut perferendis doloremque, laborum aliquam. Eaque sed maiores quas.
+members:
+  - name: Dr Oliver Hulson
+    role: Group Lead
+  - name: Dr Andrew Koo
+  - name: Dr Simon Burbidge
+---
