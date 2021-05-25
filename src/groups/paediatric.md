@@ -8,4 +8,20 @@ tags:
 
 eleventyNavigation:
     key: paediatric
+    
+groupTag: paediatric
+
+members:
+  - name: Dr Louise Hattingh
+    role: Group Lead
+  - name: Dr Ashley Uttley
+  - name: Dr Fay Barley
+  - name: Dr William Ramsden
+  - name: Dr Helen Woodley
+  - name: Dr Imran Kasli
+  - name: Dr Sophie Swinston
+  - name: Dr Shalini Nandish
+  - name: Dr Claire Gains
+  - name: Emily Keyte
+
 ---
