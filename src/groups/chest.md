@@ -1,7 +1,7 @@
 ---
 layout: 'layouts/sig.njk'
 title: Chest
-excerpt: Thoracic and cardiac radiology
+excerpt: Pulmonary imaging
 
 lastReview: 2020-04-30
 nextReview: 2023-03-01
