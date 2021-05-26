@@ -1,5 +1,7 @@
 # Yorkshire Imaging Collaborative Portal
 
+https://yorkshireimaging.nhs.uk
+
 This is the front facing portal website for YIC which contains all of our official documentation and resource links.
 
 Created and maintained by [Dr Daniel Fascia](https://twitter.com/danfascia)
