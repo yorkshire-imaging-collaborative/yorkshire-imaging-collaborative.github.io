@@ -1,15 +1,15 @@
 {
     "title": "Yorkshire Imaging Collaborative",
-    "strapline" : "A really NHS eleventy starter" ,
-    "baseUrl": "https://yourURL.com/",
-    "twitter": "danfascia",
-    "description": "A minimal 11ty base starter structure and a few helpful functions",
+    "strapline" : "Regional imaging network" ,
+    "baseUrl": "https://yorkshireimaging.nhs.uk/",
+    "twitter": "yorks_imaging",
+    "description": "Combined tech and transformation programme delivering total radiology interoperability across Yorkshire, the Humber and North Lincolnshire",
     "favicon" : "images/favicon.png",
     "featuredImage" : "",
     
     "author": {
       "name": "Daniel Fascia",
-      "email": "youremailaddress@example.com",
+      "email": "d.fascia@nhs.net",
       "twitter": "@danfascia",
       "avatar": ""
     },
