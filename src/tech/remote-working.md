@@ -21,7 +21,7 @@ To support radiologists and reporting radiographers the following guides have be
 
 ## Display calibration
 
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus iusto deserunt quae, eveniet fugit voluptates quos placeat totam. Dicta rerum harum adipisci velit molestias minima quaerat necessitatibus optio ea suscipit.
+The diagnostic monitors provided with the home working stations are self-calibrating.  Calibration is automatically checked daily and any issues found are reported.
 
 ## IT support
 
