@@ -15,6 +15,6 @@ tags:
 
 eleventyNavigation:
     parent: tech
-    key: tech 
+    key: tech
     title: Technology
 ---
