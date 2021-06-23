@@ -5,6 +5,5 @@ module.exports = {
         title: data => data.title
         },
       layout: () => "layouts/page.njk",
-      tags: () => ['tech']
     }
   }

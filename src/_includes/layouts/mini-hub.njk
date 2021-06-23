@@ -3,39 +3,31 @@ layout: default
 tags: mini-hub
 ---
 
-<!-- [TODO] Make this mini-hub template ala https://service-manual.nhs.uk/design-system/patterns/mini-hub -->
-
 {% include 'components/header.njk' %}
+{% set hero = {
+    title: title,
+    subtitle: subtitle
+} %}
+{% include 'components/hero.njk' %}
 {% include 'components/breadcrumb.njk' %}
 
-<main id="main">
-
-  <div class="max-w-6xl mx-auto px-3 mt-3 mb-8">
-    <div class="prose xl:prose-lg">
-      <h1>{{title}}</h1>
-      <!-- add a biggish subtitle for series title -->
-      
+<main id="main" role="main">
+    <div class="max-w-6xl mx-auto px-3">
+        <section id="cardList" class="flex flex-wrap">
+        {% for item in collections[collectionTag] %}
+          <div class="w-full md:w-1/2 p-2">
+          {% set card = 
+              {
+                label: item.data.title, 
+                link: item.url, 
+                excerpt: item.data.excerpt,
+                style: "transparent"
+                } %}
+          {% include 'components/card.njk' %}
+          </div>
+        {% endfor %}
+        </section>
     </div>
-  </div>
-
-  <div class="max-w-6xl mx-auto px-3 lg:flex">
-    <div class="prose lg:prose-lg">
-        
-        {% if subtitle %}
-        <p class="prose-lg xl:prose-xl pb-5">{{subtitle}}</p>
-        {% endif %}
-
-        {{ content | safe }}
-
-        Here is some nonsense from mini-hub
-
-      {% include 'components/reviewMeta.njk' %}
-
-      <!-- [TODO] Add a previous next button to move through collection series -->
-
-    </div>
-
-  </div>
 </main>
 
 {% include 'components/footer.njk' %}

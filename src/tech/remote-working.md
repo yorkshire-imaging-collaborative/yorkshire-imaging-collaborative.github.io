@@ -1,7 +1,7 @@
 ---
 title: Technology for remote work
 subtitle:
-excerpt:
+excerpt: Guide to setup, usage and support mechanisms
 
 sidebar: true
 toc: true
