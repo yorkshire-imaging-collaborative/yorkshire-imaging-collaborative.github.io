@@ -11,7 +11,7 @@ sidebar: true
 toc: true
 
 tags:
-    - tech
+    - nav
 
 eleventyNavigation:
     parent: tech
