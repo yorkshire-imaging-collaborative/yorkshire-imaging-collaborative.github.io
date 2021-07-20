@@ -12,7 +12,7 @@ tags:
 group: musculoskeletal
 
 eleventyNavigation:
-  parent: musculoskeletal
+  parent: group_tag_goes_here
 
 ---
 
