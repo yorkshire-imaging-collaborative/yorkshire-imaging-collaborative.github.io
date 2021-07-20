@@ -7,7 +7,7 @@ invitation:
 title: Meeting Title 
 
 tags:
-  - musculoskeletal
+  - group_tag_goes_here
 
 group: musculoskeletal
 
