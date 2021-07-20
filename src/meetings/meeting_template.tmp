@@ -7,12 +7,12 @@ invitation:
 title: Meeting Title 
 
 tags:
-  - group_tag_goes_here
+  - musculoskeletal
 
 group: musculoskeletal
 
 eleventyNavigation:
-  parent: group_tag_goes_here
+  parent: musculoskeletal
 
 ---
 
