@@ -15,8 +15,4 @@ minutes: Not yet published
     — <span class="font-bold">{{ end | dateFormat('dd LLLL yyyy HH:mm') }}</span>
 {% endif %}
 
-<h2>Agenda</h2>
-{{ agenda | safe }}
-
-<h2>Minutes</h2>
-{{ minutes | safe }}
+{{ content | safe }}
