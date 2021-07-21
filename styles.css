@@ -513,6 +513,7 @@ video {
 }
 
 
+      [type='text'],
       [type='number'],
       [type='date'],
       [type='time'],
@@ -534,7 +535,7 @@ video {
   line-height: 1.5rem;
 }
 
- [type='number']:focus, [type='date']:focus, [type='time']:focus, textarea:focus, select:focus {
+[type='text']:focus, [type='number']:focus, [type='date']:focus, [type='time']:focus, textarea:focus, select:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
   --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
@@ -1796,7 +1797,7 @@ html        {
 main             { --tw-bg-opacity: 1; background-color: rgba(240, 244, 245, var(--tw-bg-opacity)); padding-top: 2rem; padding-bottom: 3rem
 }
 
-main a:link, .toc a:link, footer a:link { --tw-text-opacity: 1; color: rgba(0, 94, 184, var(--tw-text-opacity))
+main a, .toc a, footer a { --tw-text-opacity: 1; color: rgba(0, 94, 184, var(--tw-text-opacity))
 }
 
 main a:hover, .toc a:hover, footer a:hover { --tw-text-opacity: 1; color: rgba(124, 40, 85, var(--tw-text-opacity)); text-decoration: none

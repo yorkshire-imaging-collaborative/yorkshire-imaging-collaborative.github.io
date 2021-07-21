@@ -43,7 +43,7 @@ html        {
 .button-secondary { @apply bg-grey-1 text-white }
 
 main             { @apply bg-grey-5 pt-8 pb-12 }
-main a:link, .toc a:link, footer a:link { @apply text-blue }
+main a, .toc a, footer a { @apply text-blue }
 main a:hover, .toc a:hover, footer a:hover { @apply text-dark-pink no-underline }
 main a:active, .toc a:active, footer a:active    { @apply text-navy }
 main a:visited   { @apply text-purple }
