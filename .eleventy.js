@@ -2,6 +2,7 @@
 const readableDate = require('./_11ty/date.js');
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation")
 const pluginTOC = require('eleventy-plugin-nesting-toc')
+const embeds = require("eleventy-plugin-embed-everything")
 const dotenv = require('dotenv').config()
 const markdownIt = require('markdown-it')
 const markdownItAnchor = require('markdown-it-anchor')
@@ -36,6 +37,7 @@ module.exports = function(eleventyConfig) {
       wrapper: 'nav',
       wrapperClass: 'toc',
     })
+    eleventyConfig.addPlugin(embeds)
     
 
     // Filters

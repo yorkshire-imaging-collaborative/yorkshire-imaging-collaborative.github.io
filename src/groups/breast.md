@@ -1,6 +1,6 @@
 ---
 title: Breast
-excerpt: Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+excerpt: Female and male breast imaging, procedures and cancer.
 
 tags: 
     - breast

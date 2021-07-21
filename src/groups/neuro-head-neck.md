@@ -1,6 +1,6 @@
 ---
 title: Neuroradiology, Head & Neck
-excerpt: Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+excerpt: Brain, nervous system, head and neck radiology
 subtitle: Nervous system, head & neck imaging and intervention
 
 tags: 
@@ -10,5 +10,5 @@ groupTag: neuro-head-neck
 
 eleventyNavigation:
     key: neuro-head-neck
-    title: Neuroradiology, Head & Neck
+    title: Neuro, Head & Neck
 ---

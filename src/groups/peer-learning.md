@@ -1,6 +1,7 @@
 ---
 title: Peer Learning
-excerpt: Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+excerpt: Feedback and learning through events in radiology
+subtitle: The peer learning group promote our strong principles and commitment to improvement of our network through positive iterative feedback and a culture of learning. Our regional peer learning meeting acts as the forum to distribute this learning to a wide audience.
 
 tags: 
     - peer-learning
@@ -9,5 +10,3 @@ eleventyNavigation:
     key: peer-learning
     title: Peer Learning
 ---
-
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo nobis atque fuga dolores excepturi rem non repellat expedita harum aspernatur quisquam aut perferendis doloremque, laborum aliquam. Eaque sed maiores quas.

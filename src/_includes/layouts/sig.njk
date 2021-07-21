@@ -44,7 +44,10 @@ sidebar: true
 
   {% for item in collections.event | reverse %}
       {% if item.data.eleventyNavigation.parent in tags %}
+      
+      {% if loop.first %}
       <h4>Past Meetings</h4>
+      {% endif %}
 
       <a href="{{item.url | url}}" class="bg-white my-2 flex items-center text-base">
       <span class="text-black p-3 flex">

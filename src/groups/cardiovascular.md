@@ -1,6 +1,6 @@
 ---
 title: Cardiovascular
-excerpt: Diagnostic cardiac imaging
+excerpt: Diagnostic and functional imaging of the heart
 subtitle: Cardiac imaging concerns the non-invasive imaging of the heart and surrounding structures. It is carried out by both subspecialised radiologists and cardiologists.
 
 tags: 
