@@ -8,6 +8,7 @@ tags:
 
 eleventyNavigation:
     key: paediatric
+    title: Paediatric
     
 groupTag: paediatric
 
