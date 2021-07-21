@@ -7,12 +7,12 @@ invitation:
 title: Meeting Title 
 
 tags:
-  - musculoskeletal
+  - paediatric
 
-group: musculoskeletal
+group: paediatric
 
 eleventyNavigation:
-  parent: musculoskeletal
+  parent: paediatric
 
 ---
 
