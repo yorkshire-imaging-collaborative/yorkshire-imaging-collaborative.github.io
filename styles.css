@@ -516,6 +516,7 @@ video {
       [type='text'],
       [type='number'],
       [type='date'],
+      [type='month'],
       [type='time'],
       textarea,
       select
@@ -535,7 +536,7 @@ video {
   line-height: 1.5rem;
 }
 
-[type='text']:focus, [type='number']:focus, [type='date']:focus, [type='time']:focus, textarea:focus, select:focus {
+[type='text']:focus, [type='number']:focus, [type='date']:focus, [type='month']:focus, [type='time']:focus, textarea:focus, select:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
   --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
