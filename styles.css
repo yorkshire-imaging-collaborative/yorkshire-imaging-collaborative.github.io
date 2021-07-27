@@ -1218,6 +1218,11 @@ select {
   border-color: rgba(240, 244, 245, var(--tw-border-opacity));
 }
 
+.group:hover .group-hover\:border-warm-yellow {
+  --tw-border-opacity: 1;
+  border-color: rgba(255, 184, 28, var(--tw-border-opacity));
+}
+
 .hover\:border-warm-yellow:hover {
   --tw-border-opacity: 1;
   border-color: rgba(255, 184, 28, var(--tw-border-opacity));
@@ -1230,6 +1235,14 @@ select {
 
 .rounded-sm {
   border-radius: 0.125rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.border-2 {
+  border-width: 2px;
 }
 
 .border {
@@ -1284,12 +1297,20 @@ select {
   flex-wrap: wrap;
 }
 
+.items-start {
+  align-items: flex-start;
+}
+
 .items-center {
   align-items: center;
 }
 
 .flex-1 {
   flex: 1 1 0%;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .font-medium {
@@ -1310,6 +1331,11 @@ select {
 
 .h-screen {
   height: 100vh;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .text-sm {
@@ -1335,6 +1361,11 @@ select {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .leading-relaxed {
@@ -1377,6 +1408,10 @@ select {
 
 .mb-3 {
   margin-bottom: 0.75rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
 }
 
 .mt-4 {
@@ -1534,6 +1569,10 @@ select {
   --tw-ring-shadow: 0 0 #0000;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .text-primary {
   --tw-text-opacity: 1;
   color: rgba(33, 43, 50, var(--tw-text-opacity));
@@ -1542,6 +1581,11 @@ select {
 .text-blue {
   --tw-text-opacity: 1;
   color: rgba(0, 94, 184, var(--tw-text-opacity));
+}
+
+.text-grey-1 {
+  --tw-text-opacity: 1;
+  color: rgba(76, 98, 114, var(--tw-text-opacity));
 }
 
 .text-grey-2 {
@@ -1557,6 +1601,10 @@ select {
 .group:hover .group-hover\:text-dark-pink {
   --tw-text-opacity: 1;
   color: rgba(124, 40, 85, var(--tw-text-opacity));
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 .underline {
@@ -1579,6 +1627,10 @@ select {
   width: 6rem;
 }
 
+.w-32 {
+  width: 8rem;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -1597,6 +1649,12 @@ select {
 
 .z-50 {
   z-index: 50;
+}
+
+.transition {
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 @-webkit-keyframes spin {
