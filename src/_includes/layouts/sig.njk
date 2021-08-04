@@ -20,8 +20,8 @@ sidebar: true
     <p class="prose-lg xl:prose-xl pb-5">{{subtitle}}</p>
     {% endif %}
 
-
   {% for item in collections.futureEvents | reverse %}
+
       {% if item.data.eleventyNavigation.parent in tags %}
       
       {% if loop.first %}
@@ -42,7 +42,7 @@ sidebar: true
       {% endif %}
   {% endfor %}
 
-  {% for item in collections.event | reverse %}
+  {% for item in collections.pastEvents | reverse %}
       {% if item.data.eleventyNavigation.parent in tags %}
       
       {% if loop.first %}

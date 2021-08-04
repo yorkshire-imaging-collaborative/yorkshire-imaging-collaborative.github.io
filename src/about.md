@@ -30,6 +30,13 @@ Through the symbiosis of our two parallel programmes of activity we are able to 
 * **Technology Programme:** strategising, procuring and deploying the technology required to realise our transformational goals
 
 ## The Masterplan
+[![Yorkshire Imaging Collaborative Masterplan](/images/masterplan.png)](/images/masterplan.png)
+
+We have set out a comprehensive and ambitious **Masterplan(TM)** to reimagine the radiology service in our region by considering 3 main domains of transformation
+
+* Common Practices
+* Shared Core Services
+* Processes and Workflows
 
 ## Our beginnings
 **In 2016** YIC set about to replace the Picture Archiving and Communication Systems (PACS) of 8 Trusts simultaneously by contracting at scale with [Agfa Healthcare](https://global.agfahealthcare.com/ "Agfa Healthcare") to deploy their Enterprise Imaging platform to our Trusts. This enormous undertaking took place between Q2-2017 and Q3-2020 resulting in organisations aligned in core PACS technologies.

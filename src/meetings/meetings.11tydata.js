@@ -5,6 +5,6 @@ module.exports = {
       title: data => data.title
       },
     layout: () => "layouts/meeting.njk",
-    tags: () => ['event']
+    tags: () => ["event"]
   }
 }
