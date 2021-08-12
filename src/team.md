@@ -13,7 +13,7 @@ tags:
     - footer
 
 eleventyNavigation:
-    parent: home
+    parent: Home
     key: team
     title: Meet the Team
 ---
