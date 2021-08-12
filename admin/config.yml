@@ -24,16 +24,18 @@ collections:
         widget: "select"
         multiple: false
         options:
+          - { label: "Artificial Intelligence", value: "ai" }
           - { label: "Breast", value: "breast" }
           - { label: "Chest", value: "chest" }
           - { label: "Neuro, Head & Neck", value: "neuro-head-neck" }
           - { label: "Nuclear Medicine", value: "nuclear-medicine" }
           - { label: "Vascular / Interventional", value: "vascular-interventional" }
           - { label: "Paediatric", value: "paediatric" }
-          - { label: "Genitourinary", value: "genitourinary" }
           - { label: "Gastrointestinal", value: "gastrointestinal" }
           - { label: "Musculoskeletal", value: "musculoskeletal" }
+          - { label: "Peer Learning", value: "peer-learning" }
           - { label: "Radiology Service Group", value: "service-group" }
+          - { label: "Urology", value: "urology" }
       - { label: "Location", name: "location", widget: "string" }
       - { label: "Invitation link", name: "invitation", widget: "string" }
       - { label: "Agenda", name: "agenda", widget: "markdown" }
