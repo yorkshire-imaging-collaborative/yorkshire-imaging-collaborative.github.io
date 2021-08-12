@@ -1,5 +1,6 @@
 ---
 layout: layouts/page
+order: 1
 
 title: About our network
 

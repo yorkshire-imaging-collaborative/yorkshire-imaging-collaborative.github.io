@@ -3,7 +3,7 @@ layout: layouts/page
 title: Business Intelligence
 subtitle: The oversight and performance metrics of our network in motion, carried out by our Central Business Unit
 
-excerpt: Network operations, performance and data analytics
+excerpt: Network operations, performance and data analytics carried out by our central business unit
 
 author: Dr Daniel Fascia
 lastReview: 
@@ -48,3 +48,7 @@ The team works closely with our Regional Clinical Lead to ensure that the networ
 * Management of the insourced reporting network
 * Supporting Radiologists and Service Managers using the network
 * Working with our AI partners to facilitate research and development
+
+## How to contact the team
+
+_The central business team is not yet operational, recruitment is taking place in Q2-3 2021_

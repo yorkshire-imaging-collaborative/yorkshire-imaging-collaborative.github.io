@@ -1,5 +1,7 @@
 ---
 layout: layouts/page
+order: 4 
+
 title: Insourcing
 subtitle: Our regional PACS network and insource reporting pool enable member Trusts to access a wide area network of specialists willing to carry out additional paid work. Clearer backlogs and enhanced access to expertise within the NHS reduces the need for more expensive private outsourcing.
 
