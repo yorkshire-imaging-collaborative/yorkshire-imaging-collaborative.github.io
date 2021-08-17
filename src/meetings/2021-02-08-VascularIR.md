@@ -19,21 +19,21 @@ eleventyNavigation:
 
 This is exactly what we are going to discuss in this meeting
 
-* Item 1
-* Item 2
+* WHO Checklist
+* NICE Consent Guidelines
 * Item 3
 
 ## Minutes
 
 ### Attendance
-_Dr Daniel Fascia, Dr Neal Larkman, Dr Tom Smith_
+_James Lenton, Marcus Nicholls, Anne Williams, Rachael Kay, Saminah Yunis, Liz Picken, Jane Lang, Gary Cooper_
     
 ### Actions
 
-1. Gather regional knee MRI protocols [closed]
-2. Create agreed regional minimum protocol prototype [new for Neal Larkman]
+1. Raise the item of regional governance and document sign off at the Transformation Board [new for Gary Cooper]
+2. Feedback on consent guidelines [new for all members]
     
 ### Key Discussion Points
 
-* Need for regional knee protocol as a minimum data set only was agreed. Should not be prescriptive
-* Must respect different MRI scanners in age and capability
+* The collaborative WHO checklist was circulated. Input and feedback was asked from members of the group and a formal route of approval for use in Trusts was required.
+* The consent guidelines were there to document that a discussion had taken place. Further education was required for staff so there is a consistent approach and an accurate record.
