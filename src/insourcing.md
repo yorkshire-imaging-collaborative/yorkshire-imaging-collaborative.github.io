@@ -118,4 +118,4 @@ The primary care site of a patient holds the responsibility for governance aroun
 
 We also have some additional guidance around the investigation of [Serious untoward events in imaging](https://yorkshireimaging.nhs.uk/peer-learning/#serious-untoward-events) arising from work carried out in the insource network.
 
-Whilst it is the responsibility of a Trust to carry out investigatory work, YIC does strongly encourage peer feedback to the parties involved in a constructive and educational manner. We also have a [peer learning](https://yorkshireimaging.nhs.uk/peer-learning/) mechanism with a regional Radiology Events and Learning Meeting to ensure that the lessons learned from events is shared for the purposes of improvement.
+Whilst it is the responsibility of a Trust to carry out investigatory work, YIC does strongly encourage peer feedback to the parties involved in a constructive and educational manner. We also have a [peer learning](https://yorkshireimaging.nhs.uk/peer-learning/) mechanism with a regional Radiology Events and Learning Meeting to ensure that the lessons learned from events are shared for improvement.
