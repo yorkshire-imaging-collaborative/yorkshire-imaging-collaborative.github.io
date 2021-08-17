@@ -114,3 +114,8 @@ Pricing will change with time and will not remain frozen at these levels forever
 4. Average time to report (based on our business analytics)
 
 ## Network Governance
+The primary care site of a patient holds the responsibility for governance around the standard of care a patient receives. This rule also holds true for diagnostic imaging executed by or on behalf of the Trust but reported by an outside agency (either insource or outsource reported). In practice, this means that complaints and incidents arising for a patient are investigated within the Trust holding responsibility for the relevant care episode.
+
+We also have some additional guidance around the investigation of [Serious untoward events in imaging](https://yorkshireimaging.nhs.uk/peer-learning/#serious-untoward-events) arising from work carried out in the insource network.
+
+Whilst it is the responsibility of a Trust to carry out investigatory work, YIC does strongly encourage peer feedback to the parties involved in a constructive and educational manner. We also have a [peer learning](https://yorkshireimaging.nhs.uk/peer-learning/) mechanism with a regional Radiology Events and Learning Meeting to ensure that the lessons learned from events is shared for the purposes of improvement.
