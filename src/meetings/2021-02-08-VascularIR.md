@@ -21,7 +21,6 @@ This is exactly what we are going to discuss in this meeting
 
 * WHO Checklist
 * NICE Consent Guidelines
-* Item 3
 
 ## Minutes
 
