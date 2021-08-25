@@ -1,0 +1,41 @@
+[
+    {
+        "name": "Dr Daniel Fascia",
+        "desc": "Regional Clinical Lead, Consultant MSK Radiologist",
+        "avatar": "https://media-exp1.licdn.com/dms/image/C4E03AQGDgjGiuzswZw/profile-displayphoto-shrink_800_800/0/1517280237749?e=1635379200&v=beta&t=Zyk0-gznlj8jf1VS3-wRirDRe0r2iNeb4XmYkQI11DI",
+        "twitter": "danfascia",
+        "linkedin": "daniel-fascia-2a0340a4"
+    },
+
+    {
+        "name": "Gary Cooper",
+        "desc": "Senior Transformation Programme Manager",
+        "avatar": "https://media-exp1.licdn.com/dms/image/C5103AQEL0HmS_BtUCw/profile-displayphoto-shrink_800_800/0/1517527453785?e=1635379200&v=beta&t=PBK6GD9ao0-Wzd2Jz_kP_rZCZTmnRaTFSh8XprzdbDY",
+        "twitter": "",
+        "linkedin": ""
+    },
+
+    {
+        "name": "Helen Jeffrey",
+        "desc": "Programme Support Manager",
+        "avatar": "https://avatars.dicebear.com/api/avataaars/helen-jeffrey.svg?top[]=longHair&accessories[]=kurt&accessoriesChance=16&clothes[]=collarAndSweater&clothesColor[]=red&eyes[]=surprised&eyebrow[]=raisedExcited&mouth[]=smile&skin[]=brown",
+        "twitter": "",
+        "linkedin": "helen-jeffrey-6a1300155"
+    },
+
+    {
+        "name": "Aidan Lee",
+        "desc": "Senior Technology Programme Manager",
+        "avatar": "https://media-exp1.licdn.com/dms/image/C4E03AQGQhsF3R90Iwg/profile-displayphoto-shrink_800_800/0/1516370818914?e=1635379200&v=beta&t=xMLG6Wwd0gvUpQRgZh4AQ0T4bia-555sxeznducSjD4",
+        "twitter": "",
+        "linkedin": "aidan-lee-070677b"
+    },
+
+    {
+        "name": "Professor Alejandro Frangi",
+        "desc": "Chief Data Scientist",
+        "avatar": "https://media-exp1.licdn.com/dms/image/C5103AQFq7gFZX8cK-A/profile-displayphoto-shrink_800_800/0/1516273830325?e=1635379200&v=beta&t=fH2zpwvy2rbbRPtVQF5m3ecPe67MkFvS_5zWL37IHmo",
+        "twitter": "",
+        "linkedin": "alejandro-frangi"
+    }
+]

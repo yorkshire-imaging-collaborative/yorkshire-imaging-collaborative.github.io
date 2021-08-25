@@ -62,16 +62,23 @@ sidebar: true
   {% endfor %}
 
 
-    {% if members %}
+    {% if sigmembers.records %}
     <h2>Group Membership</h2>
 
       {% set striper = cycler('bg-white', 'bg-white', 'bg-grey-4', 'bg-grey-4') %}
       
       <div class="flex flex-row flex-wrap">
-        {% for item in members %}
-          <div class="w-1/2 px-3 py-2 {{striper.next()}}">
-          {{ item.name }}{% if item.role %} <span class="text-sm"> ({{item.role}})</span>  {%endif%}
-          </div>
+        {% for item in sigmembers.records %}
+          {% if item.fields.groupTag == eleventyNavigation.key %}
+            {% for person in item.fields.MembersNames %}
+            <div class="w-1/2 px-3 py-2 {{striper.next()}}">
+              {% if person == item.fields.FullName %}<b>{% endif %}
+              {{ person }}
+              {% if person == item.fields.FullName %}</b>{% endif %}
+            {% if person == item.fields.FullName %}(Lead){% endif %}
+            </div>
+            {% endfor %}
+          {% endif %}
 
         {% endfor %}
       </div>

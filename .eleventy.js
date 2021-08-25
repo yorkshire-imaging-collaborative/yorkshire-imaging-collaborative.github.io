@@ -8,6 +8,8 @@ const markdownIt = require('markdown-it')
 const markdownItAnchor = require('markdown-it-anchor')
 var { DateTime } = require('luxon');
 var humanizeDuration = require('humanize-duration')
+const pluginSEO = require('eleventy-plugin-seo')
+const site = require('./src/_data/site.json')
 
 console.log("Running in " + process.env.NODE_ENV + " environment...")
 
@@ -37,7 +39,17 @@ module.exports = function(eleventyConfig) {
       wrapper: 'nav',
       wrapperClass: 'toc',
     })
+
     eleventyConfig.addPlugin(embeds)
+
+    eleventyConfig.addPlugin(pluginSEO, {
+      title: site.title,
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      url: site.baseUrl,
+      author: site.author.name,
+      twitter: site.twitter,
+      image: site.featuredImage
+    });  
     
 
     // Filters

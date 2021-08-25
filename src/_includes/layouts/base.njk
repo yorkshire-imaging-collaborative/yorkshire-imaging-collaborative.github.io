@@ -5,24 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="theme-color" content="#22222F">
-    <title>
-        {%- if title -%}
-            {{title}} - {{site.title}}
-        {%- elseif renderData.title -%}
-            {{renderData.title}} - {{site.title}}
-        {%-else-%}
-            {{site.title}} {{site.strapline}}
-        {%- endif -%}
-    </title>
-    <meta name="description" content="{% block description %}{{site.description}}{% endblock %}">
-    <meta name="robots" content="index,follow">
-    <meta name="generator" content="Eleventy">
-    <meta name="subject" content="{{site.description}}">
 
     {% if site.favicon %}<link rel="icon" href="{{ site.favicon }}" type="image/png" />{% endif %}
 
     <link rel="stylesheet" href="/styles.css">
+    {% seo "" %}
 </head>
 
 <body class="{{bodyClass}} h-screen flex flex-col" >

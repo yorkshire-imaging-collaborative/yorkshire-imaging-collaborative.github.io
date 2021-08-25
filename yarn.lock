@@ -7,7 +7,7 @@
   resolved "https://registry.npmjs.org/@11ty/dependency-tree/-/dependency-tree-1.0.0.tgz"
   integrity sha512-2FWYlkphQ/83MG7b9qqBJfJJ0K9zupNz/6n4EdDuNLw6hQHGp4Sp4UMDRyBvA/xCTYDBaPSuSjHuu45tSujegg==
 
-"@11ty/eleventy-cache-assets@^2.2.1":
+"@11ty/eleventy-cache-assets@^2.2.1", "@11ty/eleventy-cache-assets@^2.3.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@11ty/eleventy-cache-assets/-/eleventy-cache-assets-2.3.0.tgz#6a81c5df822d42ca2268aa6e2374b272297ffe46"
   integrity sha512-W8tvO00GlWaKt3ccpEStaUBoj9BE3EgzuD8uYChCfYbN2Q4HkEItkiapvIJT0zJwAwoMfnSq6VHPLScYlX2XCg==
@@ -1404,6 +1404,14 @@ eleventy-plugin-nesting-toc@^1.3.0:
   dependencies:
     cheerio "^1.0.0-rc.3"
 
+eleventy-plugin-seo@^0.5.2:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/eleventy-plugin-seo/-/eleventy-plugin-seo-0.5.2.tgz#37f1589b678de21e122d2b3f39d84f6457de1985"
+  integrity sha512-saAWnrQrMc/dP6nimCbvAlumohfBrDI7IrpkN/OJoxvLxcOsyWrA+XMR+3lWLVAkuwC1SyA5cbunr1u8jkFK/A==
+  dependencies:
+    html-entities "^1.2.1"
+    lodash "^4.17.19"
+
 eleventy-plugin-vimeo-embed@^1.3.1:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/eleventy-plugin-vimeo-embed/-/eleventy-plugin-vimeo-embed-1.3.1.tgz#68bdd98d262fceca2639562776567c2a7c1be866"
@@ -1896,6 +1904,11 @@ html-comment-regex@^1.1.0:
   version "1.1.2"
   resolved "https://registry.npmjs.org/html-comment-regex/-/html-comment-regex-1.1.2.tgz"
   integrity sha512-P+M65QY2JQ5Y0G9KKdlDpo0zK+/OHptU5AaBwUfAIDJZk1MYf32Frm84EcOytfJE0t5JvkAnKlmjsXDnWzCJmQ==
+
+html-entities@^1.2.1:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/html-entities/-/html-entities-1.4.0.tgz#cfbd1b01d2afaf9adca1b10ae7dffab98c71d2dc"
+  integrity sha512-8nxjcBcd8wovbeKx7h3wTji4e6+rhaVuPNpMqwWgnHh+N9ToqsCs6XztWRBPQ+UtzsoMAdKZtUENoVzU/EMtZA==
 
 html-minifier@^4.0.0:
   version "4.0.0"
@@ -2403,6 +2416,11 @@ lodash@^4.17.10, lodash@^4.17.15, lodash@^4.17.20, lodash@^4.17.4:
   version "4.17.20"
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.20.tgz"
   integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
+
+lodash@^4.17.19:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 longest@^1.0.1:
   version "1.0.1"

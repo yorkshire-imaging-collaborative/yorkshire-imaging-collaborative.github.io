@@ -7,7 +7,7 @@ tags:
     - service-group
 
 eleventyNavigation:
-    key: radiology-service-group
+    key: service-group
     title: Radiology Service Group
 ---
 
