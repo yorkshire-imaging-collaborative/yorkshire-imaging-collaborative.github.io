@@ -1,25 +1,27 @@
 ---
 layout: default
-tags: page
+tags: protocol
 ---
 
 {% include 'components/header.njk' %}
 {% include 'components/breadcrumb.njk' %}
 
 <main id="main">
+  <div class="max-w-6xl mx-auto px-3 flex flex-col lg:flex-row flex-wrap">
+    
+    <div class="flex-shrink-0 w-full mx-auto mt-3 mb-8">
+      <div class="prose xl:prose-lg">
+        <h1>{{title}}</h1>
+      </div>
 
-  <div class="max-w-6xl mx-auto px-3 mt-3 mb-8">
-    <div class="prose xl:prose-lg">
-      <h1>{{title}}</h1>
+      {% if subtitle %}
+      <p class="prose-lg xl:prose-xl pb-5">{{subtitle}}</p>
+      {% endif %}
     </div>
-  </div>
 
-  <div class="max-w-6xl mx-auto px-3 flex flex-col flex-col-reverse lg:flex-row">
+    
+    
     <div class="prose lg:prose-lg">
-        
-        {% if subtitle %}
-        <p class="prose-lg xl:prose-xl pb-5">{{subtitle}}</p>
-        {% endif %}
 
         <!-- [TODO] put a mobile sidebar here -->
 

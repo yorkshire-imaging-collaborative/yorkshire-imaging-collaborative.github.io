@@ -30,6 +30,9 @@ module.exports = {
     },
 
     extend: {
+      screens: {
+        'print': {'raw':'print'},
+      },
       typography: {
         DEFAULT: {
           css: {

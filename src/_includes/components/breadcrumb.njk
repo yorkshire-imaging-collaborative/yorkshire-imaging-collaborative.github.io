@@ -1,5 +1,5 @@
 <!-- breadcrumbs -->  
-<nav class="bg-white" aria-label="Breadcrumb">
+<nav class="bg-white print:hidden" aria-label="Breadcrumb">
     <div class="max-w-6xl mx-auto p-3">
         <ol class="breadcrumbs hidden lg:flex">
           {% set navPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) %}
