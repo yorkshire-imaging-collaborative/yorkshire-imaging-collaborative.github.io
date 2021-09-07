@@ -1327,6 +1327,10 @@ select {
   flex-direction: column;
 }
 
+.flex-col-reverse {
+  flex-direction: column-reverse;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -1345,6 +1349,10 @@ select {
 
 .flex-1 {
   flex: 1 1 0%;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
 }
 
 .font-normal {
@@ -1416,6 +1424,11 @@ select {
 
 .leading-loose {
   line-height: 2;
+}
+
+.my-1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
 }
 
 .my-2 {
@@ -2570,6 +2583,10 @@ ul.toc ol li a { margin-left: 0.75rem
     display: none;
   }
 
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
   .lg\:flex-wrap {
     flex-wrap: wrap;
   }
@@ -3084,5 +3101,11 @@ ul.toc ol li a { margin-left: 0.75rem
 @media (min-width: 1536px) {
   .\32xl\:aspect-h-3 {
     --tw-aspect-h: 3;
+  }
+}
+
+@media print {
+  .print\:hidden {
+    display: none;
   }
 }
