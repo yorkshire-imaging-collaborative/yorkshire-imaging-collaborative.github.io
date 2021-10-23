@@ -1,5 +1,6 @@
 {
   "name": "nhs-11ty",
+  "version": "2.0.0",
   "description": "A starter for making Eleventy websites for the NHS",
   "main": "index.js",
   "author": "danfascia",
