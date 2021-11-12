@@ -514,6 +514,7 @@ video {
 
 
       [type='text'],
+      [type='email'],
       [type='number'],
       [type='date'],
       [type='month'],
@@ -538,7 +539,7 @@ video {
   line-height: 1.5rem;
 }
 
-[type='text']:focus, [type='number']:focus, [type='date']:focus, [type='month']:focus, [type='time']:focus, [type='week']:focus, [multiple]:focus, textarea:focus, select:focus {
+[type='text']:focus, [type='email']:focus, [type='number']:focus, [type='date']:focus, [type='month']:focus, [type='time']:focus, [type='week']:focus, [multiple]:focus, textarea:focus, select:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
   --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
