@@ -44,7 +44,7 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addPlugin(pluginSEO, {
       title: site.title,
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      description: site.description,
       url: site.baseUrl,
       author: site.author.name,
       twitter: site.twitter,
