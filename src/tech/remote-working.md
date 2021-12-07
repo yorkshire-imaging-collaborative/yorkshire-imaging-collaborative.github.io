@@ -27,18 +27,13 @@ The diagnostic monitors provided with the home working stations are self-calibra
 
 Platinum support agreements are in place with the home working station hardware providers.  The following support processes are in place if any issues are found
 
-* add in link to support processes
-
+_To be further announced on network launch_
 
 ### Software support for Intelerad
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus iusto deserunt quae, eveniet fugit voluptates quos placeat totam. Dicta rerum harum adipisci velit molestias minima quaerat necessitatibus optio ea suscipit.
+_To be announced on network launch_
 
 ### Software support for Agfa EI
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus iusto deserunt quae, eveniet fugit voluptates quos placeat totam. Dicta rerum harum adipisci velit molestias minima quaerat necessitatibus optio ea suscipit.
+_To be announced on network launch_
 
 ### Hardware support
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus iusto deserunt quae, eveniet fugit voluptates quos placeat totam. Dicta rerum harum adipisci velit molestias minima quaerat necessitatibus optio ea suscipit.
-
-* Mouse
-* Keyboard
-* Screen Display
+_To be announced on network launch_
