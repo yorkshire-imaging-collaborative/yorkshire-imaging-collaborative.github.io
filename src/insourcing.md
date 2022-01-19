@@ -105,6 +105,9 @@ Radiologists who carry out additional work have long debated what constitutes _a
 
 Special Interest Groups will be allowed to ask for review of tariffs in specialist areas if they consider the price band currently rated for a procedure to be a mismatch to the actual level of complexity and time required for the task. However, this claim will also be measured against the average reporting time for the claimed activity.
 
+#### Comparison and Complexity
+Comparison to prior imaging is part and parcel of the act of modern radiological interpretation and reporting. However, we would acknowledge that some examinations necessitate comparison of more images than others and may therefore take longer. It would be our recommendation that studies of this nature and complexity are better carried out during scheduled reporting sessions. However by listening to the feedback received through our special interest groups we are prepared to consider rebanding of examinations to reflect time taken on a task. Time on task will be monitored by our business intelligence unit to provide supporting evidence.
+
 #### How prices are managed
 Pricing will change with time and will not remain frozen at these levels forever. Adjustments will be made on a quarterly basis where necessary based on the following factors for consideration at Transformation Design Authority Board meetings.
 
