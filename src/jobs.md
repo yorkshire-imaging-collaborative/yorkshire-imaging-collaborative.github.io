@@ -36,7 +36,7 @@ YIC has always been designed and directed by its users, the radiology community.
 
 ### Appointment Process 
 
-Candidates will be asked to be able to:
+Candidates will be asked to be able to by 16 February 2022:
 
 * Email an expression of interest to Dr Daniel Fascia and/or Gary Cooper
 * Provide a brief statement in the email explaining desire to carry out role and suitability
