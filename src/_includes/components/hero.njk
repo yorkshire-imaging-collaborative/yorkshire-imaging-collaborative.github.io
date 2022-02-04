@@ -7,31 +7,28 @@ Params:
 -#}
 <div id="hero" class="relative">
   {%- if not hero.image -%}
-  <!-- Hero -->
-  <section class="hero bg-blue text-white-100">
+    <!-- Hero -->
+    <section class="hero bg-blue text-white-100">
       <div class="max-w-6xl mx-auto px-4 py-10 text-white">
-        <h1 class="font-bold mb-5 text-2xl lg:text-4xl">{{hero.title}}</h1>
+        <h1 class="font-bold mb-5 text-2xl lg:text-4xl">{{ hero.title }}</h1>
         <p class="prose-white text-lg lg:text-xl max-w-3xl lg:leading-relaxed ">
-          {{hero.subtitle}}
+          {{ hero.subtitle }}
         </p>
       </div>
-  </section>
+    </section>
   {%- endif -%}
-  
   {%- if hero.image -%}
-  <!-- Hero with image -->
-  <section class="flex flex-col bg-grey-5">
-    <div class="z-0 bg-blue bg-cover aspect-w-16 aspect-h-7 md:aspect-h-4 2xl:aspect-h-3">
-      <img class="object-cover object-bottom" src="{{hero.image}}" alt="{{hero.title}}">
-    </div>
-  
-    <div class="-mt-24 lg:-mt-32 z-50 w-full max-w-6xl mx-auto px-5">
-      <div class="max-w-xl mr-16 p-5 lg:p-8 bg-blue text-white">
-        <h1 class="font-bold text-xl md:text-3xl md:leading-normal">{{hero.title}}</h1>
-        <span class></span>
-        <span class="arrow -mt-12 lg:-mt-8 border-blue"></span>
-      </div>
-    </div>
-  </section>
-  {%- endif -%}
-</div>
+    <!-- Hero with image -->
+    <section class="flex flex-col bg-grey-5">
+      <div class="relative pb-1/4 z-0 bg-blue bg-cover aspect-w-16 aspect-h-7 md:aspect-h-4 2xl:aspect-h-3 overflow-hidden">
+        <img class="absolute object-cover object-bottom h-auto w-full left-1/2 top-1/6 translate-half" src="{{ hero.image }}" alt="{{ hero.title }}"></div>
+        <div class="-mt-24 lg:-mt-32 z-50 w-full max-w-6xl mx-auto px-5">
+          <div class="max-w-xl mr-16 p-5 lg:p-8 bg-blue text-white">
+            <h1 class="font-bold text-xl md:text-3xl md:leading-normal">{{ hero.title }}</h1>
+            <span class></span>
+            <span class="arrow -mt-12 lg:-mt-8 border-blue"></span>
+          </div>
+        </div>
+      </section>
+    {%- endif -%}
+  </div>

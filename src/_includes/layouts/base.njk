@@ -12,7 +12,8 @@
     {% seo "" %}
 </head>
 
-<body class="{{bodyClass}} h-screen flex flex-col" >
+{# @TODO - add h-screen and override if on ie11 #}
+<body class="{{bodyClass}} flex flex-col" >
 {{ content | safe }}
 </body>
 
