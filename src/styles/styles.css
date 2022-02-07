@@ -160,67 +160,63 @@ ul.list li a {
   .ie-height-auto {
     @apply h-auto;
   }
+}
 
-  /* .prose ol li {
-    padding-left: 0px !important;
-  } */
+/* Image */
+img {
+  @apply w-full;
+}
 
-  /* Image */
-  img {
-    @apply w-full;
-  }
+.prose h2,
+.prose h3,
+.prose h4,
+.prose h5,
+.prose h6 {
+  @apply font-bold;
+}
 
-  .prose h2,
-  .prose h3,
-  .prose h4,
-  .prose h5,
-  .prose h6 {
-    @apply font-bold;
-  }
+.toc ol {
+  @apply my-3;
+}
 
-  .toc ol {
-    @apply my-3;
-  }
+.toc ol > li > a {
+  @apply underline;
+  color: #000000;
+}
 
-  .toc ol > li > a {
-    @apply underline;
-    color: #000000;
-  }
+.toc ol > li {
+  @apply my-3;
+}
 
-  .toc ol > li {
-    @apply my-3;
-  }
+.prose {
+  max-width: 65ch;
+}
 
-  .prose {
-    max-width: 65ch;
-  }
+.prose p {
+  @apply my-5;
+}
 
-  .prose p {
-    @apply my-5;
-  }
+/* Prose lists */
+.prose ul li {
+  padding-left: 0 !important; /* Override prose-forced padding */
+}
 
-  /* Prose lists */
-  .prose ul li {
-    padding-left: 0 !important; /* Override prose-forced padding */
-  }
+ol {
+  @apply list-decimal;
+}
 
-  ol {
-    @apply list-decimal;
-  }
+ul {
+  @apply list-disc;
+}
 
-  ul {
-    @apply list-disc;
-  }
+ol,
+ul {
+  padding-left: 20px;
+}
 
-  ol,
-  ul {
-    padding-left: 20px;
-  }
-
-  .prose ol li,
-  .prose ul li {
-    padding-left: 0 !important;
-  }
+.prose ol li,
+.prose ul li {
+  padding-left: 0 !important;
 }
 
 .prose ol > li::before {
