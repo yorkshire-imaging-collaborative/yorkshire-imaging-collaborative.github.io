@@ -160,51 +160,100 @@ ul.list li a {
   .ie-height-auto {
     @apply h-auto;
   }
+
+  /* .prose ol li {
+    padding-left: 0px !important;
+  } */
+
+  /* Image */
+  img {
+    @apply w-full;
+  }
+
+  .prose h2,
+  .prose h3,
+  .prose h4,
+  .prose h5,
+  .prose h6 {
+    @apply font-bold;
+  }
+
+  .toc ol {
+    @apply my-3;
+  }
+
+  .toc ol > li > a {
+    @apply underline;
+    color: #000000;
+  }
+
+  .toc ol > li {
+    @apply my-3;
+  }
+
+  .prose {
+    max-width: 65ch;
+  }
+
+  .prose p {
+    @apply my-5;
+  }
+
+  /* Prose lists */
+  .prose ul li {
+    padding-left: 0 !important; /* Override prose-forced padding */
+  }
+
+  ol {
+    @apply list-decimal;
+  }
+
+  ul {
+    @apply list-disc;
+  }
+
+  ol,
+  ul {
+    padding-left: 20px;
+  }
+
+  .prose ol li,
+  .prose ul li {
+    padding-left: 0 !important;
+  }
 }
 
-/* Image */
-img {
-  width: 100%;
+.prose ol > li::before {
+  color: #000000 !important;
 }
 
-.prose h2,
-.prose h3,
-.prose h4,
-.prose h5,
-.prose h6 {
-  @apply font-bold;
-}
-
+ol.breadcrumbs,
 .toc ol {
-  @apply my-3;
+  @apply list-none pl-0;
 }
 
-.toc ol > li > a {
-  @apply underline;
-  color: black;
+/* Footer */
+.footer ul {
+  @apply list-none pl-0;
 }
 
-.toc ol > li {
-  @apply my-3;
+.footer a {
+  @apply underline text-grey-1;
 }
 
-.prose {
-  max-width: 65ch;
+.footer a:hover {
+  @apply text-primary;
 }
 
-.prose p {
-  @apply my-5;
-}
+/**
+ * Link Focus
+ * 
+ * Remove card focus until we know how to handle
+ * the card approach
+*/
 
-/* Prose lists */
-.prose ul {
-  @apply list-disc list-inside;
-}
-
-.prose ul li {
-  padding-left: 0 !important; /* Override prose-forced padding */
-}
-
-.prose ul li::marker {
-  @apply text-grey-6;
+a:not(.card):not(#logo):focus {
+  @apply bg-yellow text-primary no-underline;
+  box-shadow: 0 -2px #ffeb3b, 0 4px #212b32;
+  outline: 4px solid transparent;
 }
