@@ -211,7 +211,7 @@ ul {
 
 ol,
 ul {
-  padding-left: 20px;
+  @apply pl-5;
 }
 
 .prose ol li,
@@ -221,6 +221,10 @@ ul {
 
 .prose ol > li::before {
   color: #000000 !important;
+}
+
+.prose img {
+  @apply m-0 !important;
 }
 
 ol.breadcrumbs,
@@ -242,14 +246,18 @@ ol.breadcrumbs,
 }
 
 /**
- * Link Focus
+ * Link Accessibility Focus
  * 
  * Remove card focus until we know how to handle
  * the card approach
 */
 
-a:not(.card):not(#logo):focus {
+a:not(.card):not(.legacy-no-focus):focus {
   @apply bg-yellow text-primary no-underline;
   box-shadow: 0 -2px #ffeb3b, 0 4px #212b32;
   outline: 4px solid transparent;
+}
+
+.legacy-hover:hover h2 {
+  @apply text-dark-pink no-underline;
 }
