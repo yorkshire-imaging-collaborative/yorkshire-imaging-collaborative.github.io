@@ -11,9 +11,9 @@
     "build": "export NODE_ENV=production && rm -rf dist && eleventy && tailwind build ./src/styles/styles.css -o ./dist/styles.css"
   },
   "dependencies": {
-    "@11ty/eleventy": "0.11.1",
+    "@11ty/eleventy": "1.0.0",
     "@11ty/eleventy-cache-assets": "^2.3.0",
-    "@11ty/eleventy-navigation": "0.1.4",
+    "@11ty/eleventy-navigation": "0.3.2",
     "@tailwindcss/aspect-ratio": "^0.2.0",
     "@tailwindcss/forms": "^0.2.1",
     "@tailwindcss/line-clamp": "^0.2.0",
