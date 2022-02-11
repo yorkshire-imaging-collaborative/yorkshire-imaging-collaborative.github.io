@@ -34,9 +34,17 @@ module.exports = {
       screens: {
         print: { raw: "print" },
       },
+      margin: {
+        2.5: "0.625rem",
+      },
+      lineHeight: {
+        snugger: "1.4",
+      },
       padding: {
         9: "2.25rem",
+        "1/3": "33.3%",
         "1/4": "25%",
+        "1/5": "19%",
       },
       inset: {
         "1/6": "16.6%",
@@ -48,6 +56,9 @@ module.exports = {
             color: "inherit",
           },
         },
+      },
+      minHeight: {
+        180: "180px",
       },
     },
   },

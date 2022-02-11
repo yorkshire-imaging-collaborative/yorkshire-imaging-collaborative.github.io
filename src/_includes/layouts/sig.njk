@@ -9,7 +9,7 @@ sidebar: true
 
   <div class="max-w-6xl mx-auto px-3 mt-3 mb-8">
     <div class="prose xl:prose-lg">
-      <h1>{{title}}</h1>
+      <h1 class="text-4xl font-extrabold">{{title}}</h1>
     </div>
   </div>
 
@@ -23,7 +23,7 @@ sidebar: true
   {% for item in collections.futureEvents | reverse %}
       {% if loop.first %}
       <!-- items -->
-      <h2>Group Meetings</h2>
+      <h2 class="text-3xl my-6 md:my-8">Group Meetings</h2>
       {% endif %}
 
       {% if item.data.eleventyNavigation.parent in tags %}
@@ -41,10 +41,10 @@ sidebar: true
   {% endfor %}
 
   {% for item in collections.pastEvents | reverse %}
+      {% if loop.first %}
+      <h4 class="text-3xl my-6 md:my-8">Past Meetings</h4>
+      {% endif %}
       {% if item.data.eleventyNavigation.parent in tags %}
-        {% if loop.first %}
-        <h4>Past Meetings</h4>
-        {% endif %}
 
       <a href="{{item.url | url}}" class="bg-white my-2 flex items-center text-base">
       <span class="text-black p-3 flex">
@@ -60,7 +60,7 @@ sidebar: true
 
 
     {% if sigmembers.records %}
-    <h2>Group Membership</h2>
+    <h2 class="text-3xl my-6 md:my-8">Group Membership</h2>
 
       {% set striper = cycler('bg-white', 'bg-white', 'bg-grey-4', 'bg-grey-4') %}
       
