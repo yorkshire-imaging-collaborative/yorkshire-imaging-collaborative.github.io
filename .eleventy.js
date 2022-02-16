@@ -76,6 +76,21 @@ module.exports = function (eleventyConfig) {
     return arr.slice(0, limit);
   });
 
+  // Map over array by a given key
+  eleventyConfig.addFilter("map", (array, key) => {
+    return array.map((item) => item[key]);
+  });
+
+  // Filter over array "where" object key has the given value
+  eleventyConfig.addFilter("where", (array, key, value) => {
+    return array.filter((item) => item[key] === value);
+  });
+
+  // Helper to convert a value to JSON
+  eleventyConfig.addFilter("json", (value) => {
+    return JSON.stringify(value);
+  });
+
   // ... cssmin
   // ... jsmin
 

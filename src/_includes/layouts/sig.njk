@@ -27,16 +27,16 @@ sidebar: true
       {% endif %}
 
       {% if item.data.eleventyNavigation.parent in tags %}
-      <a href="{{item.url | url}}" class="bg-white my-2 flex items-center text-base">
-      <span class="bg-blue text-white p-3 flex">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
-        {{ item.data.start | dateFormat('dd LLL yyyy') }}
-      </span>
-      <div class="px-3 py-1 flex flex-col">
-      <span>{{ item.data.title }}</span>
-      <span class="text-sm text-grey-1">{{item.data.start | duration(item.data.end) }}</span>
-      </div>
-      </a>
+        <a href="{{item.url | url}}" class="bg-white my-2 flex items-center text-base">
+          <span class="bg-blue text-white p-3 flex">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
+            {{ item.data.start | dateFormat('dd LLL yyyy') }}
+          </span>
+          <div class="px-3 py-1 flex flex-col">
+          <span>{{ item.data.title }}</span>
+          <span class="text-sm text-grey-1">{{item.data.start | duration(item.data.end) }}</span>
+          </div>
+        </a>
       {% endif %}
   {% endfor %}
 
@@ -60,30 +60,25 @@ sidebar: true
 
 
     {% if sigmembers.records %}
-    <h2>Group Membership</h2>
+      <h2>Group Membership</h2>
 
       {% set striper = cycler('bg-white', 'bg-white', 'bg-grey-4', 'bg-grey-4') %}
       
       <div class="flex flex-row flex-wrap">
-        {% for item in sigmembers.records %}
-          {% if item.fields.groupTag == eleventyNavigation.key %}
-            {% for person in item.fields.MembersNames %}
+        {% set taggedMembers = sigmembers.records | map("fields") | where('groupTag',  eleventyNavigation.key) | first %}
+        
+        {% for member in taggedMembers.MembersNames %}
             <div class="w-1/2 px-3 py-2 {{striper.next()}}">
-              {% if person == item.fields.FullName %}<b>{% endif %}
-              {{ person }}
-              {% if person == item.fields.FullName %}</b>{% endif %}
-            {% if person == item.fields.FullName %}(Lead){% endif %}
+              {% if member == taggedMembers.FullName %}
+                <b>{{ member }}</b> (Lead)
+              {% else %}
+                {{ member }}
+              {% endif %}
             </div>
-            {% endfor %}
-          {% endif %}
-
         {% endfor %}
       </div>
     
     {% endif %}
-
-
-
 
     {% for item in collections.protocol %}
       {% if item.data.eleventyNavigation.parent in tags %}
