@@ -81,9 +81,17 @@ module.exports = function (eleventyConfig) {
     return array.map((item) => item[key]);
   });
 
+  // Updated Date Formatter
+  eleventyConfig.addFilter("formatDate", (date, format) => {
+    console.log(new Date(date));
+  });
+
   // Filter over array "where" object key has the given value
   eleventyConfig.addFilter("where", (array, key, value) => {
     const filteredArray = array.filter((item) => {
+      if (typeof item[key] === "object") {
+        return item[key].find((entry) => entry === value);
+      }
       return item[key] === value;
     });
 
@@ -95,6 +103,24 @@ module.exports = function (eleventyConfig) {
     return JSON.stringify(value);
   });
 
+  // Dump circular data
+  eleventyConfig.addFilter("dump", (obj) => {
+    const getCircularReplacer = () => {
+      const seen = new WeakSet();
+      return (key, value) => {
+        if (typeof value === "object" && value !== null) {
+          if (seen.has(value)) {
+            return;
+          }
+          seen.add(value);
+        }
+        return value;
+      };
+    };
+
+    return JSON.stringify(obj, getCircularReplacer(), 4);
+  });
+
   // ... cssmin
   // ... jsmin
 
@@ -103,6 +129,15 @@ module.exports = function (eleventyConfig) {
     const events = collection.getFilteredByGlob("src/meetings/*.md");
 
     return events;
+  });
+
+  // Groups
+  eleventyConfig.addCollection("groups", (collection) => {
+    const groups = collection.getFilteredByGlob("src/groups/*.md");
+
+    console.log("GROUPS", groups);
+
+    return groups;
   });
 
   // Custom Collections
