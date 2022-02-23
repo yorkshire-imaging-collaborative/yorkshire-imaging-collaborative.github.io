@@ -20,6 +20,12 @@ sidebar: true
     <p class="prose-lg xl:prose-xl pb-5">{{subtitle}}</p>
     {% endif %}
 
+<pre>{{ collections.events.length }}</pre>
+{% set events = collections.events | map('data') | where('groups', 'test-group') %}
+  {% for event in events %}
+    <pre>HERE: {{ event }}   </pre>
+  {% endfor %}
+
   {% for item in collections.futureEvents | reverse %}
       {% if loop.first %}
       <!-- items -->

@@ -83,7 +83,12 @@ module.exports = function (eleventyConfig) {
 
   // Filter over array "where" object key has the given value
   eleventyConfig.addFilter("where", (array, key, value) => {
-    return array.filter((item) => item[key] === value);
+    const filteredArray = array.filter((item) => {
+      return item[key] === value || item[key].includes(value);
+    });
+
+    console.log("THIS IS FILTERED ARRAY", filteredArray);
+    return filteredArray;
   });
 
   // Helper to convert a value to JSON
@@ -93,6 +98,13 @@ module.exports = function (eleventyConfig) {
 
   // ... cssmin
   // ... jsmin
+
+  // Events
+  eleventyConfig.addCollection("events", (collection) => {
+    const events = collection.getFilteredByGlob("src/meetings/*.md");
+
+    return events;
+  });
 
   // Custom Collections
 

@@ -12,6 +12,8 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Starts at", name: "start", widget: "datetime" }
+      - { label: "Ends at", name: "end", widget: "datetime" }
       - {
           label: "Groups",
           name: "groups",
@@ -22,6 +24,10 @@ collections:
           search_fields: ["title"],
           display_fields: ["title"],
         }
+      - { label: "Location", name: "location", widget: "string" }
+      - { label: "Invitation link", name: "invitation", widget: "string" }
+      - { label: "Agenda", name: "agenda", widget: "markdown" }
+      - { label: "Minutes", name: "minutes", widget: "markdown" }
 
   - name: "groups"
     label: "Groups"
