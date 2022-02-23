@@ -84,10 +84,9 @@ module.exports = function (eleventyConfig) {
   // Filter over array "where" object key has the given value
   eleventyConfig.addFilter("where", (array, key, value) => {
     const filteredArray = array.filter((item) => {
-      return item[key] === value || item[key].includes(value);
+      return item[key] === value;
     });
 
-    console.log("THIS IS FILTERED ARRAY", filteredArray);
     return filteredArray;
   });
 
