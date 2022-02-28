@@ -6,7 +6,7 @@ const embeds = require("eleventy-plugin-embed-everything");
 const dotenv = require("dotenv").config();
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
-var { DateTime } = require("luxon");
+const { DateTime } = require("luxon");
 var humanizeDuration = require("humanize-duration");
 const pluginSEO = require("eleventy-plugin-seo");
 const site = require("./src/_data/site.json");
@@ -61,13 +61,16 @@ module.exports = function (eleventyConfig) {
 
   // Custom inline date formatting using Luxon formats 'dd LLLL yyyy' etc
   eleventyConfig.addFilter("dateFormat", (date, format) => {
-    return DateTime.fromISO(date).toFormat(format);
+    const dateFromISO = DateTime.fromISO(new Date(date).toISOString());
+    return dateFromISO.toFormat(format);
   });
 
   // Humanly readable duration from date tag with param as end time e.g. {{ start | duration(end)}}
   eleventyConfig.addFilter("duration", (starts, ends) => {
-    duration =
-      DateTime.fromISO(ends).toMillis() - DateTime.fromISO(starts).toMillis();
+    const startFromISO = DateTime.fromISO(new Date(starts).toISOString());
+    const endFromISO = DateTime.fromISO(new Date(ends).toISOString());
+    const duration = endFromISO.ts - startFromISO.ts;
+
     return humanizeDuration(duration);
   });
 
@@ -79,11 +82,6 @@ module.exports = function (eleventyConfig) {
   // Map over array by a given key
   eleventyConfig.addFilter("map", (array, key) => {
     return array.map((item) => item[key]);
-  });
-
-  // Updated Date Formatter
-  eleventyConfig.addFilter("formatDate", (date, format) => {
-    console.log(new Date(date));
   });
 
   // Filter over array "where" object key has the given value
