@@ -1,43 +1,9 @@
 ---
-layout: default
-tags: protocol
+layout: 'layouts/page.njk'
 ---
 
-{% include 'components/header.njk' %}
-{% include 'components/breadcrumb.njk' %}
-
-<main id="main">
-  <div class="max-w-6xl mx-auto px-3 flex flex-col lg:flex-row flex-wrap">
-    
-    <div class="flex-shrink-0 w-full mx-auto mt-3 mb-8">
-      <div class="prose xl:prose-lg">
-        <h1>{{title}}</h1>
-      </div>
-
-      {% if subtitle %}
-      <p class="prose-lg xl:prose-xl pb-5">{{subtitle}}</p>
-      {% endif %}
-    </div>
-
-    
-    
-    <div class="prose lg:prose-lg lg:w-2/3">
-
-        <!-- [TODO] put a mobile sidebar here -->
-
-        {{ content | safe }}
-
-      {% include 'components/reviewMeta.njk' %}
-
-    </div>
-
-    {% if sidebar %}
-    {% block sidebar %}
-      {% include 'components/sidebar.njk' %}
-    {% endblock %}
-    {% endif %}
-
-  </div>
-</main>
-
-{% include 'components/footer.njk' %}
+{% set test = 'test' %}
+<section>
+  {{ test }}
+  {{ body }}
+</section>

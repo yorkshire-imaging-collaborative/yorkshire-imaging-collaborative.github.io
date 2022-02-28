@@ -151,6 +151,13 @@ module.exports = function (eleventyConfig) {
     return events;
   });
 
+  // Protocols
+  eleventyConfig.addCollection("protocols", (collection) => {
+    const events = collection.getFilteredByGlob("src/protocols/*.md");
+
+    return events;
+  });
+
   // Groups
   eleventyConfig.addCollection("groups", (collection) => {
     const groups = collection.getFilteredByGlob("src/groups/*.md");

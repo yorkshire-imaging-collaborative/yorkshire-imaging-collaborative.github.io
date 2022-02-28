@@ -1,5 +1,6 @@
 ---
 title: Test Protocol
+subtitle: My Subtitle
 content: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
   incididunt ut labore et dolore magna aliqua. Sit amet est placerat in. Ac odio
