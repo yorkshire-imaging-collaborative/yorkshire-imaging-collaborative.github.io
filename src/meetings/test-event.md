@@ -7,8 +7,6 @@ groups:
 location: Location
 invitation: Invitiation
 agenda: |-
-  ## Agenda Test
-
   This is the **agenda.**
 
   * Agenda *point* here
