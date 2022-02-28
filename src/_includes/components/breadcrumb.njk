@@ -2,7 +2,7 @@
 <nav class="bg-white print:hidden" aria-label="Breadcrumb">
   <div class="max-w-6xl mx-auto p-3">
     <ol class="breadcrumbs hidden lg:flex">
-      {% set navPages = collections.all | eleventyNavigationBreadcrumb('Urology') %}
+      {% set navPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) %}
       {% for item in navPages %}
         <li>
           <a class="text-blue underline px-1" href="{{ item.url }}">{{ item.title }}</a>
