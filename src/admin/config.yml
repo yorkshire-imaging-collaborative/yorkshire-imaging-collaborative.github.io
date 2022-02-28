@@ -63,6 +63,18 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Content", name: "content", widget: "markdown" }
+      - {
+          label: "Groups",
+          name: "groups",
+          widget: "relation",
+          multiple: true,
+          collection: "groups",
+          value_field: "{{slug}}",
+          search_fields: ["title"],
+          display_fields: ["title"],
+        }
+
 
   - name: "reporting-standards"
     label: "Reporting Standards"
@@ -71,14 +83,38 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Content", name: "content", widget: "markdown" }
+      - {
+          label: "Groups",
+          name: "groups",
+          widget: "relation",
+          multiple: true,
+          collection: "groups",
+          value_field: "{{slug}}",
+          search_fields: ["title"],
+          display_fields: ["title"],
+        }
 
-  - name: "procedures"
+
+- name: "procedures"
     label: "Procedural Documents"
     folder: "src/procedures"
     create: true
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Content", name: "content", widget: "markdown" }
+      - {
+          label: "Groups",
+          name: "groups",
+          widget: "relation",
+          multiple: true,
+          collection: "groups",
+          value_field: "{{slug}}",
+          search_fields: ["title"],
+          display_fields: ["title"],
+        }
+
 
   - label: "Pages"
     name: "pages"
