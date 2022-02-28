@@ -95,7 +95,7 @@ sidebar: true
     
     {% endif %}
 
-  {# Protocols #}
+    {# Protocols #}
     {% for protocol in collections.protocols %}
       {% if eleventyNavigation.key in protocol.data.groups %}
         {% if loop.first %}
@@ -104,6 +104,45 @@ sidebar: true
 
         <a href="{{protocol.url | url }}" class="block bg-white px-3 py-1 my-1">
           {{ protocol.data.title }}
+        </a>
+      {% endif %}
+    {% endfor %}
+
+    {# Procedures #}
+    {% for procedure in collections.procedures %}
+      {% if eleventyNavigation.key in procedure.data.groups %}
+        {% if loop.first %}
+          <h2>Procedural Documents</h2>
+        {% endif %}
+
+        <a href="{{procedure.url | url }}" class="block bg-white px-3 py-1 my-1">
+          {{ procedure.data.title }}
+        </a>
+      {% endif %}
+    {% endfor %}
+
+    {# Advice Documents#}
+    {% for advice in collections.advice %}
+      {% if eleventyNavigation.key in advice.data.groups %}
+        {% if loop.first %}
+          <h2>Advice Documents</h2>
+        {% endif %}
+
+        <a href="{{advice.url | url }}" class="block bg-white px-3 py-1 my-1">
+          {{ advice.data.title }}
+        </a>
+      {% endif %}
+    {% endfor %}
+
+    {# Reporting Standards #}
+    {% for reporting in collections.reporting %}
+      {% if eleventyNavigation.key in reporting.data.groups %}
+        {% if loop.first %}
+          <h2>Reporting Documents</h2>
+        {% endif %}
+
+        <a href="{{reporting.url | url }}" class="block bg-white px-3 py-1 my-1">
+          {{ reporting.data.title }}
         </a>
       {% endif %}
     {% endfor %}

@@ -128,3 +128,4 @@ collections:
           - { label: Excerpt, name: excerpt, widget: text }
           - { label: Sidebar, name: sidebar, widget: boolean }
           - { label: Table of Contents, name: toc, widget: boolean }
+          - { label: Body, name: body, widget: markdown }

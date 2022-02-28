@@ -153,9 +153,32 @@ module.exports = function (eleventyConfig) {
 
   // Protocols
   eleventyConfig.addCollection("protocols", (collection) => {
-    const events = collection.getFilteredByGlob("src/protocols/*.md");
+    const protocols = collection.getFilteredByGlob("src/protocols/*.md");
 
-    return events;
+    return protocols;
+  });
+
+  // Procedures
+  eleventyConfig.addCollection("procedures", (collection) => {
+    const procedures = collection.getFilteredByGlob("src/procedures/*.md");
+
+    return procedures;
+  });
+
+  // Reporting Standards
+  eleventyConfig.addCollection("reporting", (collection) => {
+    const reportingStandards = collection.getFilteredByGlob(
+      "src/reporting-standards/*.md"
+    );
+
+    return reportingStandards;
+  });
+
+  // Advice Documents
+  eleventyConfig.addCollection("advice", (collection) => {
+    const adviceDocuments = collection.getFilteredByGlob("src/advice/*.md");
+
+    return adviceDocuments;
   });
 
   // Groups
