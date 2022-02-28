@@ -1,9 +1,11 @@
 backend:
   name: git-gateway
   branch: tech/netlify-cms-integration # Update this to main branch
+
 publish_mode: editorial_workflow
 media_folder: "src/images"
 public_folder: "/images"
+
 collections:
   - name: "events"
     label: "Events"
@@ -75,7 +77,6 @@ collections:
           display_fields: ["title"],
         }
 
-
   - name: "reporting-standards"
     label: "Reporting Standards"
     folder: "src/reporting-standards"
@@ -95,8 +96,7 @@ collections:
           display_fields: ["title"],
         }
 
-
-- name: "procedures"
+  - name: "procedures"
     label: "Procedural Documents"
     folder: "src/procedures"
     create: true
@@ -115,9 +115,8 @@ collections:
           display_fields: ["title"],
         }
 
-
-  - label: "Pages"
-    name: "pages"
+  - name: "pages"
+    label: "Pages"
     files:
       - label: "About Page"
         name: "about"
