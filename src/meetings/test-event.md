@@ -6,6 +6,17 @@ groups:
   - test-group
 location: Location
 invitation: Invitiation
-agenda: This is the agenda
+agenda: |-
+  ## Agenda Test
+
+  This is the **agenda.**
+
+  * Agenda *point* here
+  * Testing out markdown things
+
+  1. Numbered List
+  2. Making sure it works!
+
+  Back to normal content.
 minutes: these are the minutes
 ---
