@@ -14,7 +14,7 @@ sidebar: true
   </div>
 
   <div class="max-w-6xl mx-auto px-3 lg:flex">
-    <div class="prose lg:prose-lg">
+    <div class="prose lg:prose-lg lg:w-2/3">
         
     {% if subtitle %}
     <p class="prose-lg xl:prose-xl pb-5">{{subtitle}}</p>
@@ -23,7 +23,7 @@ sidebar: true
 {% for event in collections.events %}
   {% if eleventyNavigation.key in event.data.groups %}
     <a href="{{event.url | url}}" class="bg-white my-2 flex items-center text-base">
-        <span class="bg-blue text-white p-3 flex">
+        <span class="bg-blue text-white px-3 py-4 flex">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
           {{ event.data.start | date }}
         </span>
@@ -144,7 +144,7 @@ sidebar: true
 
     {% if sidebar %}
     {% block sidebar %}
-    <aside id="sideBar" class="lg:pl-8 mt-8 lg:mt-0" >
+    <aside id="sideBar" class="lg:pl-8 mt-8 lg:mt-0 lg:w-1/3" >
     {% include 'components/next-meeting.njk'%}
     {% include 'components/participate.njk'%}
     </aside>

@@ -5,7 +5,6 @@ sidebar: true
 minutes: Not yet published
 ---
 
-<pre>{{ start | dump }}</pre>
 {% set startDate = start | dateFormat('dd LLLL yyyy') %}
 {% set endDate = end | dateFormat('dd LLLL yyyy') %}
 
@@ -17,4 +16,12 @@ minutes: Not yet published
     — <span class="font-bold">{{ end | dateFormat('dd LLLL yyyy HH:mm') }}</span>
 {% endif %}
 
-{{ content | safe }}
+{% if agenda != '' %}
+    <h2>Agenda</h2>
+    {{ agenda | markdownify | safe }}
+{% endif %}
+
+{% if minutes != '' %}
+    <h2>Minutes</h2>
+    {{ minutes | markdownify | safe }}
+{% endif %}

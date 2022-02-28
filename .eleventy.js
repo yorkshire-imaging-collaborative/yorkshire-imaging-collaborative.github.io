@@ -67,11 +67,22 @@ module.exports = function (eleventyConfig) {
 
   // Humanly readable duration from date tag with param as end time e.g. {{ start | duration(end)}}
   eleventyConfig.addFilter("duration", (starts, ends) => {
-    const startFromISO = DateTime.fromISO(new Date(starts).toISOString());
-    const endFromISO = DateTime.fromISO(new Date(ends).toISOString());
-    const duration = endFromISO.ts - startFromISO.ts;
+    // Remove seconds/milliseconds to prevent awkward 'humanization'
+    const roundDate = (_date) => {
+      _date.setSeconds(0);
+      _date.setMilliseconds(0);
+      return _date;
+    };
 
-    return humanizeDuration(duration);
+    const startFromISO = DateTime.fromISO(
+      roundDate(new Date(starts)).toISOString()
+    );
+
+    const endFromISO = DateTime.fromISO(
+      roundDate(new Date(ends)).toISOString()
+    );
+
+    return humanizeDuration(endFromISO.ts - startFromISO.ts);
   });
 
   // Limit array results
@@ -119,6 +130,17 @@ module.exports = function (eleventyConfig) {
     return JSON.stringify(obj, getCircularReplacer(), 4);
   });
 
+  // Render Markdown
+  eleventyConfig.addFilter("markdownify", function (value) {
+    const md = new markdownIt({
+      html: true,
+      linkify: true,
+      typographer: true,
+    });
+
+    return md.render(value);
+  });
+
   // ... cssmin
   // ... jsmin
 
@@ -132,8 +154,6 @@ module.exports = function (eleventyConfig) {
   // Groups
   eleventyConfig.addCollection("groups", (collection) => {
     const groups = collection.getFilteredByGlob("src/groups/*.md");
-
-    console.log("GROUPS", groups);
 
     return groups;
   });
