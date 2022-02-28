@@ -18,5 +18,9 @@ agenda: |-
   2. Making sure it works!
 
   Back to normal content.
-minutes: these are the minutes
+minutes: |-
+  these are the **minutes**
+
+  * Someone to do something
+  * Someone else to do something else!
 ---
