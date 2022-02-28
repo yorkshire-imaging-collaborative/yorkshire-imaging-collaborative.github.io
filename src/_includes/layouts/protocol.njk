@@ -2,8 +2,6 @@
 layout: 'layouts/page.njk'
 ---
 
-{% set test = 'test' %}
-<section>
-  {{ test }}
-  {{ body }}
-</section>
+<article>
+  {{ content | safe }}
+</article>
