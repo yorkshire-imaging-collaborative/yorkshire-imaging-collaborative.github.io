@@ -32,17 +32,19 @@ collections:
           widget: "object",
           summary: "{{ field.name }}: {{ fields.parent }}",
           fields:
-            {
-              label: "Parent",
-              name: "parent",
-              widget: "relation",
-              multiple: false,
-              collection: "groups",
-              value_field: "{{slug}}",
-              search_fields: ["title"],
-              display_fields: ["title"],
-              hint: "This is the group you want to assign to the breadcrumb",
-            },
+            [
+              {
+                label: "Parent",
+                name: "parent",
+                widget: "relation",
+                multiple: false,
+                collection: "groups",
+                value_field: "{{slug}}",
+                search_fields: ["title"],
+                display_fields: ["title"],
+                hint: "This is the group you want to assign to the breadcrumb",
+              },
+            ],
         }
       - { label: "Location", name: "location", widget: "string" }
       - { label: "Invitation link", name: "invitation", widget: "string" }
