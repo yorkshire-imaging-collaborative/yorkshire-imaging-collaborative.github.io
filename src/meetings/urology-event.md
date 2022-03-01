@@ -5,6 +5,8 @@ end: 2022-02-26T14:21:39.817Z
 groups:
   - urology
   - test-group
+eleventyNavigation:
+  parent: urology
 location: location
 invitation: invitation
 agenda: agenda
