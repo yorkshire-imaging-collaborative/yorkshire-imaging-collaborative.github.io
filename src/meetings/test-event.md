@@ -4,6 +4,8 @@ start: 2022-03-01T09:30:29.999Z
 end: 2022-03-01T10:30:30.009Z
 groups:
   - test-group
+eleventyNavigation:
+  parent: test-group
 location: Location
 invitation: Invitiation
 agenda: |-
