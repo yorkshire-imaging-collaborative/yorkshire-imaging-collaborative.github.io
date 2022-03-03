@@ -138,14 +138,12 @@ collections:
 
   - name: "pages"
     label: "Pages"
-    files:
-      - label: "About Page"
-        name: "about"
-        file: "src/about.md"
-        fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Sub-title, name: subtitle, widget: string }
-          - { label: Excerpt, name: excerpt, widget: text }
-          - { label: Sidebar, name: sidebar, widget: boolean }
-          - { label: Table of Contents, name: toc, widget: boolean }
-          - { label: Body, name: body, widget: markdown }
+    folder: "src"
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Sub-title, name: subtitle, widget: string }
+      - { label: Excerpt, name: excerpt, widget: text }
+      - { label: Sidebar, name: sidebar, widget: boolean }
+      - { label: Table of Contents, name: toc, widget: boolean }
+      - { label: Body, name: body, widget: markdown }
