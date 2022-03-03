@@ -143,7 +143,6 @@ collections:
     create: true
     nested:
       depth: 5
-      sumamry: "{{title}}"
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Sub-title, name: subtitle, widget: string }
