@@ -139,7 +139,7 @@ collections:
   - name: "pages"
     label: "Pages"
     label_singular: "Page"
-    folder: "src"
+    folder: "src/pages"
     create: true
     nested:
       depth: 5
