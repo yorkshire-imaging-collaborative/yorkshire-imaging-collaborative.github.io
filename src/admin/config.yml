@@ -154,7 +154,7 @@ collections:
           label: "Category",
           name: "category",
           widget: "relation",
-          multiple: true,
+          multiple: false,
           collection: "categories",
           value_field: "{{slug}}",
           search_fields: ["title"],
