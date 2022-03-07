@@ -150,3 +150,4 @@ collections:
       - { label: Sidebar, name: sidebar, widget: boolean }
       - { label: Table of Contents, name: toc, widget: boolean }
       - { label: Body, name: body, widget: markdown }
+    meta: { path: { widget: string, label: "Path", index_file: "index" } }
