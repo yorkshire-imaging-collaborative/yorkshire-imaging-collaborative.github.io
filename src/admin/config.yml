@@ -150,7 +150,7 @@ collections:
         field: category
     fields:
       - { label: Title, name: title, widget: string }
-      - { label: Category, name: category, widget: categories }
+      - { label: Category, name: category, widget: categories, separator: __ }
       # - {
       #     label: "Category",
       #     name: "category",
