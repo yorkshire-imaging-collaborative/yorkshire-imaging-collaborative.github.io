@@ -153,13 +153,12 @@ collections:
       - {
           label: "Category",
           name: "category",
-          widget: "string",
-          # widget: "relation",
-          # multiple: false,
-          # collection: "categories",
-          # value_field: "{{slug}}",
-          # search_fields: ["title"],
-          # display_fields: ["title"],
+          widget: "relation",
+          multiple: false,
+          collection: "categories",
+          value_field: "{{slug}}",
+          search_fields: ["title"],
+          display_fields: ["title"],
         }
       - { label: Sub-title, name: subtitle, widget: string }
       - { label: Excerpt, name: excerpt, widget: text }
@@ -172,5 +171,7 @@ collections:
     label_singular: "Category"
     folder: "src/categories"
     create: true
+    editor:
+      preview: false
     fields:
       - { label: Title, name: title, widget: string }
