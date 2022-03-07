@@ -5,6 +5,7 @@ subtitle: Sub title
 excerpt: Excerpt
 sidebar: true
 toc: true
+tags: ["tech"]
 ---
 
 ## HEading
