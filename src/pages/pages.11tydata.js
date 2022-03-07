@@ -6,7 +6,6 @@ module.exports = {
     },
     layout: () => "layouts/page.njk",
     permalink: (data) => {
-      console.log("DATA", data.category);
       if (data.category && data.category !== "generic") {
         return `${data.category}/${data.page.fileSlug}/index.html`;
       } else {
