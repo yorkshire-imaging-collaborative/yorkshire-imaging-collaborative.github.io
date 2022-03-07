@@ -5,6 +5,7 @@ module.exports = {
       title: (data) => data.title,
     },
     layout: () => "layouts/page.njk",
+    tags: (data) => [data.category],
     permalink: (data) => {
       if (data.category && data.category !== "generic") {
         return `${data.category}/${data.page.fileSlug}/index.html`;

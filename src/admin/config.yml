@@ -150,17 +150,16 @@ collections:
         field: category
     fields:
       - { label: Title, name: title, widget: string }
-      - { label: Category, name: category, widget: categories, separator: __ }
-      # - {
-      #     label: "Category",
-      #     name: "category",
-      #     widget: "relation",
-      #     multiple: false,
-      #     collection: "categories",
-      #     value_field: "{{slug}}",
-      #     search_fields: ["title"],
-      #     display_fields: ["title"],
-      #   }
+      - {
+          label: "Category",
+          name: "category",
+          widget: "relation",
+          multiple: false,
+          collection: "categories",
+          value_field: "{{slug}}",
+          search_fields: ["title"],
+          display_fields: ["title"],
+        }
       - { label: Sub-title, name: subtitle, widget: string }
       - { label: Excerpt, name: excerpt, widget: text }
       - { label: Sidebar, name: sidebar, widget: boolean }
