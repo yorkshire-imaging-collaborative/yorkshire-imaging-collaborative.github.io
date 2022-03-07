@@ -169,5 +169,7 @@ collections:
   - name: "categories"
     label: "Categories"
     label_singular: "Category"
+    folder: "src/categories"
+    create: true
     fields:
       - { label: Title, name: title, widget: string }
