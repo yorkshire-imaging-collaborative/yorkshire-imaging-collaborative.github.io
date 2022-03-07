@@ -141,12 +141,15 @@ collections:
     label_singular: "Page"
     folder: "src/pages"
     create: true
-    slug: "{{slug}}"
     nested:
       depth: 5
       summary: "{{title}}"
+    view_groups:
+      - label: Category
+        field: category
     fields:
       - { label: Title, name: title, widget: string }
+      - { label: Category, name: category, widget: string }
       - { label: Sub-title, name: subtitle, widget: string }
       - { label: Excerpt, name: excerpt, widget: text }
       - { label: Sidebar, name: sidebar, widget: boolean }
