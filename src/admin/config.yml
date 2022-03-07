@@ -141,8 +141,10 @@ collections:
     label_singular: "Page"
     folder: "src/pages"
     create: true
+    slug: "{{slug}}"
     nested:
       depth: 5
+      summary: "{{title}}"
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Sub-title, name: subtitle, widget: string }
@@ -150,4 +152,3 @@ collections:
       - { label: Sidebar, name: sidebar, widget: boolean }
       - { label: Table of Contents, name: toc, widget: boolean }
       - { label: Body, name: body, widget: markdown }
-    meta: { path: { widget: string, label: "Path", index_file: "index" } }
