@@ -1,15 +1,15 @@
 ---
 title: Generic Page Test
+category: generic
 subtitle: Sub title
 excerpt: Excerpt
 sidebar: true
 toc: true
 ---
-
-## HEading
+## Heading
 
 content
 
-## Another HEading
+## Another Heading
 
 Content here
