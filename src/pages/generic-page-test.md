@@ -6,11 +6,10 @@ excerpt: Excerpt
 sidebar: true
 toc: true
 ---
-
-## HEading
+## Heading
 
 content
 
-## Another HEading
+## Another Heading
 
 Content here
