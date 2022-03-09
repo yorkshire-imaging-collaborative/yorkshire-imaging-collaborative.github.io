@@ -3,6 +3,7 @@ module.exports = {
     eleventyNavigation: {
       key: (data) => data.title,
       title: (data) => data.title,
+      parent: (data) => data.category,
     },
     layout: () => "layouts/page.njk",
     tags: (data) => [data.category],
