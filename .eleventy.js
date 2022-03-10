@@ -101,6 +101,7 @@ module.exports = function (eleventyConfig) {
       if (typeof item[key] === "object") {
         return item[key].find((entry) => entry === value);
       }
+
       return item[key] === value;
     });
 
@@ -184,6 +185,13 @@ module.exports = function (eleventyConfig) {
   // Groups
   eleventyConfig.addCollection("groups", (collection) => {
     const groups = collection.getFilteredByGlob("src/groups/*.md");
+
+    return groups;
+  });
+
+  // Pages
+  eleventyConfig.addCollection("pages", (collection) => {
+    const groups = collection.getFilteredByGlob("src/pages/**/*");
 
     return groups;
   });
