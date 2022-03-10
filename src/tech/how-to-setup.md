@@ -20,14 +20,14 @@ Watching this video is the recommended way to learn how to setup your remote rep
 
 **Your remote reporting equipment is owned by your NHS Trust. It is on loan to you for the purposes of remote working.**
 
-Please remember that when you accept a YIC remote reporting station you are taking possession of a very expensive set of equipment for which you become the responsible custodian. 
+Please remember that when you accept a YIC remote reporting station you are taking possession of a very expensive set of equipment for which you become the responsible custodian.
 
 **It is your responsibility to take care of it with the following measures:**
 
-* Select a safe, well secured environment
-* Reduce human damage factors such as pets, children, food and drink
-* Add expensive equipment as named items to your home insurance
-* You will be responsible for the replacement of any broken equipment either via insurance or our of pocket
+- Select a safe, well secured environment
+- Reduce human damage factors such as pets, children, food and drink
+- Add expensive equipment as named items to your home insurance
+- You will be responsible for the replacement of any broken equipment either via insurance or our of pocket
 
 ## Need help setting up your kit?
 
