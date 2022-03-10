@@ -1,6 +1,6 @@
 ---
 title: Tech Page
-category: tech
+category: technology
 subtitle: Example Tech Page
 excerpt: This is an excerpt
 sidebar: true
