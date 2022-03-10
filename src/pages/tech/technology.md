@@ -1,6 +1,7 @@
 ---
 title: Technology
-category: tech
+category:
+  - nav
 is_mini_hub: true
 subtitle: sub
 excerpt: excerpt
