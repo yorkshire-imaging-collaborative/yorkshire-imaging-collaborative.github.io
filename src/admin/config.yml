@@ -144,7 +144,7 @@ collections:
     path: "{{category}}/{{slug}}"
     nested:
       depth: 5
-      summary: "{{title}}"
+      summary: "{{category}}"
     view_groups:
       - label: Category
         field: category
