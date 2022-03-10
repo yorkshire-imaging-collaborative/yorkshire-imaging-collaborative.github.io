@@ -160,6 +160,12 @@ collections:
           search_fields: ["title"],
           display_fields: ["title"],
         }
+      - {
+          label: "Is Mini Hub?",
+          name: "is_mini_hub",
+          widget: "boolean",
+          default: false,
+        }
       - { label: Sub-title, name: subtitle, widget: string }
       - { label: Excerpt, name: excerpt, widget: text }
       - { label: Sidebar, name: sidebar, widget: boolean }
