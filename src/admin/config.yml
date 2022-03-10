@@ -161,15 +161,21 @@ collections:
           display_fields: ["title"],
         }
       - {
-          label: "Is Mini Hub?",
-          name: "is_mini_hub",
-          widget: "boolean",
+          label: Is Mini Hub?,
+          name: is_mini_hub,
+          widget: boolean,
+          required: false,
           default: false,
         }
       - { label: Sub-title, name: subtitle, widget: string }
       - { label: Excerpt, name: excerpt, widget: text }
-      - { label: Sidebar, name: sidebar, widget: boolean }
-      - { label: Table of Contents, name: toc, widget: boolean }
+      - { label: Sidebar, name: sidebar, widget: boolean, required: false }
+      - {
+          label: Table of Contents,
+          name: toc,
+          widget: boolean,
+          required: false,
+        }
       - { label: Body, name: body, widget: markdown }
 
   - name: "categories"
