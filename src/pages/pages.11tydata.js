@@ -2,7 +2,13 @@ module.exports = {
   eleventyComputed: {
     eleventyNavigation: {
       title: (data) => data.title,
-      parent: (data) => data.categories[0],
+      parent: (data) => {
+        if (data.categories.find((cat) => cat === "nav")) {
+          return "Home";
+        }
+
+        return data.categories[0];
+      },
       key: (data) => data.categories[0],
     },
     tags: (data) => {
