@@ -141,7 +141,7 @@ collections:
     label_singular: "Page"
     folder: "src/pages"
     create: true
-    path: "{{category}}/{{slug}}"
+    path: "{{category.0}}/{{slug}}"
     nested:
       depth: 5
       summary: "{{title}}"
@@ -159,6 +159,7 @@ collections:
           value_field: "{{slug}}",
           search_fields: ["title"],
           display_fields: ["title"],
+          hint: "The first category will be used to build up the URL",
         }
       - {
           label: "Tags",
