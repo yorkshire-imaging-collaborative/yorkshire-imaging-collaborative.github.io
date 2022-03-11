@@ -24,9 +24,9 @@ module.exports = {
         tags.find((tag) => tag === "nav");
 
       if (isBasePage) {
-        return `/${data.page.fileSlug}/index.html`;
+        return `${data.page.fileSlug}/index.html`;
       } else if (data.is_mini_hub) {
-        return `/${categories[0]}/index.html`;
+        return `${categories[0]}/index.html`;
       } else {
         return `${categories[0]}/${data.page.fileSlug}/index.html`;
       }
