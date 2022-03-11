@@ -141,13 +141,13 @@ collections:
     label_singular: "Page"
     folder: "src/pages"
     create: true
-    path: "{{category.0}}/{{slug}}"
+    path: "{{categories.0}}/{{slug}}"
     nested:
       depth: 5
       summary: "{{title}}"
     view_groups:
-      - label: Category
-        field: category
+      - label: Categories
+        field: categories
     fields:
       - { label: Title, name: title, widget: string }
       - {
