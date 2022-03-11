@@ -1,6 +1,6 @@
 ---
 title: Tech Page
-category:
+categories:
   - tech
 subtitle: Tech page Subtitle
 excerpt: Excerpt

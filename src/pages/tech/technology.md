@@ -1,6 +1,6 @@
 ---
 title: Technology
-category:
+categories:
   - tech
   - nav
 is_mini_hub: true

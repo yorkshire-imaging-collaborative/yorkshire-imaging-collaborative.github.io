@@ -2,16 +2,16 @@ module.exports = {
   eleventyComputed: {
     eleventyNavigation: {
       title: (data) => data.title,
-      parent: (data) => data.category[0],
-      key: (data) => data.category[0],
+      parent: (data) => data.categories[0],
+      key: (data) => data.categories[0],
     },
     tags: (data) => {
-      return [...data.category];
+      return data.categories;
     },
     layout: (data) =>
       data.is_mini_hub ? "layouts/mini-hub.njk" : "layouts/page.njk",
     permalink: (data) => {
-      const categories = [...data.category];
+      const categories = [...data.categories];
       if (
         categories &&
         categories.filter(

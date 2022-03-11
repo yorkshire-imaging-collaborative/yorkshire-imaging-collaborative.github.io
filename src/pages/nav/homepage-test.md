@@ -1,6 +1,6 @@
 ---
 title: homepage test
-category:
+categories:
   - nav
 subtitle: Sub title
 excerpt: excerpt
