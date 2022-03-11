@@ -151,11 +151,21 @@ collections:
     fields:
       - { label: Title, name: title, widget: string }
       - {
-          label: "Category",
-          name: "category",
+          label: "Categories",
+          name: "categories",
           widget: "relation",
           multiple: true,
           collection: "categories",
+          value_field: "{{slug}}",
+          search_fields: ["title"],
+          display_fields: ["title"],
+        }
+      - {
+          label: "Tags",
+          name: "tags",
+          widget: "relation",
+          multiple: true,
+          collection: "tags",
           value_field: "{{slug}}",
           search_fields: ["title"],
           display_fields: ["title"],
