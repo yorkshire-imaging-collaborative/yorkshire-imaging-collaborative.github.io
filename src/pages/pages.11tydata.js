@@ -12,24 +12,24 @@ module.exports = {
       key: (data) => data.categories[0],
     },
     tags: (data) => {
-      return data.categories;
+      return data.tags;
     },
     layout: (data) =>
       data.is_mini_hub ? "layouts/mini-hub.njk" : "layouts/page.njk",
     permalink: (data) => {
-      const categories = [...data.categories];
-      if (
-        categories &&
-        categories.filter(
-          (category) => category === "nav" || category === "generic"
-        ).length === 0
-      ) {
-        return `${categories[0]}/${data.page.fileSlug}/index.html`;
+      const { categories, tags } = data;
+
+      const isBasePage =
+        categories.find((cat) => cat === "nav" || cat === "generic") ||
+        tags.find((tag) => tag === "nav");
+
+      if (isBasePage) {
+        return `/${data.page.fileSlug}/index.html`;
       } else if (data.is_mini_hub) {
         return `/${categories[0]}/index.html`;
+      } else {
+        return `${categories[0]}/${data.page.fileSlug}/index.html`;
       }
-
-      return `/${data.page.fileSlug}/index.html`;
     },
   },
 };

@@ -1,7 +1,10 @@
 ---
 title: Tech Page
 categories:
-  - tech
+  - technology
+tags:
+  - technology
+parent: technology
 subtitle: Tech page Subtitle
 excerpt: Excerpt
 sidebar: true
