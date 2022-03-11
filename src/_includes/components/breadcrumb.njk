@@ -1,6 +1,15 @@
 <!-- breadcrumbs -->
+{% set crumb = elventyNavigation.key %}
+{% if not crumb %}
+  {% if eleventyNavigation.parent | isArray %}
+    {% set crumb = eleventyNavigation.parent[0] %}
+  {% else %}
+    {% set crumb = eleventyNavigation.parent %}
+  {% endif %}
+{% endif %}
 <nav class="bg-white print:hidden" aria-label="Breadcrumb">
   <div class="max-w-6xl mx-auto p-3">
+    <pre>{{ eleventyNavigation | dump }}</pre>
     <ol class="breadcrumbs hidden lg:flex">
       {% set navPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) %}
       {% for item in navPages %}

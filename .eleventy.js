@@ -142,6 +142,9 @@ module.exports = function (eleventyConfig) {
     return md.render(value);
   });
 
+  // Check if is array
+  eleventyConfig.addFilter("isArray", (item) => Array.isArray(item));
+
   // ... cssmin
   // ... jsmin
 

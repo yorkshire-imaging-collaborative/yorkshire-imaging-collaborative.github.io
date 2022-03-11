@@ -187,3 +187,13 @@ collections:
       preview: false
     fields:
       - { label: Title, name: title, widget: string }
+
+  - name: "tags"
+    label: "Tags"
+    label_singular: "Tag"
+    folder: "src/tags"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: Title, name: title, widget: string }
