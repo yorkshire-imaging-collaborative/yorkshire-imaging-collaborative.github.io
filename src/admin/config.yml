@@ -163,7 +163,7 @@ collections:
         }
       - {
           label: "Parent",
-          name: "parent",
+          name: "eleventyNavigation.parent",
           widget: "relation",
           multiple: true,
           collection: "pages",
@@ -171,10 +171,11 @@ collections:
           search_fields: ["title"],
           display_fields: ["title"],
           hint: "If this page is a child of another, please provide the parent here",
+          required: false,
         }
       - {
           label: "Tags",
-          name: "tags",
+          name: "eleventyNavigation.tags",
           widget: "relation",
           multiple: true,
           collection: "tags",
