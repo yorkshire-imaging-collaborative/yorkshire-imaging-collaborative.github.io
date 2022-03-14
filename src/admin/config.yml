@@ -162,6 +162,17 @@ collections:
           hint: "The first category will be used to build up the URL",
         }
       - {
+          label: "Parent",
+          name: "parent",
+          widget: "relation",
+          multiple: true,
+          collection: "pages",
+          value_field: "{{slug}}",
+          search_fields: ["title"],
+          display_fields: ["title"],
+          hint: "If this page is a child of another, please provide the parent here",
+        }
+      - {
           label: "Tags",
           name: "tags",
           widget: "relation",
