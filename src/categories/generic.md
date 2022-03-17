@@ -1,3 +1,4 @@
 ---
 title: Generic
+slug: generic
 ---
