@@ -1,6 +1,6 @@
 ---
 title: Tech Page
-category: tech
+category: nav
 parent: tech/technology
 tags:
   - technology
