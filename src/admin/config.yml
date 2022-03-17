@@ -146,38 +146,39 @@ collections:
       depth: 5
       summary: "{{title}}"
     view_groups:
-      - label: Categories
-        field: categories
+      - label: Category
+        field: category
     fields:
       - { label: Title, name: title, widget: string }
       - {
-          label: "Categories",
-          name: "categories",
+          label: "Category",
+          name: "category",
           widget: "relation",
           multiple: false,
           collection: "categories",
           value_field: "{{slug}}",
           search_fields: ["title"],
           display_fields: ["title"],
-          hint: "The first category will be used to build up the URL",
+          hint: "Add a category for nested paths e.g. "Technology" becomes "/technology/your-page",
         }
       - {
           label: "Parent",
-          name: "eleventyNavigation.parent",
+          name: "parent",
           widget: "relation",
           multiple: true,
           collection: "pages",
           value_field: "{{slug}}",
           search_fields: ["title"],
           display_fields: ["title"],
-          hint: "If this page is a child of another, please provide the parent here",
+          hint: "If this page is a child of another, please provide the parent here (this will defaut to 'Home')",
           required: false,
         }
       - {
           label: "Tags",
-          name: "eleventyNavigation.tags",
+          name: "tags",
           widget: "relation",
           multiple: true,
+          required: false,
           collection: "tags",
           value_field: "{{slug}}",
           search_fields: ["title"],

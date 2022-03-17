@@ -1,10 +1,9 @@
 ---
 title: Tech Page
-categories:
-  - technology
+categories: technology
 tags:
   - technology
-parent: technology
+parent: tech/technology
 subtitle: Tech page Subtitle
 excerpt: Excerpt
 sidebar: true

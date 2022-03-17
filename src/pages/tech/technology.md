@@ -1,7 +1,7 @@
 ---
 title: Technology
-categories:
-  - technology
+categories: technology
+key: my_key
 tags:
   - nav
   - footer

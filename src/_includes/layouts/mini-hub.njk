@@ -14,7 +14,7 @@ tags: mini-hub
 <main id="main" role="main">
     <div class="max-w-6xl mx-auto px-3">
         <section id="cardList" class="flex flex-wrap">
-            {% set items = collections.pages | map("data") | where('tags', categories[0]) %}
+            {% set items = collections.pages | map("data") | where('categories', categories) %}
             {% for item in items %}
                 {% if item.title != eleventyNavigation.title %}
                     <div class="w-full md:w-1/2 p-2">

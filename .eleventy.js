@@ -59,6 +59,10 @@ module.exports = function (eleventyConfig) {
   // Filters
   eleventyConfig.addFilter("date", readableDate);
 
+  eleventyConfig.addFilter("split", (string, splitter) => {
+    return string.split(splitter);
+  });
+
   // Custom inline date formatting using Luxon formats 'dd LLLL yyyy' etc
   eleventyConfig.addFilter("dateFormat", (date, format) => {
     const dateFromISO = DateTime.fromISO(new Date(date).toISOString());

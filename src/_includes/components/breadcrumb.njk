@@ -1,29 +1,28 @@
 <!-- breadcrumbs -->
-<nav class="bg-white print:hidden" aria-label="Breadcrumb">
-  <div class="max-w-6xl mx-auto p-3">
-    <pre>{{ eleventyNavigation | dump }}</pre>
-    <pre>{{ page | dump }}</pre>
-    <ol
-      class="breadcrumbs hidden lg:flex">
-      {# {% set navPages = collections.all | eleventyNavigationBreadcrumb('') %} #}
-      {% set navPages = [] %}
-      {% for item in navPages %}
-        <li>
-          <a class="text-blue underline px-1" href="{{ item.url }}">{{ item.title }}</a>
-        </li>
-      {% endfor %}
-    </ol>
-    <p class="inline-flex lg:hidden">
-      <a class="inline-flex items-center text-blue underline" href="javascript:window.history.back()">
-        <svg class="w-5 h-5 text-blue" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
-          <path
-            fill="currentColor"
-            d="M8.5 12c0-.3.1-.5.3-.7l5-5c.4-.4 1-.4 1.4 0s.4 1 0 1.4L10.9 12l4.3 4.3c.4.4.4 1 0 1.4s-1 .4-1.4
-              0l-5-5c-.2-.2-.3-.4-.3-.7z"></path>
-        </svg>
-        Back to Previous
-      </a>
-    </p>
-  </div>
-</nav>
+{% if eleventyNavigation.parent %}
+  {% set parent = eleventyNavigation.parent | split('/') %}
+  {% set navPages = collections.all | eleventyNavigationBreadcrumb(parent[1]) %}
+  <nav class="bg-white print:hidden" aria-label="Breadcrumb">
+    <div class="max-w-6xl mx-auto p-3">
+      <ol class="breadcrumbs hidden lg:flex">
+        {% for item in navPages %}
+          <li>
+            <a class="text-blue underline px-1" href="{{ item.url }}">{{ item.title }}</a>
+          </li>
+        {% endfor %}
+      </ol>
+      <p class="inline-flex lg:hidden">
+        <a class="inline-flex items-center text-blue underline" href="javascript:window.history.back()">
+          <svg class="w-5 h-5 text-blue" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              fill="currentColor"
+              d="M8.5 12c0-.3.1-.5.3-.7l5-5c.4-.4 1-.4 1.4 0s.4 1 0 1.4L10.9 12l4.3 4.3c.4.4.4 1 0 1.4s-1 .4-1.4
+                0l-5-5c-.2-.2-.3-.4-.3-.7z"></path>
+          </svg>
+          Back to Previous
+        </a>
+      </p>
+    </div>
+  </nav>
+{% endif %}
 <!-- end:breadcrumbs -->
