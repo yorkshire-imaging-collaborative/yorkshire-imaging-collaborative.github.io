@@ -1,3 +1,4 @@
 ---
 title: Tech
+slug: tech
 ---
