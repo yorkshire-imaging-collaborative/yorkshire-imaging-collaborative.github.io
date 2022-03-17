@@ -141,7 +141,7 @@ collections:
     label_singular: "Page"
     folder: "src/pages"
     create: true
-    path: "{{categories}}/{{slug}}"
+    path: "{{category.slug}}test/{{slug}}"
     nested:
       depth: 5
       summary: "{{title}}"
