@@ -159,7 +159,7 @@ collections:
           value_field: "{{slug}}",
           search_fields: ["title"],
           display_fields: ["title"],
-          hint: "Add a category for nested paths e.g. "Technology" becomes "/technology/your-page",
+          hint: "Add a category for nested paths e.g. 'Technology' becomes '/technology/your-page'",
         }
       - {
           label: "Parent",
