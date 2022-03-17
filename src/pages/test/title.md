@@ -1,6 +1,6 @@
 ---
 title: Title
-category: tech
+category: generic
 parent:
   - tech/technology
 is_mini_hub: true
