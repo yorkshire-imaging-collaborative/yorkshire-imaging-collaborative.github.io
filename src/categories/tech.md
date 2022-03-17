@@ -1,4 +1,4 @@
 ---
-title: Tech
-slug: tech
+title: Technology
+slug: technology
 ---
