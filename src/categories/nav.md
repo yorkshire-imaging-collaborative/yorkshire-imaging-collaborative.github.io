@@ -1,3 +1,4 @@
 ---
-title: nav
+title: Nav
+slug: nav
 ---
