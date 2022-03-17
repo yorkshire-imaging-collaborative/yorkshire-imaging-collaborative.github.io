@@ -1,13 +1,14 @@
 ---
 title: Tech Page
-categories: technology
+category: tech
+parent: tech/technology
 tags:
   - technology
-parent: tech/technology
 subtitle: Tech page Subtitle
 excerpt: Excerpt
 sidebar: true
 toc: true
+categories: technology
 ---
 
 ### A little heading
