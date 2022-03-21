@@ -60,6 +60,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("date", readableDate);
 
   eleventyConfig.addFilter("split", (string, splitter) => {
+    console.log({ string });
     return string.split(splitter);
   });
 
@@ -105,8 +106,6 @@ module.exports = function (eleventyConfig) {
       if (typeof item[key] === "object") {
         return item[key].find((entry) => entry === value);
       }
-
-      console.log({ value, key: item[key] });
 
       return item[key] === value;
     });
