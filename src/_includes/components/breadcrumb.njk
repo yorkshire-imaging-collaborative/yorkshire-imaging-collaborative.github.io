@@ -1,7 +1,8 @@
 <!-- breadcrumbs -->
 {% if eleventyNavigation.parent %}
   {% set parent = eleventyNavigation.parent | split('/') %}
-  {% set navPages = collections.all | eleventyNavigationBreadcrumb(parent[1]) %}
+  {# {% set navPages = collections.all | eleventyNavigationBreadcrumb(parent[1]) %} #}
+  {% set navPages = [] %}
   <nav class="bg-white print:hidden" aria-label="Breadcrumb">
     <div class="max-w-6xl mx-auto p-3">
       <ol class="breadcrumbs hidden lg:flex">
