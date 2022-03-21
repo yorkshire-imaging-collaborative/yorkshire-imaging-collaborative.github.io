@@ -1,5 +1,5 @@
 ---
-title: A Page
+title: A Page!
 category: tech
 tags:
   - nav
