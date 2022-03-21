@@ -1,6 +1,6 @@
 ---
 title: Title
-category: tech
+category: generic
 parent:
   - generictest/a-page
 tags: []
