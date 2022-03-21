@@ -1,6 +1,6 @@
 ---
 title: Technology Hub
-category: generic
+category: technology
 tags:
   - nav
   - footer

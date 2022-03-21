@@ -106,6 +106,8 @@ module.exports = function (eleventyConfig) {
         return item[key].find((entry) => entry === value);
       }
 
+      console.log({ value, key: item[key] });
+
       return item[key] === value;
     });
 
