@@ -141,7 +141,7 @@ collections:
     label_singular: "Page"
     folder: "src/pages"
     create: true
-    path: "{{category}}test/{{slug}}"
+    path: "{{parent}}/{{slug}}"
     nested:
       depth: 5
       summary: "{{title}}"
@@ -211,7 +211,6 @@ collections:
       preview: false
     fields:
       - { label: Title, name: title, widget: string }
-      - { label: Slug, name: slug, widget: string }
 
   - name: "tags"
     label: "Tags"
