@@ -1,8 +1,8 @@
 ---
-title: Title
+title: Title for Tech Page
 category: tech
 parent:
-  - generictest/a-page
+  - generic/technology-hub
 tags: []
 is_mini_hub: false
 subtitle: Subtite
