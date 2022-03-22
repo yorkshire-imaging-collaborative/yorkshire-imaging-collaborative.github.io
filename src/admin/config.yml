@@ -22,7 +22,7 @@ collections:
           widget: "relation",
           multiple: true,
           collection: "groups",
-          value_field: "{{slug}}",
+          value_field: "{{title}}",
           search_fields: ["title"],
           display_fields: ["title"],
         }
