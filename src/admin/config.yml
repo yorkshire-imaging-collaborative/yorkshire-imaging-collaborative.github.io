@@ -161,18 +161,18 @@ collections:
           display_fields: ["title"],
           hint: "Add a category for nested paths e.g. 'Technology' becomes '/technology/your-page'",
         }
-        - {
-            label: "Parent",
-            name: "parent",
-            widget: "relation",
-            multiple: false,
-            collection: "pages",
-            value_field: "{{slug}}",
-            search_fields: ["title"],
-            display_fields: ["title"],
-            hint: "If this page is a child of another, please provide the parent her",
-            required: false,
-          }
+      - {
+          label: "Parent",
+          name: "parent",
+          widget: "relation",
+          multiple: false,
+          collection: "pages",
+          value_field: "{{slug}}",
+          search_fields: ["title"],
+          display_fields: ["title"],
+          hint: "If this page is a child of another, please provide the parent her",
+          required: false,
+        }
       - {
           label: "Tags",
           name: "tags",
