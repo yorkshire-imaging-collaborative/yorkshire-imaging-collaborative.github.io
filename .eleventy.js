@@ -203,6 +203,13 @@ module.exports = function (eleventyConfig) {
     return groups;
   });
 
+  // Hubs
+  eleventyConfig.addCollection("hubs", (collection) => {
+    const groups = collection.getFilteredByGlob("src/hubs/**/*");
+
+    return groups;
+  });
+
   // Custom Collections
 
   eleventyConfig.addCollection("futureEvents", (collection) => {
