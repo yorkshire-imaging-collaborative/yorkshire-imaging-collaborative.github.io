@@ -3,7 +3,7 @@ title: Autumn Urology Group Meeting
 start: 2022-03-22T11:58:35.070Z
 end: 2022-03-23T11:58:35.089Z
 groups:
-  - Chest
+  - Urology
 eleventyNavigation:
   parent: urology
 location: Virtual
