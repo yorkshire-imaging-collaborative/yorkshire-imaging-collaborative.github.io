@@ -58,6 +58,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Excerpt", name: "excerpt", widget: "string" }
 
   - name: "protocols"
     label: "Protocols"
@@ -168,7 +169,7 @@ collections:
           widget: "relation",
           multiple: false,
           collection: "hubs",
-          value_field: "{{slug}}",
+          value_field: "{{title}}",
           search_fields: ["title"],
           display_fields: ["title"],
           required: false,
