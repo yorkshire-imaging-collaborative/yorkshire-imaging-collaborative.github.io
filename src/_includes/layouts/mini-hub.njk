@@ -9,7 +9,9 @@ tags: mini-hub
     subtitle: subtitle
 } %}
 {% include 'components/hero.njk' %}
-{% include 'components/breadcrumb.njk' %}
+{# {% include 'components/breadcrumb.njk' %} #}
+
+{{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
 
 <main id="main" role="main">
     <div class="max-w-6xl mx-auto px-3">

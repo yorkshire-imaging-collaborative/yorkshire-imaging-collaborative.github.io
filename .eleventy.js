@@ -60,7 +60,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("date", readableDate);
 
   eleventyConfig.addFilter("split", (string, splitter) => {
-    console.log({ string });
     return string.split(splitter);
   });
 
