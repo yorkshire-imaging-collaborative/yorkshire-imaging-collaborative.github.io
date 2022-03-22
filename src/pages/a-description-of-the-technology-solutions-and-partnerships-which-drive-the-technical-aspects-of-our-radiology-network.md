@@ -1,6 +1,5 @@
 ---
-title: A description of the technology, solutions and partnerships which drive
-  the technical aspects of our radiology network.
+title: Network Architecture
 category: technology
 hub: Technology
 subtitle: A description of the technology, solutions and partnerships which
