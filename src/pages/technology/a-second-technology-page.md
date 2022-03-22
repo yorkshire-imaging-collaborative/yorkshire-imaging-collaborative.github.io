@@ -1,9 +1,10 @@
 ---
-title: A second technology page
-category: technology
-is_mini_hub: false
-subtitle: subtitle
 excerpt: excerpt
+is_mini_hub: false
+title: Tech Page
+category: technology
+hub: Technology
+subtitle: subtitle
 sidebar: true
 toc: true
 ---
