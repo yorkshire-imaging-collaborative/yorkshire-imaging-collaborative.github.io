@@ -184,6 +184,7 @@ collections:
           value_field: "{{slug}}",
           search_fields: ["title"],
           display_fields: ["title"],
+          hint: "Please reference any tags here. (nav = inserts a card on the homepage, footer = inserts a link to the page on the footer)",
         }
       - { label: Sub-title, name: subtitle, widget: string }
       - { label: Excerpt, name: excerpt, widget: text }
@@ -206,6 +207,18 @@ collections:
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Excerpt, name: excerpt, widget: string }
+      - {
+          label: "Tags",
+          name: "tags",
+          widget: "relation",
+          multiple: true,
+          required: false,
+          collection: "tags",
+          value_field: "{{slug}}",
+          search_fields: ["title"],
+          display_fields: ["title"],
+          hint: "Please reference any tags here. (nav = inserts a card on the homepage, footer = inserts a link to the page on the footer)",
+        }
 
   - name: "categories"
     label: "Categories"

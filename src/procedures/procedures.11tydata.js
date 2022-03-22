@@ -1,7 +1,7 @@
 module.exports = {
   eleventyComputed: {
     eleventyNavigation: {
-      key: (data) => data.page.fileSlug,
+      key: (data) => data.title,
       title: (data) => data.title,
       parent: (data) => data.groups[0],
     },
