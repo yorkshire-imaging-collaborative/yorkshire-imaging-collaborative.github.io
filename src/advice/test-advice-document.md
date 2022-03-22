@@ -1,6 +1,7 @@
 ---
 title: Test Advice Document
 groups:
-  - chest
+  - Chest
 ---
+
 Body for the advice document
