@@ -1,5 +1,4 @@
 <!-- Breadcrumbs -->
-<pre>{{ eleventyNavigation.key | dump }}</pre>
 {% set navPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) %}
 <nav class="bg-white print:hidden" aria-label="Breadcrumb">
   <div class="max-w-6xl mx-auto p-3">
