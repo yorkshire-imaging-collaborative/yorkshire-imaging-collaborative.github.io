@@ -3,7 +3,7 @@ module.exports = {
     eleventyNavigation: {
       title: (data) => data.title,
       parent: (data) => data.category || "",
-      key: (data) => data.category || "",
+      key: (data) => data.title || "",
     },
     layout: (data) =>
       data.is_mini_hub ? "layouts/mini-hub.njk" : "layouts/page.njk",

@@ -155,6 +155,7 @@ collections:
           name: "category",
           widget: "relation",
           multiple: false,
+          required: false,
           collection: "categories",
           value_field: "{{slug}}",
           search_fields: ["title"],
@@ -162,15 +163,14 @@ collections:
           hint: "Add a category for nested paths e.g. 'Technology' becomes '/technology/your-page'",
         }
       - {
-          label: "Parent",
-          name: "parent",
+          label: "Hub",
+          name: "hub",
           widget: "relation",
           multiple: false,
-          collection: "pages",
-          value_field: "{{slug}}",
+          collection: "hubs",
+          value_field: "{{title}}",
           search_fields: ["title"],
           display_fields: ["title"],
-          hint: "If this page is a child of another, please provide the parent her",
           required: false,
         }
       - {
@@ -184,13 +184,6 @@ collections:
           search_fields: ["title"],
           display_fields: ["title"],
         }
-      - {
-          label: Is Mini Hub?,
-          name: is_mini_hub,
-          widget: boolean,
-          required: false,
-          default: false,
-        }
       - { label: Sub-title, name: subtitle, widget: string }
       - { label: Excerpt, name: excerpt, widget: text }
       - { label: Sidebar, name: sidebar, widget: boolean, required: false }
@@ -201,6 +194,16 @@ collections:
           required: false,
         }
       - { label: Body, name: body, widget: markdown }
+
+  - name: "hubs"
+    label: "Hubs"
+    label_singular: "Hub"
+    folder: "src/hubs"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: Title, name: title, widget: string }
 
   - name: "categories"
     label: "Categories"
