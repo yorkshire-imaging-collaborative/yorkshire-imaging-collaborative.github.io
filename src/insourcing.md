@@ -77,10 +77,6 @@ _Inaccuracies in NICIP coding may lead to unexpected reimbursements._ However, t
 
 _A complete lookup table of NICIP code mappings per described radiology activity will be published as part of the tariff system_
 
-### Service Manager's guide
-### Becoming an Insource Worker
-### Autonomy
-
 ## Regional Tariff System
 
 Service         |   Reporting Tariff
@@ -122,3 +118,10 @@ The primary care site of a patient holds the responsibility for governance aroun
 We also have some additional guidance around the investigation of [Serious untoward events in imaging](https://yorkshireimaging.nhs.uk/peer-learning/#serious-untoward-events) arising from work carried out in the insource network.
 
 Whilst it is the responsibility of a Trust to carry out investigatory work, YIC does strongly encourage peer feedback to the parties involved in a constructive and educational manner. We also have a [peer learning](https://yorkshireimaging.nhs.uk/peer-learning/) mechanism with a regional Radiology Events and Learning Meeting to ensure that the lessons learned from events are shared for improvement.
+
+## Insource Reporting Pilot
+In Q2 2022 (Starting late April 2022) we will be conducting a pilot of the cross-site reporting functionality of the Yorkshire Imaging Collaborative utilising our Intelerad Cloud PACS. Participants in the early pilot will need to be substantiative Consultant Radiologists from one of the member Trusts, and will be provided a short remotely delivered training session by Intelerad.
+
+Studies reported during the Pilot will be remunerated at the rates outlined in the [Regional Tariff System](#regional-tariff-system). Work is automatically accounted for during the reporting process and passed to your Trust payroll for inclusion in the following monthly salary. At this stage payment will be limited to those on the NHS PAYE payroll system.
+
+Expressions of interest to participate as a Pilot Reporter can be made to [yorkshireimagingcollaborative@nhs.net](yorkshireimagingcollaborative@nhs.net)
