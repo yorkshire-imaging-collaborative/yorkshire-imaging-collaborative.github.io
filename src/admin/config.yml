@@ -10,6 +10,9 @@ collections:
   - name: "events"
     label: "Events"
     folder: "src/meetings"
+    view_groups:
+      - label: Group
+        field: groups
     create: true
     slug: "{{slug}}"
     fields:
@@ -47,7 +50,12 @@ collections:
             ],
         }
       - { label: "Location", name: "location", widget: "string" }
-      - { label: "Invitation link", name: "invitation", widget: "string" }
+      - {
+          label: "Invitation link",
+          name: "invitation",
+          widget: "string",
+          hint: "If this event is online, please provide a URL to the meeting here.",
+        }
       - { label: "Agenda", name: "agenda", widget: "markdown" }
       - { label: "Minutes", name: "minutes", widget: "markdown" }
 
@@ -161,7 +169,7 @@ collections:
           value_field: "{{slug}}",
           search_fields: ["title"],
           display_fields: ["title"],
-          hint: "Add a category for nested paths e.g. 'Technology' becomes '/technology/your-page'",
+          hint: "Add a category to group pages in the CMS",
         }
       - {
           label: "Hub",
