@@ -119,6 +119,16 @@ We also have some additional guidance around the investigation of [Serious untow
 
 Whilst it is the responsibility of a Trust to carry out investigatory work, YIC does strongly encourage peer feedback to the parties involved in a constructive and educational manner. We also have a [peer learning](https://yorkshireimaging.nhs.uk/peer-learning/) mechanism with a regional Radiology Events and Learning Meeting to ensure that the lessons learned from events are shared for improvement.
 
+## Critical Alerting Standard
+Since there is no established and standardised coding system for critical alerts, YIC will adopt their usual **minimum accepted standard** approach in order to assure the expedited alerting of findings in 2 key categories.
+
+* Significant finding ( text alert code **#ALERTSIGNIFICANT** )
+* Suspected cancer ( text alert code **#ALERTCANCER** )
+
+Organisations participating in the YIC Insource Network are known to have a diverse range of bespoke alert codes. They will be required to add the above codes to their alerting mechanism. Our analysis of all Trust alerting systems indicates that alerts for the two above event situations are in place in all sites, but the codes specified above will need mapping to the appropriate downstream triggers for each site.
+
+Assistance will be offered to Trusts by the YIC Insource Team to effectively implement these simple text alert codes.
+
 ## Insource Reporting Pilot
 In Q2 2022 (Starting late April 2022) we will be conducting a pilot of the cross-site reporting functionality of the Yorkshire Imaging Collaborative utilising our Intelerad Cloud PACS. Participants in the early pilot will need to be substantiative Consultant Radiologists from one of the member Trusts, and will be provided a short remotely delivered training session by Intelerad.
 
