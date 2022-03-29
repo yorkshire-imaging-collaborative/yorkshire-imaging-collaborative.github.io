@@ -6,6 +6,22 @@
         "twitter": "danfascia",
         "linkedin": "daniel-fascia-2a0340a4"
     },
+    
+        {
+        "name": "Prof. Jonathan McConnell",
+        "desc": "Regional Professional Lead for Radiography",
+        "avatar": "/images/jonathanmcconnell.jpeg",
+        "twitter": "dr_jrmc",
+        "linkedin": "jonathan-mcconnell-64605052"
+    },
+    
+        {
+        "name": "Kate Clough",
+        "desc": "Network Lead Radiographer",
+        "avatar": "/images/kateclough.png",
+        "twitter": "binsey31",
+        "linkedin": ""
+    },
 
     {
         "name": "Gary Cooper",
@@ -18,7 +34,7 @@
     {
         "name": "Helen Jeffrey",
         "desc": "Programme Support Manager",
-        "avatar": "https://avatars.dicebear.com/api/avataaars/helen-jeffrey.svg?top[]=longHair&accessories[]=kurt&accessoriesChance=16&clothes[]=collarAndSweater&clothesColor[]=red&eyes[]=surprised&eyebrow[]=raisedExcited&mouth[]=smile&skin[]=brown",
+        "avatar": "/images/helenjeffrey.jpg",
         "twitter": "",
         "linkedin": "helen-jeffrey-6a1300155"
     },
@@ -26,7 +42,7 @@
     {
         "name": "Aidan Lee",
         "desc": "Senior Technology Programme Manager",
-        "avatar": "https://media-exp1.licdn.com/dms/image/C4E03AQGQhsF3R90Iwg/profile-displayphoto-shrink_800_800/0/1516370818914?e=1635379200&v=beta&t=xMLG6Wwd0gvUpQRgZh4AQ0T4bia-555sxeznducSjD4",
+        "avatar": "https://avatars.dicebear.com/api/personas/aidanlee.svg",
         "twitter": "",
         "linkedin": "aidan-lee-070677b"
     },
@@ -51,6 +67,38 @@
         "name": "Mark Lang",
         "desc": "Data Analyst",
         "avatar": "/images/marklang.jpeg",
+        "twitter": "",
+        "linkedin": ""
+    },
+    
+    {
+        "name": "Debra Punshon",
+        "desc": "Radiographer (Special Interest Groups)",
+        "avatar": "/images/debrapunshon.jpg",
+        "twitter": "",
+        "linkedin": ""
+    },
+    
+    {
+        "name": "Oliver Hough",
+        "desc": "Radiographer (Special Interest Groups)",
+        "avatar": "/images/oliverhough.jpg",
+        "twitter": "",
+        "linkedin": ""
+    },
+    
+    {
+        "name": "Joanna Housley",
+        "desc": "Radiographer (Special Interest Groups)",
+        "avatar": "/images/joannahousley.jpg",
+        "twitter": "",
+        "linkedin": ""
+    },
+    
+    {
+        "name": "Heather Wright",
+        "desc": "Workforce Development Lead",
+        "avatar": "/images/joannahousley.jpg",
         "twitter": "",
         "linkedin": ""
     }
