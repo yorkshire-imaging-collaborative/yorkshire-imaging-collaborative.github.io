@@ -10,12 +10,6 @@ excerpt: A deep dive into the origins, vision, roadmap and organisational
 sidebar: true
 toc: true
 ---
-
-
-# About our network
-
-The regional medical imaging interoperability network which serves 4-Million patients throughout Yorkshire, the Humber and North Lincolnshire
-
 ## What it is
 
 Yorkshire Imaging Collaborative (YIC) is the natural evolutionary step in medical imaging integration to provide quality radiology services to contemporary patient users.
