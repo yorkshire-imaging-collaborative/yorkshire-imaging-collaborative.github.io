@@ -86,6 +86,7 @@ collections:
           hint: "Please reference any tags here. (nav = inserts a card on the homepage, footer = inserts a link to the page on the footer)",
         }
       - { label: "Body", name: "body", widget: "markdown", required: false }
+      - { label: Sidebar, name: sidebar, widget: boolean, required: false }
 
   - name: "protocols"
     label: "Protocols"
