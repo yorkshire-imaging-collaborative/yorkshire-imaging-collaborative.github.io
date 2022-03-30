@@ -67,6 +67,19 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Excerpt", name: "excerpt", widget: "string" }
+      - {
+          label: "Tags",
+          name: "tags",
+          widget: "relation",
+          multiple: true,
+          required: false,
+          collection: "tags",
+          value_field: "{{slug}}",
+          search_fields: ["title"],
+          display_fields: ["title"],
+          hint: "Please reference any tags here. (nav = inserts a card on the homepage, footer = inserts a link to the page on the footer)",
+        }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
 
   - name: "protocols"
     label: "Protocols"
