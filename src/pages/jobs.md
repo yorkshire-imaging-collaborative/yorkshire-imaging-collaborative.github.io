@@ -1,5 +1,7 @@
 ---
 title: Jobs
+tags:
+  - nav
 subtitle: Working with YIC is an opportunity to instrument improvement on a
   large regional scale to help shape and design our regional radiology network
   of the future.
