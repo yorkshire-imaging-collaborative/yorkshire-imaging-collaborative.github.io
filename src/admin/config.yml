@@ -66,6 +66,12 @@ collections:
     slug: "{{title}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Subtitle",
+          name: "subtitle",
+          widget: "string",
+          required: false,
+        }
       - { label: "Excerpt", name: "excerpt", widget: "string" }
       - {
           label: "Tags",
