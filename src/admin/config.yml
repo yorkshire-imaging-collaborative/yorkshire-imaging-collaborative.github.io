@@ -229,6 +229,9 @@ collections:
           required: false,
         }
       - { label: Body, name: body, widget: markdown }
+      - { label: Author, name: author, widget: string }
+      - { label: Last Review Date, name: last_review_date, widget: date }
+      - { label: Next Review Date, name: next_review_date, widget: date }
 
   - name: "hubs"
     label: "Hubs"
