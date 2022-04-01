@@ -1,19 +1,21 @@
 ---
 title: Peer Learning & Feedback
-tags:
-  - nav
-  - footer
 subtitle: Shared learning is a core value of our regional imaging network
   underpinning our collaborarive ethos. This guide aims to help you scale up
   your usual learning and feedback methods to suit the needs of a larger and
   wider network of reporting radiologists and radiographers.
 excerpt: How to promote peer learning and share feedback across a the regional
   imaging network
-sidebar: true
 toc: true
-author: Dr Daniel Fascia
-last_review_date: 2021-05-04T10:02:48.914Z
 next_review_date: 2024-05-04T10:02:48.934Z
+sidebar: true
+author: Dr Daniel Fascia
+nextReview: 2024-05-04T10:11:38.644Z
+last_review_date: 2021-05-04T10:02:48.914Z
+tags:
+  - nav
+  - footer
+lastReview: 2021-05-04T10:11:38.624Z
 ---
 ## Group for REALM chairs
 
