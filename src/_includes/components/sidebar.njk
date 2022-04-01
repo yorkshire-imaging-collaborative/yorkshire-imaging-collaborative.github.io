@@ -4,4 +4,11 @@
     <h3 id="sideBarTitle" class="block font-bold text-xl lg:text-2xl mb-3">Contents</h3>
     {{ content | toc | safe }}
   {% endif %}
+  {% if start and end %}
+    {% set duration = start | duration(end) %}
+    <div class="aside-calendar">
+      <h3 class="pb-3 border-b-2 border-grey-5 mb-4 font-bold">Calendar</h3>
+      {% calendarLinks title, start, duration %}
+    </div>
+  {% endif %}
 </aside>

@@ -19,6 +19,7 @@
     "@tailwindcss/line-clamp": "^0.2.0",
     "@tailwindcss/typography": "^0.3.1",
     "autoprefixer": "^10.1.0",
+    "calendar-link": "^2.1.1",
     "cssnano": "^4.1.10",
     "dotenv": "^8.2.0",
     "eleventy-plugin-embed-everything": "^1.13.2",

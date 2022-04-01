@@ -56,8 +56,13 @@ collections:
           widget: "string",
           hint: "If this event is online, please provide a URL to the meeting here.",
         }
-      - { label: "Agenda", name: "agenda", widget: "markdown" }
-      - { label: "Minutes", name: "minutes", widget: "markdown" }
+      - { label: "Agenda", name: "agenda", widget: "markdown", required: false }
+      - {
+          label: "Minutes",
+          name: "minutes",
+          widget: "markdown",
+          requird: false,
+        }
 
   - name: "groups"
     label: "Groups"

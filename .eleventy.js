@@ -10,6 +10,7 @@ const { DateTime } = require("luxon");
 var humanizeDuration = require("humanize-duration");
 const pluginSEO = require("eleventy-plugin-seo");
 const site = require("./src/_data/site.json");
+const { google, outlook, ics } = require("calendar-link");
 
 console.log("Running in " + process.env.NODE_ENV + " environment...");
 
@@ -149,6 +150,33 @@ module.exports = function (eleventyConfig) {
   // Check if is array
   eleventyConfig.addFilter("isArray", (item) => Array.isArray(item));
 
+  // Handle Calendar Links
+  eleventyConfig.addNunjucksShortcode(
+    "calendarLinks",
+    function (title, start, duration) {
+      const splitDuration = duration.split(" ");
+      const data = {
+        title,
+        start,
+        duration: splitDuration,
+      };
+
+      return `
+        <ul class="list-none leading-none">
+          <li><a class="no-underline" href="${ics(
+            data
+          )}">Add to Calendar</a></li>
+          <li><a class="no-underline" href="${google(
+            data
+          )}">Add to Google Calendar</a></li>
+          <li><a class="no-underline" href="${outlook(
+            data
+          )}">Add to Outlook Calendar</a></li>
+        </ul>
+      `;
+    }
+  );
+
   // ... cssmin
   // ... jsmin
 
@@ -213,23 +241,27 @@ module.exports = function (eleventyConfig) {
   // Custom Collections
 
   eleventyConfig.addCollection("futureEvents", (collection) => {
-    let allEvents = collection.getFilteredByGlob("src/meetings/*.md");
-    let futureEvents = allEvents.filter((item) => {
-      let d1 = DateTime.fromISO(item.data.start).toMillis();
-      let d2 = DateTime.now().toMillis();
+    const allEvents = collection.getFilteredByGlob("src/meetings/*.md");
+    const futureEvents = allEvents.filter((item) => {
+      const start = new Date(item.data.start).toISOString();
+      const d1 = DateTime.fromISO(start).toMillis();
+      const d2 = DateTime.now().toMillis();
+
       return d1 >= d2;
     });
     return futureEvents;
   });
 
   eleventyConfig.addCollection("pastEvents", (collection) => {
-    let allEvents = collection.getFilteredByGlob("src/meetings/*.md");
-    let futureEvents = allEvents.filter((item) => {
-      let d1 = DateTime.fromISO(item.data.start).toMillis();
-      let d2 = DateTime.now().toMillis();
+    const allEvents = collection.getFilteredByGlob("src/meetings/*.md");
+    const pastEvents = allEvents.filter((item) => {
+      const start = new Date(item.data.start).toISOString();
+      const d1 = DateTime.fromISO(start).toMillis();
+      const d2 = DateTime.now().toMillis();
       return d1 < d2;
     });
-    return futureEvents;
+
+    return pastEvents;
   });
 
   // Custom Shortcodes

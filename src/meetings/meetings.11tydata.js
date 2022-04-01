@@ -9,5 +9,6 @@ module.exports = {
     },
     layout: () => "layouts/meeting.njk",
     tags: () => ["event"],
+    sidebar: true,
   },
 };

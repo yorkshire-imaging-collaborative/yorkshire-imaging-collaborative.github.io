@@ -304,3 +304,23 @@ a:not(.card):not(.legacy-no-focus):focus {
 .legacy-hover:hover h2 {
   @apply text-dark-pink no-underline;
 }
+
+.event-card .event-card__title {
+  @apply m-0;
+}
+
+.event-card .event-card__content {
+  @apply p-4 mr-8 text-primary;
+}
+
+.event-card .event-card__links {
+  @apply w-full;
+}
+
+.aside-calendar {
+  @apply bg-white p-4;
+}
+
+.aside-calendar ul {
+  @apply leading-loose pl-0;
+}

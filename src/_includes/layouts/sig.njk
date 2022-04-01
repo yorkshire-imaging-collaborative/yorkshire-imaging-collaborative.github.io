@@ -20,30 +20,38 @@ sidebar: true
       <p class="prose-lg xl:prose-xl pb-5">{{subtitle}}</p>
       {% endif %}
 
-      {% for event in collections.events %}
-        {% if eleventyNavigation.key in event.data.groups %}
-          <a href="{{event.url | url}}" class="bg-white my-2 flex items-center text-base no-underline">
-              <span class="bg-blue text-white px-3 py-4 flex">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
-                {{ event.data.start | date }}
-              </span>
-              <div class="px-3 py-1 flex flex-col">
-                <span>{{ event.data.title }}</span>
-                <span class="text-sm text-grey-1">{{ event.data.start | duration(event.data.end) }}</span>
-              </div>
-            </a>
-        {% endif %}
-      {% endfor %}
+      {% for item in collections.futureEvents %}
 
-      {% for item in collections.futureEvents | reverse %}
+        {% if eleventyNavigation.key in item.data.groups %}
           {% if loop.first %}
-          <!-- items -->
-          <h2>Group Meetings</h2>
-          {% endif %}
+            <h2>Next Group Meeting</h2>
 
-          {% if item.data.eleventyNavigation.parent in tags %}
-            <a href="{{item.url | url}}" class="bg-white my-2 flex items-center text-base">
-              <span class="bg-blue text-white p-3 flex">
+            <div class="bg-white my-2 flex text-base event-card">
+              <a href="{{item.url | url}}" class="flex no-underline w-full">
+                <div class="bg-blue text-white flex flex-col items-center justify-center p-4">
+                  <span class="text-4xl leading-none mb-1">{{ item.data.start | dateFormat('dd') }}</span>
+                  <span>{{ item.data.start | dateFormat('LLL yyyy') }}</span>
+                </div>
+
+                {% set duration = item.data.start | duration(item.data.end) %}
+
+                <div class="event-card__content">
+                  <h4 class="event-card__title">{{ item.data.title }}</h4>
+                  <p>{{ item.data.location }}</p>
+                  <small class="text-grey-1">{{ duration }}</small>
+                </div>
+              </a>
+              <div class="event-card__links">
+                {% calendarLinks item.data.title, item.data.start, duration %}
+              </div>
+            </div>
+
+          {% else %}
+            {% if loop.index == 2 %}
+            <h3>Future Meetings</h3>
+            {% endif %}
+            <a href="{{item.url | url}}" class="bg-white my-2 flex items-center text-base no-underline">
+              <span class="bg-blue text-white px-3 py-4 flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
                 {{ item.data.start | dateFormat('dd LLL yyyy') }}
               </span>
@@ -53,24 +61,25 @@ sidebar: true
               </div>
             </a>
           {% endif %}
+        {% endif %}
       {% endfor %}
 
       {% for item in collections.pastEvents | reverse %}
-          {% if item.data.eleventyNavigation.parent in tags %}
+          {% if eleventyNavigation.key in item.data.groups %}
             {% if loop.first %}
-            <h4>Past Meetings</h4>
+            <h3>Past Meetings</h3>
             {% endif %}
 
-          <a href="{{item.url | url}}" class="bg-white my-2 flex items-center text-base">
-          <span class="text-black p-3 flex">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
-            {{ item.data.start | dateFormat('dd LLL yyyy') }}
-          </span>
-          <div class="px-3 py-1 flex flex-col">
-          <span>{{ item.data.title }}</span>
-          </div>
-          </a>
-          {% endif %}
+            <a href="{{item.url | url}}" class="bg-white my-2 flex items-center text-base">
+            <span class="text-black p-3 flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
+              {{ item.data.start | dateFormat('dd LLL yyyy') }}
+            </span>
+            <div class="px-3 py-1 flex flex-col">
+            <span>{{ item.data.title }}</span>
+            </div>
+            </a>
+        {% endif %}
       {% endfor %}
 
       {% if sigmembers.records %}

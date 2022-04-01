@@ -7,6 +7,7 @@ minutes: Not yet published
 
 {% set startDate = start | dateFormat('dd LLLL yyyy') %}
 {% set endDate = end | dateFormat('dd LLLL yyyy') %}
+{% set duration = start | duration(end) %} 
 
 <span class="font-bold">{{ start | dateFormat('dd LLLL yyyy HH:mm') }}</span>
 {% if startDate == endDate %}
