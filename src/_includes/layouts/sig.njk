@@ -26,9 +26,9 @@ sidebar: true
           {% if loop.first %}
             <h2>Next Group Meeting</h2>
 
-            <div class="bg-white my-2 flex text-base event-card">
-              <a href="{{item.url | url}}" class="flex no-underline w-full">
-                <div class="bg-blue text-white flex flex-col items-center justify-center p-4">
+            <div class="bg-white my-2 flex flex-col sm:flex-row text-base event-card">
+              <a href="{{item.url | url}}" class="flex flex-col sm:flex-row no-underline w-full">
+                <div class="bg-blue text-white flex flex-col items-center justify-center p-4 text-center" style="min-width: 120px">
                   <span class="text-4xl leading-none mb-1">{{ item.data.start | dateFormat('dd') }}</span>
                   <span>{{ item.data.start | dateFormat('LLL yyyy') }}</span>
                 </div>

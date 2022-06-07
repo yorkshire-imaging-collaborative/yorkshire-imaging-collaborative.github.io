@@ -81,6 +81,7 @@ Special Interest Groups (SIGs) are regarded as our leading light. These groups o
 
 We allow our SIGs to self direct whilst they are able to make autonomous progress but also ask them to review important topics nominated by the regional Medical Directors Forum (example: Cauda Equina Syndrome, Suspected Physical Abuse of Children)
 
+![alt text](/images/alexfrangi.jpeg "title")
 ### Process & Workflow
 
 The enormity of our transformation activity requires us to make changes to policies far beyond our area of expertise such as employment terms and contracts of working. Our extended relationship with hospital management departments enables progress in these challenging arenas such that traditionally difficult obstructions to progress are tackled.
@@ -88,7 +89,3 @@ The enormity of our transformation activity requires us to make changes to polic
 * Cross site working governance
 * Cross site credentialling of doctors and radiographers
 * Remote working contract
-
-
-
-![alt text](test-poster.png "title")

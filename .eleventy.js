@@ -162,14 +162,14 @@ module.exports = function (eleventyConfig) {
       };
 
       return `
-        <ul class="list-none leading-none">
-          <li><a class="no-underline" href="${ics(
+        <ul class="list-none leading-none p-5">
+          <li class="mb-2"><a class="no-underline" href="${ics(
             data
           )}">Add to Calendar</a></li>
-          <li><a class="no-underline" href="${google(
+          <li class="mb-2"><a class="no-underline" href="${google(
             data
           )}">Add to Google Calendar</a></li>
-          <li><a class="no-underline" href="${outlook(
+          <li class="mb-2"><a class="no-underline" href="${outlook(
             data
           )}">Add to Outlook Calendar</a></li>
         </ul>
