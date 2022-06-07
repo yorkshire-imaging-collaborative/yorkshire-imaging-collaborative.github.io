@@ -72,6 +72,7 @@ collections:
     slug: "{{title}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Group Key", name: "groupKey", widget: "string", hint: "This is the key from the member AirTable" }
       - {
           label: "Subtitle",
           name: "subtitle",
