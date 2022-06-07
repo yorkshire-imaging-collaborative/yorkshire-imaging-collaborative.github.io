@@ -88,7 +88,12 @@ sidebar: true
         {% set striper = cycler('bg-white', 'bg-white', 'bg-grey-4', 'bg-grey-4') %}
         
         <div class="flex flex-row flex-wrap">
-          {% set _key = eleventyNavigation.key | lower | trim %}
+          {% if groupKey %}
+            {% set _key = groupKey %}
+          {% else %}
+            {% set _key = eleventyNavigation.key | lower | trim %}
+          {% endif %}
+
           {% set taggedMembers = sigmembers.records | map("fields") | where('groupTag',  _key) | first %}
           
           {% for member in taggedMembers.MembersNames %}
