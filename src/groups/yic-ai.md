@@ -6,4 +6,5 @@ subtitle: Artificial Intelligence promises power tools for radiologists to make
   YIC. YIC-AI is the only special interest group to incorporate NHS member
   organisations, academia and commercial partners in the same arena.
 excerpt: Translating artificial intelligence into a useful clinical tool
+sidebar: true
 ---
