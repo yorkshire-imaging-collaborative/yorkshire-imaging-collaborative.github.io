@@ -6,8 +6,8 @@ groups:
   - "Breast "
 eleventyNavigation:
   parent: breast
-location: n/a
-invitation: n/a
+location: MS Teams
+invitation: ""
 agenda: |-
   This is what we are going to discuss in this meeting
 
