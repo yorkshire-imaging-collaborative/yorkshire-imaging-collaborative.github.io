@@ -55,13 +55,14 @@ collections:
           name: "invitation",
           widget: "string",
           hint: "If this event is online, please provide a URL to the meeting here.",
+          required: false
         }
       - { label: "Agenda", name: "agenda", widget: "markdown", required: false }
       - {
           label: "Minutes",
           name: "minutes",
           widget: "markdown",
-          requird: false,
+          required: false,
         }
 
   - name: "groups"
