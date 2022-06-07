@@ -66,7 +66,7 @@ The importance of accurate coding using the NICIP system within your Radiology I
 
 *Inaccuracies in NICIP coding may lead to unexpected reimbursements.* However, this is something which we will be using our Central Business Intelligence Unit to heuristically survey and adapt to standardisation as the network matures.
 
-*A complete lookup table of NICIP code mappings per described radiology activity will be published as part of the tariff system*
+_A complete lookup table of NICIP code mappings per described radiology activity will be published as part of the tariff system_
 
 ## Regional Tariff System
 
@@ -112,27 +112,21 @@ The primary care site of a patient holds the responsibility for governance aroun
 
 We also have some additional guidance around the investigation of [Serious untoward events in imaging](https://yorkshireimaging.nhs.uk/peer-learning/#serious-untoward-events) arising from work carried out in the insource network.
 
-Whilst it is the responsibility of a Trust to carry out investigatory work, YIC does strongly encourage peer feedback to the parties involved in a constructive and educational manner. We also have a [peer learning](https://yorkshireimaging.nhs.uk/peer-learning/) mechanism with a regional Radiology Events and Learning Meeting to ensure that the lessons learned from events are shared for improvement.
+Whilst it is the responsibility of a Trust to carry out investigatory work, YIC does strongly encourage peer feedback to the parties involved in a constructive and educational manner. We also have a [peer learning](https://yorkshireimaging.nhs.uk/peer-learning/) mechanism with a regional Radiology Events and Learning Meeting to ensure that the lessons learned from events are shared for improvement.
 
 ## Critical Alerting Standard
+Since there is no established and standardised coding system for critical alerts, YIC will adopt their usual **minimum accepted standard** approach in order to assure the expedited alerting of findings in 2 key categories.
 
-Since there is no established and standardised coding system for critical alerts, YIC will adopt their usual **minimum accepted standard** approach in order to assure the expedited alerting of findings in 2 key categories.
-
-* Significant finding ( text alert code **\#ALERTSIGNIFICANT** )
-* Suspected cancer ( text alert code **\#ALERTCANCER** )
+* Significant finding ( text alert code **#ALERTSIGNIFICANT** )
+* Suspected cancer ( text alert code **#ALERTCANCER** )
 
 Organisations participating in the YIC Insource Network are known to have a diverse range of bespoke alert codes. They will be required to add the above codes to their alerting mechanism. Our analysis of all Trust alerting systems indicates that alerts for the two above event situations are in place in all sites, but the codes specified above will need mapping to the appropriate downstream triggers for each site.
 
 Assistance will be offered to Trusts by the YIC Insource Team to effectively implement these simple text alert codes.
 
 ## Insource Reporting Pilot
-
 In Q2 2022 (Starting late April 2022) we will be conducting a pilot of the cross-site reporting functionality of the Yorkshire Imaging Collaborative utilising our Intelerad Cloud PACS. Participants in the early pilot will need to be substantiative Consultant Radiologists from one of the member Trusts, and will be provided a short remotely delivered training session by Intelerad.
 
-Studies reported during the Pilot will be remunerated at the rates outlined in the [Regional Tariff System](https://yorkshireimaging.nhs.uk/insourcing/#regional-tariff-system). Work is automatically accounted for during the reporting process and passed to your Trust payroll for inclusion in the following monthly salary. At this stage payment will be limited to those on the NHS PAYE payroll system.
+Studies reported during the Pilot will be remunerated at the rates outlined in the [Regional Tariff System](#regional-tariff-system). Work is automatically accounted for during the reporting process and passed to your Trust payroll for inclusion in the following monthly salary. At this stage payment will be limited to those on the NHS PAYE payroll system.
 
-Expressions of interest to participate as a Pilot Reporter can be made to [yorkshireimagingcollaborative@nhs.net](https://yorkshireimaging.nhs.uk/insourcing/yorkshireimagingcollaborative@nhs.net)
-
-Author: Dr Daniel Fascia\
-Page last reviewed: 5th May 2021\
-Next review due: 5th May 2024
+Expressions of interest to participate as a Pilot Reporter can be made to [yorkshireimagingcollaborative@nhs.net](yorkshireimagingcollaborative@nhs.net)
