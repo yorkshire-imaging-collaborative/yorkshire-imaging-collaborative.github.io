@@ -3,6 +3,7 @@ title: Obstetrics & Gynaecology
 subtitle: Imaging of the female pelvic organs throughout life, including during
   pregnancy. Gynaecological and oncological imaging of the female pelvis.
 excerpt: Women's imaging, including pregnancy
+sidebar: true
 ---
 
 

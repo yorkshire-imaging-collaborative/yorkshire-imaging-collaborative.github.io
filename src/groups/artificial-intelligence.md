@@ -9,6 +9,7 @@ excerpt: Research and development and clinical translation within our regional
 tags:
   - nav
   - footer
+sidebar: true
 ---
 ## Our AI Vision
 

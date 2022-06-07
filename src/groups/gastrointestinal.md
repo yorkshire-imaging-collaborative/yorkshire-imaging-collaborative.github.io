@@ -1,6 +1,7 @@
 ---
 title: Gastrointestinal
 excerpt: Lorem, ipsum dolor sit amet consectetur adipisicing elit
+sidebar: true
 ---
 
 
