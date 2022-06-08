@@ -1,6 +1,6 @@
 backend:
-  name: git-gateway
-  branch: tech/netlify-cms-integration # Update this to main branch
+  name: github
+  repo: yorkshire-imaging-collaborative/yorkshire-imaging-collaborative.github.io # REPO NAME
 
 publish_mode: editorial_workflow
 media_folder: "src/images"
