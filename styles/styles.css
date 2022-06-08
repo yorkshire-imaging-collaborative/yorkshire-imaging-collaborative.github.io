@@ -4,67 +4,124 @@
 
 /* purgecss start ignore */
 @font-face {
-  font-family: 'Frutiger W01';
+  font-family: "Frutiger W01";
   font-display: swap;
   font-style: normal;
   font-weight: 300;
   src: url("https://assets.nhs.uk/fonts/FrutigerLTW01-45Light.eot?#iefix");
-  src: url("https://assets.nhs.uk/fonts/FrutigerLTW01-45Light.eot?#iefix") format("eot"), url("https://assets.nhs.uk/fonts/FrutigerLTW01-45Light.woff2") format("woff2"), url("https://assets.nhs.uk/fonts/FrutigerLTW01-45Light.woff") format("woff"), url("https://assets.nhs.uk/fonts/FrutigerLTW01-45Light.ttf") format("truetype"), url("https://assets.nhs.uk/fonts/FrutigerLTW01-45Light.svg#29f3ff8a-1719-4e25-a757-53ee1a1114a5") format("svg"); }
+  src: url("https://assets.nhs.uk/fonts/FrutigerLTW01-45Light.eot?#iefix")
+      format("eot"),
+    url("https://assets.nhs.uk/fonts/FrutigerLTW01-45Light.woff2")
+      format("woff2"),
+    url("https://assets.nhs.uk/fonts/FrutigerLTW01-45Light.woff") format("woff"),
+    url("https://assets.nhs.uk/fonts/FrutigerLTW01-45Light.ttf")
+      format("truetype"),
+    url("https://assets.nhs.uk/fonts/FrutigerLTW01-45Light.svg#29f3ff8a-1719-4e25-a757-53ee1a1114a5")
+      format("svg");
+}
 
 @font-face {
-  font-family: 'Frutiger W01';
+  font-family: "Frutiger W01";
   font-display: swap;
   font-style: normal;
   font-weight: 400;
   src: url("https://assets.nhs.uk/fonts/FrutigerLTW01-55Roman.eot?#iefix");
-  src: url("https://assets.nhs.uk/fonts/FrutigerLTW01-55Roman.eot?#iefix") format("eot"), url("https://assets.nhs.uk/fonts/FrutigerLTW01-55Roman.woff2") format("woff2"), url("https://assets.nhs.uk/fonts/FrutigerLTW01-55Roman.woff") format("woff"), url("https://assets.nhs.uk/fonts/FrutigerLTW01-55Roman.ttf") format("truetype"), url("https://assets.nhs.uk/fonts/FrutigerLTW01-55Roman.svg#7def0e34-f28d-434f-b2ec-472bde847115") format("svg"); }
+  src: url("https://assets.nhs.uk/fonts/FrutigerLTW01-55Roman.eot?#iefix")
+      format("eot"),
+    url("https://assets.nhs.uk/fonts/FrutigerLTW01-55Roman.woff2")
+      format("woff2"),
+    url("https://assets.nhs.uk/fonts/FrutigerLTW01-55Roman.woff") format("woff"),
+    url("https://assets.nhs.uk/fonts/FrutigerLTW01-55Roman.ttf")
+      format("truetype"),
+    url("https://assets.nhs.uk/fonts/FrutigerLTW01-55Roman.svg#7def0e34-f28d-434f-b2ec-472bde847115")
+      format("svg");
+}
 
 @font-face {
-  font-family: 'Frutiger W01';
+  font-family: "Frutiger W01";
   font-display: swap;
   font-style: normal;
   font-weight: 600;
   src: url("https://assets.nhs.uk/fonts/FrutigerLTW01-65Bold.eot?#iefix");
-  src: url("https://assets.nhs.uk/fonts/FrutigerLTW01-65Bold.eot?#iefix") format("eot"), url("https://assets.nhs.uk/fonts/FrutigerLTW01-65Bold.woff2") format("woff2"), url("https://assets.nhs.uk/fonts/FrutigerLTW01-65Bold.woff") format("woff"), url("https://assets.nhs.uk/fonts/FrutigerLTW01-65Bold.ttf") format("truetype"), url("https://assets.nhs.uk/fonts/FrutigerLTW01-65Bold.svg#eae74276-dd78-47e4-9b27-dac81c3411ca") format("svg"); }
+  src: url("https://assets.nhs.uk/fonts/FrutigerLTW01-65Bold.eot?#iefix")
+      format("eot"),
+    url("https://assets.nhs.uk/fonts/FrutigerLTW01-65Bold.woff2")
+      format("woff2"),
+    url("https://assets.nhs.uk/fonts/FrutigerLTW01-65Bold.woff") format("woff"),
+    url("https://assets.nhs.uk/fonts/FrutigerLTW01-65Bold.ttf")
+      format("truetype"),
+    url("https://assets.nhs.uk/fonts/FrutigerLTW01-65Bold.svg#eae74276-dd78-47e4-9b27-dac81c3411ca")
+      format("svg");
+}
 /* purgecss end ignore */
 
-html        { 
-    @apply bg-white text-primary;
-    font-family: 'Frutiger W01', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+html {
+  @apply bg-white text-primary;
+  font-family: "Frutiger W01", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.text-secondary { @apply text-grey-1 !important }
+.text-secondary {
+  @apply text-grey-1 !important;
+}
 
-.border { @apply border-grey-4 }
+.border {
+  @apply border-grey-4;
+}
 
-.form { @apply border-grey-1 }
+.form {
+  @apply border-grey-1;
+}
 
-.button { @apply bg-green text-white }
-.button-secondary { @apply bg-grey-1 text-white }
+.button {
+  @apply bg-green text-white;
+}
+.button-secondary {
+  @apply bg-grey-1 text-white;
+}
 
-main             { @apply bg-grey-5 pt-8 pb-12 }
-main a, .toc a, footer a { @apply text-blue }
-main a:hover, .toc a:hover, footer a:hover { @apply text-dark-pink no-underline }
-main a:active, .toc a:active, footer a:active    { @apply text-navy }
-main a:visited   { @apply text-purple }
+main {
+  @apply bg-grey-5 pt-8 pb-12;
+}
+main a,
+.toc a,
+footer a {
+  @apply text-blue;
+}
+main a:hover,
+.toc a:hover,
+footer a:hover {
+  @apply text-dark-pink no-underline;
+}
+main a:active,
+.toc a:active,
+footer a:active {
+  @apply text-navy;
+}
+main a:visited {
+  @apply text-purple;
+}
 
 .breadcrumbs li:not(:last-child):after {
   content: "›";
   @apply mr-2 ml-2 text-grey-3;
 }
-.breadcrumbs li a:hover {@apply no-underline}
-
+.breadcrumbs li a:hover {
+  @apply no-underline;
+}
 
 /* Lists with emdash es */
 
-ul.list li:before{
+ul.list li:before {
   content: "—";
   text-indent: 5px;
   @apply text-grey-3;
 }
-ul.list li a { @apply ml-3 }
+ul.list li a {
+  @apply ml-3;
+}
 
-.toc ol { @apply list prose }
+/* TODO - update this:  .toc ol { @apply list prose } */
 .toc ol li:before {
   content: "—";
   text-indent: 5px;
@@ -78,17 +135,192 @@ ul.list li a { @apply ml-3 }
 }
 
 .toc ol li a,
-.toc ol ol > li a { @apply ml-3 }
- 
+.toc ol ol > li a {
+  @apply ml-3;
+}
 
 .arrow {
   border: solid 32px; /* Needs a border colour supplying in HTML */
-  content: '';
+  content: "";
   display: block;
   height: 0;
   position: absolute;
   bottom: -4;
   transform: rotate(45deg);
   width: 0;
-  z-index: -1
+  z-index: -1;
+}
+
+.translate-half {
+  transform: translate(-50%, -50%);
+}
+
+/* IE11 Specific Classes */
+@media all and (-ms-high-contrast: none) {
+  .ie-height-auto {
+    @apply h-auto;
+  }
+}
+
+/* Image */
+img {
+  @apply w-full;
+}
+
+.prose h2,
+.prose h3,
+.prose h4,
+.prose h5,
+.prose h6 {
+  @apply font-bold;
+}
+
+.toc ol {
+  @apply my-3;
+}
+
+.toc ol > li > a {
+  @apply underline;
+  color: #000000;
+}
+
+.toc ol > li {
+  @apply my-3;
+}
+
+.prose {
+  max-width: 65ch;
+}
+
+.prose p {
+  @apply my-5;
+}
+
+/* Blockquote */
+.prose blockquote {
+  font-weight: 500;
+  font-style: italic;
+  color: #111827;
+  border-left-width: 0.25rem;
+  border-left-color: #e5e7eb;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+.prose blockquote p:first-of-type::before {
+  content: open-quote;
+}
+
+.prose blockquote p:first-of-type::after {
+  content: close-quote;
+}
+
+/* Links */
+.prose a {
+  color: #111827;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.prose a.no-underline {
+  text-decoration: none;
+}
+
+/* Table */
+.prose thead {
+  color: #111827;
+  font-weight: 600;
+  border-bottom-width: 1px;
+  border-bottom-color: #d1d5db;
+  text-align: left;
+}
+
+.prose tbody tr {
+  border-bottom-width: 1px;
+  border-bottom-color: #e5e7eb;
+}
+
+/* Prose lists */
+.prose ul li {
+  padding-left: 0 !important; /* Override prose-forced padding */
+}
+
+ol {
+  @apply list-decimal;
+}
+
+ul {
+  @apply list-disc;
+}
+
+ol,
+ul {
+  @apply pl-5;
+}
+
+.prose ol li,
+.prose ul li {
+  padding-left: 0 !important;
+}
+
+.prose ol > li::before {
+  color: #000000 !important;
+}
+
+.prose img {
+  @apply m-0 !important;
+}
+
+ol.breadcrumbs,
+.toc ol {
+  @apply list-none pl-0;
+}
+
+/* Footer */
+.footer ul {
+  @apply list-none pl-0;
+}
+
+.footer a {
+  @apply underline text-grey-1;
+}
+
+.footer a:hover {
+  @apply text-primary;
+}
+
+/**
+ * Link Accessibility Focus
+ * 
+ * Remove card focus until we know how to handle
+ * the card approach
+*/
+
+a:not(.card):not(.legacy-no-focus):focus {
+  @apply bg-yellow text-primary no-underline;
+  box-shadow: 0 -2px #ffeb3b, 0 4px #212b32;
+  outline: 4px solid transparent;
+}
+
+.legacy-hover:hover h2 {
+  @apply text-dark-pink no-underline;
+}
+
+.event-card .event-card__title {
+  @apply m-0;
+}
+
+.event-card .event-card__content {
+  @apply p-4 mr-8 text-primary;
+}
+
+.event-card .event-card__links {
+  @apply w-full;
+}
+
+.aside-calendar {
+  @apply bg-white p-4;
+}
+
+.aside-calendar ul {
+  @apply leading-loose pl-0;
 }
