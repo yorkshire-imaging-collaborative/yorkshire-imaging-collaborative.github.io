@@ -14,18 +14,20 @@ tags: mini-hub
 <main id="main" role="main">
     <div class="max-w-6xl mx-auto px-3">
         <section id="cardList" class="flex flex-wrap">
-        {% for item in collections[collectionTag] %}
-          <div class="w-full md:w-1/2 p-2">
-          {% set card = 
-              {
-                label: item.data.title, 
-                link: item.url, 
-                excerpt: item.data.excerpt,
-                style: "transparent"
-                } %}
-          {% include 'components/card.njk' %}
-          </div>
-        {% endfor %}
+            {% set items = collections.pages | map("data") | where('hub', title) %}
+            {% for item in items %}
+                {% if item.title != eleventyNavigation.title %}
+                    <div class="w-full md:w-1/2 p-2">
+                        {% set card = {
+                            label: item.title, 
+                            link: item.page.url, 
+                            excerpt: item.excerpt,
+                            style: "transparent"
+                        } %}
+                        {% include 'components/card.njk' %}
+                    </div>
+                {% endif %}
+            {% endfor %}
         </section>
     </div>
 </main>

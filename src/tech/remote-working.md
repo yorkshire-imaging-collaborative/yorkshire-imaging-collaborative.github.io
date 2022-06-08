@@ -16,24 +16,16 @@ To suport the delivery of the wider sharing and reporting capability we’re inv
 
 To support radiologists and reporting radiographers the following guides have been created to support the installation of this hardware at home
 
-* Installation documenation (link here)
-* Installation video (Link here)
+* [Remote workstation installation guide](https://yorkshireimaging.nhs.uk/tech/how-to-setup/)
 
-## Display calibration
+## Quality Assurance
 
-The diagnostic monitors provided with the home working stations are self-calibrating.  Calibration is automatically checked daily and any issues found are reported.
+The diagnostic monitors provided with the home working stations are self-calibrating.  Calibration is automatically checked daily and any issues found are reported centrally to Barco who monitor our devices remotely.
 
-## IT support
+Maintenance of the software and network connection is the responsibility of the Trust.
 
-Platinum support agreements are in place with the home working station hardware providers.  The following support processes are in place if any issues are found
+## Hardware Support
 
-_To be further announced on network launch_
+Platinum support agreements are in place with our hardware providers to repair damaged equipment. Please contact the YIC insource team for details.
 
-### Software support for Intelerad
-_To be announced on network launch_
-
-### Software support for Agfa EI
-_To be announced on network launch_
-
-### Hardware support
-_To be announced on network launch_
+Reporting of issues should be raised by end users via their radiology support (i.e. PACS manager or radiology IT) who will be able to contact YIC.
