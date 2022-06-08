@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: breast
 location: MS Teams
 agenda: |-
-  This is what we are going to discuss in this meeting
+  This is what we are going to discuss in this meeting:
 
   * Trust Updates
   * YIC Update
