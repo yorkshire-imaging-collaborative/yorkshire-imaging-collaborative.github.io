@@ -26,6 +26,8 @@ Through the symbiosis of our two parallel programmes of activity we are able to 
 
 [![Yorkshire Imaging Collaborative Masterplan](https://yorkshireimaging.nhs.uk/images/masterplan.png)](https://yorkshireimaging.nhs.uk/images/masterplan.png)
 
+{% lightbox "https://yorkshireimaging.nhs.uk/images/masterplan.png", "[![Yorkshire Imaging Collaborative Masterplan](https://yorkshireimaging.nhs.uk/images/masterplan.png)](https://yorkshireimaging.nhs.uk/images/masterplan.png)" %}
+
 We have set out a comprehensive and ambitious **Masterplan™** to reimagine the radiology service in our region by considering 3 main domains of transformation
 
 * Common Practices

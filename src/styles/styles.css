@@ -324,3 +324,17 @@ a:not(.card):not(.legacy-no-focus):focus {
 .aside-calendar ul {
   @apply leading-loose pl-0;
 }
+
+.lightbox {
+  @apply fixed w-screen h-screen;
+}
+
+.lightbox .lightbox__close {
+  @apply absolute z-10;
+  top: 8px;
+  right: 24px;
+}
+
+.lightbox .lightbox__backdrop {
+  @apply absolute bg-grey-1 bg-opacity-50 w-full h-full top-0 left-0;
+}

@@ -265,6 +265,13 @@ module.exports = function (eleventyConfig) {
   });
 
   // Custom Shortcodes
+  eleventyConfig.addNunjucksShortcode("lightbox", function (content, param2) {
+  return `
+  <div class="js-lightbox-wrap" data-src="${content}">
+    <img src="${content}" />
+  </div>
+  `;
+  });
 
   // Transforms
   if (process.env.NODE_ENV == "production") {
