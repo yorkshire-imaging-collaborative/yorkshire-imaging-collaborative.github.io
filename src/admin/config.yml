@@ -1,6 +1,6 @@
 backend:
   name: github
-  branch: JackB47/cms-test  # Repo
+  repo: JackB47/cms-test  # Repo
 
 publish_mode: editorial_workflow
 media_folder: "src/images"
