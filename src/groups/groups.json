@@ -1,8 +1,0 @@
-{
-    "tags"   : ["groups"],
-    "layout" : "layouts/sig.njk",
-    "eleventyNavigation": {
-        "parent": "Groups"
-    }
-
-}

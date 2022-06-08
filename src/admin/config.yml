@@ -1,9 +1,6 @@
-local_backend: true
-
 backend:
-  name: git-gateway
-  branch: master
-  show_preview_links: false
+  name: github
+  repo: yorkshire-imaging-collaborative/yorkshire-imaging-collaborative.github.io # REPO NAME
 
 publish_mode: editorial_workflow
 media_folder: "src/images"
@@ -13,33 +10,90 @@ collections:
   - name: "events"
     label: "Events"
     folder: "src/meetings"
+    view_groups:
+      - label: Group
+        field: eleventyNavigation.parent
     create: true
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Starts at", name: "start", widget: "datetime" }
       - { label: "Ends at", name: "end", widget: "datetime" }
-      - label: "Group Assignment" 
-        name: "tags"
-        widget: "select"
-        multiple: false
-        options:
-          - { label: "Artificial Intelligence", value: "ai" }
-          - { label: "Breast", value: "breast" }
-          - { label: "Chest", value: "chest" }
-          - { label: "Neuro, Head & Neck", value: "neuro-head-neck" }
-          - { label: "Nuclear Medicine", value: "nuclear-medicine" }
-          - { label: "Vascular / Interventional", value: "vascular-interventional" }
-          - { label: "Paediatric", value: "paediatric" }
-          - { label: "Gastrointestinal", value: "gastrointestinal" }
-          - { label: "Musculoskeletal", value: "musculoskeletal" }
-          - { label: "Peer Learning", value: "peer-learning" }
-          - { label: "Radiology Service Group", value: "service-group" }
-          - { label: "Urology", value: "urology" }
+      - {
+          label: "Groups",
+          name: "groups",
+          widget: "relation",
+          multiple: true,
+          collection: "groups",
+          value_field: "{{title}}",
+          search_fields: ["title"],
+          display_fields: ["title"],
+        }
+      - {
+          label: "Navigation",
+          name: "eleventyNavigation",
+          widget: "object",
+          summary: "{{ field.name }}: {{ fields.parent }}",
+          fields:
+            [
+              {
+                label: "Parent",
+                name: "parent",
+                widget: "relation",
+                multiple: false,
+                collection: "groups",
+                value_field: "{{slug}}",
+                search_fields: ["title"],
+                display_fields: ["title"],
+                hint: "This is the group you want to assign to the breadcrumb",
+              },
+            ],
+        }
       - { label: "Location", name: "location", widget: "string" }
-      - { label: "Invitation link", name: "invitation", widget: "string" }
-      - { label: "Agenda", name: "agenda", widget: "markdown" }
-      - { label: "Minutes", name: "minutes", widget: "markdown" }
+      - {
+          label: "Invitation link",
+          name: "invitation",
+          widget: "string",
+          hint: "If this event is online, please provide a URL to the meeting here.",
+          required: false
+        }
+      - { label: "Agenda", name: "agenda", widget: "markdown", required: false }
+      - {
+          label: "Minutes",
+          name: "minutes",
+          widget: "markdown",
+          required: false,
+        }
+
+  - name: "groups"
+    label: "Groups"
+    folder: "src/groups"
+    create: true
+    slug: "{{title}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Group Key", name: "groupKey", widget: "string", hint: "This is the key from the member AirTable" }
+      - {
+          label: "Subtitle",
+          name: "subtitle",
+          widget: "string",
+          required: false,
+        }
+      - { label: "Excerpt", name: "excerpt", widget: "string" }
+      - {
+          label: "Tags",
+          name: "tags",
+          widget: "relation",
+          multiple: true,
+          required: false,
+          collection: "tags",
+          value_field: "{{slug}}",
+          search_fields: ["title"],
+          display_fields: ["title"],
+          hint: "Please reference any tags here. (nav = inserts a card on the homepage, footer = inserts a link to the page on the footer)",
+        }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - { label: Sidebar, name: sidebar, widget: boolean, required: false }
 
   - name: "protocols"
     label: "Protocols"
@@ -48,6 +102,18 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Subtitle", name: "subtitle", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - {
+          label: "Groups",
+          name: "groups",
+          widget: "relation",
+          multiple: true,
+          collection: "groups",
+          value_field: "{{title}}",
+          search_fields: ["title"],
+          display_fields: ["title"],
+        }
 
   - name: "advice"
     label: "Advice Documents"
@@ -56,6 +122,17 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - {
+          label: "Groups",
+          name: "groups",
+          widget: "relation",
+          multiple: true,
+          collection: "groups",
+          value_field: "{{title}}",
+          search_fields: ["title"],
+          display_fields: ["title"],
+        }
 
   - name: "reporting-standards"
     label: "Reporting Standards"
@@ -64,6 +141,17 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - {
+          label: "Groups",
+          name: "groups",
+          widget: "relation",
+          multiple: true,
+          collection: "groups",
+          value_field: "{{title}}",
+          search_fields: ["title"],
+          display_fields: ["title"],
+        }
 
   - name: "procedures"
     label: "Procedural Documents"
@@ -72,16 +160,120 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - {
+          label: "Groups",
+          name: "groups",
+          widget: "relation",
+          multiple: true,
+          collection: "groups",
+          value_field: "{{title}}",
+          search_fields: ["title"],
+          display_fields: ["title"],
+        }
 
-  - label: "Pages"
-    name: "pages"
-    files:
-      - label: "About Page"
-        name: "about"
-        file: "src/about.md"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Sub-title, name: subtitle, widget: string}
-          - {label: Excerpt, name: excerpt, widget: text}
-          - {label: Sidebar, name: sidebar, widget: boolean}
-          - {label: Table of Contents, name: toc, widget: boolean}
+  - name: "pages"
+    label: "Pages"
+    label_singular: "Page"
+    folder: "src/pages"
+    create: true
+    path: "{{slug}}"
+    nested:
+      depth: 5
+      summary: "{{title}}"
+    view_groups:
+      - label: Category
+        field: category
+    fields:
+      - { label: Title, name: title, widget: string }
+      - {
+          label: "Category",
+          name: "category",
+          widget: "relation",
+          multiple: false,
+          required: false,
+          collection: "categories",
+          value_field: "{{slug}}",
+          search_fields: ["title"],
+          display_fields: ["title"],
+          hint: "Add a category to group pages in the CMS",
+        }
+      - {
+          label: "Hub",
+          name: "hub",
+          widget: "relation",
+          multiple: false,
+          collection: "hubs",
+          value_field: "{{title}}",
+          search_fields: ["title"],
+          display_fields: ["title"],
+          required: false,
+        }
+      - {
+          label: "Tags",
+          name: "tags",
+          widget: "relation",
+          multiple: true,
+          required: false,
+          collection: "tags",
+          value_field: "{{slug}}",
+          search_fields: ["title"],
+          display_fields: ["title"],
+          hint: "Please reference any tags here. (nav = inserts a card on the homepage, footer = inserts a link to the page on the footer)",
+        }
+      - { label: Sub-title, name: subtitle, widget: string }
+      - { label: Excerpt, name: excerpt, widget: text }
+      - { label: Sidebar, name: sidebar, widget: boolean, required: false }
+      - {
+          label: Table of Contents,
+          name: toc,
+          widget: boolean,
+          required: false,
+        }
+      - { label: Body, name: body, widget: markdown }
+      - { label: Author, name: author, widget: string }
+      - { label: Last Review Date, name: lastReview, widget: date }
+      - { label: Next Review Date, name: nextReview, widget: date }
+
+  - name: "hubs"
+    label: "Hubs"
+    label_singular: "Hub"
+    folder: "src/hubs"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Excerpt, name: excerpt, widget: string }
+      - {
+          label: "Tags",
+          name: "tags",
+          widget: "relation",
+          multiple: true,
+          required: false,
+          collection: "tags",
+          value_field: "{{slug}}",
+          search_fields: ["title"],
+          display_fields: ["title"],
+          hint: "Please reference any tags here. (nav = inserts a card on the homepage, footer = inserts a link to the page on the footer)",
+        }
+
+  - name: "categories"
+    label: "Categories"
+    label_singular: "Category"
+    folder: "src/categories"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: Title, name: title, widget: string }
+
+  - name: "tags"
+    label: "Tags"
+    label_singular: "Tag"
+    folder: "src/tags"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: Title, name: title, widget: string }

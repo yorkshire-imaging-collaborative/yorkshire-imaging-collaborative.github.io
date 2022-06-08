@@ -30,7 +30,7 @@ eleventyNavigation:
 
 <main id="main">
   <div class="max-w-6xl mx-auto px-3">
-    <ul class="flex flex-wrap">
+    <ul class="flex flex-wrap list-none">
         
     {% for person in team %}    
 
@@ -44,7 +44,7 @@ eleventyNavigation:
                 <p class="text-indigo-600">{{person.desc}}</p>
               </div>
               {% if person.twitter or person.linkedin %}
-              <ul role="list" class="flex justify-center space-x-5">
+              <ul role="list" class="flex justify-center space-x-5 list-none">
                 {% if person.twitter %}
                 <li>
                   <a href="https://twitter.com/{{person.twitter}}" class="text-gray-400 hover:text-gray-500">
