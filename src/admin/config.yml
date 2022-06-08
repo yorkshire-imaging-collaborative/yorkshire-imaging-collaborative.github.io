@@ -1,6 +1,6 @@
 backend:
-  name: github
-  repo: JackB47/cms-test  # Repo
+  name: git-gateway
+  branch: tech/netlify-cms-integration # Update this to main branch
 
 publish_mode: editorial_workflow
 media_folder: "src/images"
