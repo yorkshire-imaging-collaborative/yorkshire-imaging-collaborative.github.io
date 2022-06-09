@@ -1,7 +1,7 @@
 ---
 title: Summer Paediatric Group Meeting
-start: 2022-06-10T14:00:25.309Z
-end: 2022-06-10T15:00:25.314Z
+start: 2022-06-10T15:00:25.309Z
+end: 2022-06-10T16:00:25.314Z
 groups:
   - Paediatric
 eleventyNavigation:
