@@ -9,7 +9,6 @@ eleventyNavigation:
 location: MS Teams
 agenda: |-
   This is what we are going to discuss in this meeting
-
   * Imaging under general anaesthetic
   * Paediatric MRI Protocols
   * 'phone a friend' service - advice amongst Trusts
