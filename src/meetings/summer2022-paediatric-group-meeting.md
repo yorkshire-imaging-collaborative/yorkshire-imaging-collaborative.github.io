@@ -10,9 +10,9 @@ location: MS Teams
 agenda: |-
   This is what we are going to discuss in this meeting
 
-  * Actions
   * Paediatric MRI Protocols
   * 'phone a friend' service - advice amongst Trusts
+  * AOB/further work for the paediatric SIG
 minutes: >-
   ### Attendance
 
