@@ -1,5 +1,5 @@
 ---
-title: About our network
+title: About our network!
 tags:
   - nav
   - footer
