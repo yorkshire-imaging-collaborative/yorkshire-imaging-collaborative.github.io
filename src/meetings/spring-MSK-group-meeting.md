@@ -12,7 +12,7 @@ agenda: |-
 
   * Introduction to the new MSK Chairperson
   * Lumps & Bumps
-  * Cauda Equina Protocol
+  * SOP for emergency assessment of Cauda Equina syndrome
   * Plain Film Protocols
 minutes: >-
   ### Attendance
@@ -38,7 +38,7 @@ minutes: >-
 
   * Neal introduced James Barren as the new MSK chairperson. Neal would be there to support for the next couple of meetings.
  
-  ## [](https://github.com/yorkshire-imaging-collaborative/yorkshire-imaging-collaborative.github.io/blob/master/src/meetings/2022-05-24-MSK.md#lumps-bumps)Lumps & Bumps
+  ## [](https://github.com/yorkshire-imaging-collaborative/yorkshire-imaging-collaborative.github.io/blob/master/src/meetings/2022-05-24-MSK.md#lumps-and-bumps)Lumps and Bumps
 
   * All Trusts struggling with backlog and the number of referrals. Trusts are currently using BMUS guidance and agreed that a criteria of 1cm and above would be a good baseline.
   
