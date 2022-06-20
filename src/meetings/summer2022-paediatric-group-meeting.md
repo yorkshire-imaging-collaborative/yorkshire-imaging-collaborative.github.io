@@ -61,7 +61,7 @@ The group agreed a list of protocols that would be looked at:
   * Enterography
   
 
-  ## [](https://github.com/yorkshire-imaging-collaborative/yorkshire-imaging-collaborative.github.io/blob/master/src/meetings/2022-06-10-paeds.md#phone-a-friend)Phone a Friend
+   ## [](https://github.com/yorkshire-imaging-collaborative/yorkshire-imaging-collaborative.github.io/blob/master/src/meetings/2022-06-10-paeds.md#phone-a-friend)Phone a Friend
   
 
   * There was discussion regarding how much advice colleagues could give to other Trusts that doesn't exceed their service level agreement. 
@@ -71,7 +71,7 @@ The group agreed a list of protocols that would be looked at:
   * YIC would feedback to the group what the process for second opinions was.
 
 
-  ## [](https://github.com/yorkshire-imaging-collaborative/yorkshire-imaging-collaborative.github.io/blob/master/src/meetings/2022-06-10-paeds.md#AOB)AOB
+   ## [](https://github.com/yorkshire-imaging-collaborative/yorkshire-imaging-collaborative.github.io/blob/master/src/meetings/2022-06-10-paeds.md#AOB)AOB
 
 
   * Louise informed members of the SIG of the skeletal training day that has been planned for 24th September. The day is open to all radiographers who do skeletal surveys for non-accidental injuries on children. 
