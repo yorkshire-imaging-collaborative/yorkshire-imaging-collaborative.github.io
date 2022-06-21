@@ -47,18 +47,18 @@ minutes: >-
   ## [](https://github.com/yorkshire-imaging-collaborative/yorkshire-imaging-collaborative.github.io/blob/master/src/meetings/2022-06-10-paeds.md#paediatric-MRI-protocols)Paediatric MRI Protocols
 
 
-It was agreed that producing minimum data sets for some specific MRI protocols would be useful so that Trusts have a basis of what to do for examinations.
+  It was agreed that producing minimum data sets for some specific MRI protocols would be useful so that Trusts have a basis of what to do for examinations.
   
-The group agreed a list of protocols that would be looked at:
-  * Neo-Natal Brain Imaging
-  * Paediatric Brain Imaging - under and over 2
-  * MR Whole Spine
-  * NAI Protocols
-  * Limping Child
-  * Abdominal Pain
-  * Paediatric Lump
-  * Tumour Screening 
-  * Enterography
+  The group agreed a list of protocols that would be looked at:
+    * Neo-Natal Brain Imaging
+    * Paediatric Brain Imaging - under and over 2
+    * MR Whole Spine
+    * NAI Protocols
+    * Limping Child
+    * Abdominal Pain
+    * Paediatric Lump
+    * Tumour Screening 
+    * Enterography
   
 
    ## [](https://github.com/yorkshire-imaging-collaborative/yorkshire-imaging-collaborative.github.io/blob/master/src/meetings/2022-06-10-paeds.md#phone-a-friend)Phone a Friend
