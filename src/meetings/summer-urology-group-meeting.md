@@ -7,7 +7,5 @@ groups:
 eleventyNavigation:
   parent: urology
 location: MS Teams
-agenda: |-
-  * Update
-  * Presentation
+agenda: ""
 ---
