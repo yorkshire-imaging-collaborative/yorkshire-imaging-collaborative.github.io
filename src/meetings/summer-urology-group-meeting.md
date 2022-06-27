@@ -7,5 +7,10 @@ groups:
 eleventyNavigation:
   parent: urology
 location: MS Teams
-agenda: ""
+agenda: |-
+  * CT Urogram
+  * CRIS Codes
+  * TP Biopsy Update
+  * Training Opportunities
+  * Any Other Business
 ---
