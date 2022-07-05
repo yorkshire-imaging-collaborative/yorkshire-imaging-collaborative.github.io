@@ -1,7 +1,7 @@
 ---
 title: Summer Obs & Gynae Group Meeting
-start: 2022-07-05T12:00:07.738Z
-end: 2022-07-05T13:30:07.766Z
+start: 2022-07-05T11:00:07.738Z
+end: 2022-07-05T12:30:07.766Z
 groups:
   - Obstetrics & Gynaecology
 eleventyNavigation:
