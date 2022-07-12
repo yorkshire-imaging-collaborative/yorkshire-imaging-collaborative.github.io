@@ -6,7 +6,7 @@ groups:
 ---
 ### **Flow Chart for Suspected Sarcoma**
 
-![]()
+![](/images/sarcoma-2-.png)
 
 ### **Diagnosis**
 
