@@ -1,5 +1,5 @@
 ---
-title: Distant Futur Breast Event
+title: Distant Future Breast Event
 start: 2022-09-09T07:00:19.992Z
 end: 2022-09-09T11:00:20.010Z
 groups:
@@ -9,5 +9,5 @@ eleventyNavigation:
 location: location
 invitation: invitation
 agenda: agenda
-minutes: minutesd
+minutes: minutes
 ---
