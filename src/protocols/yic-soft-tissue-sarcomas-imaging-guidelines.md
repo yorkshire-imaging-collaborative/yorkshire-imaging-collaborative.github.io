@@ -26,11 +26,11 @@ groups:
 
 
 
-\    3. MRI – performed if not definitive on Ultrasound/local staging.
+    3. MRI – performed if not definitive on Ultrasound/local staging.
 
-\    a. Recommended guidance for protocol – appendix 4. (If claustrophobic refer to sarcoma service with ultrasound).
+    a. Recommended guidance for protocol – appendix 4. (If claustrophobic refer to sarcoma service with ultrasound).
 
-\    b. MRI findings:
+    b. MRI findings:
 
 * If diagnostic for non sarcoma (benign) (appendix 1) – report to GP. If appears inflammatory consider interval imaging.
 * If diagnostic for non sarcoma (malignant) (appendix 2) – report to GP and refer local oncology (CUP MDT).
