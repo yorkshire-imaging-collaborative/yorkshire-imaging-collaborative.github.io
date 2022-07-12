@@ -1,7 +1,6 @@
 ---
 title: Nuclear Medicine
-excerpt: Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+groupKey: nuclear-medicine
+excerpt: Subspecialism using radioisotopes for imaging and treatment
 ---
-
-
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo nobis atque fuga dolores excepturi rem non repellat expedita harum aspernatur quisquam aut perferendis doloremque, laborum aliquam. Eaque sed maiores quas.[](https://github.com/ "GitHub")
+A highly subspecialised area of radiology which uses radiopharmaceuticals for the assessment of function, enhanced structural diagnosis and treatment.
