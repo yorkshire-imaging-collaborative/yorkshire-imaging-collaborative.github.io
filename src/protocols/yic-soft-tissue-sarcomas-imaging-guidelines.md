@@ -45,11 +45,11 @@ groups:
 
 The following reporting suggestions are to make clear the responsibility of the referrer in advancing management where referral to the sarcoma MDT is not indicated but when further local action is needed.
 
-***To support category 5 or 6.1 findings:***
+**To support category 5 or 6.1 findings:**
 
 Report:  Lipomatous mass with no aggressive features on imaging. If symptomatic advise referral to local surgical unit for consideration of removal.
 
-***To support category 4, 6.2, or 7 findings where radiology concern persists in the absence of a defined radiological diagnosis:***
+**To support category 4, 6.2, or 7 findings where radiology concern persists in the absence of a defined radiological diagnosis:**
 
 Report:  No specific or aggressive features on imaging, but given the clinical features advise local clinical review in 3-4 weeks and if there is persisting concern arrange repeat imaging at that time.  Referral to the sarcoma MDT is not required unless the serial imaging is suspicious for sarcoma.
 
