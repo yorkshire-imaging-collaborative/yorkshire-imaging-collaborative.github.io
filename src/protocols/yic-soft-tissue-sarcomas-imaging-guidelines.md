@@ -26,24 +26,20 @@ groups:
 
 
 
-   3. MRI – performed if not definitive on Ultrasound/local staging.
+3. MRI – performed if not definitive on Ultrasound/local staging.
 
-\    a. Recommended guidance for protocol – appendix 4. (If claustrophobic refer to sarcoma service with ultrasound).
+   a. Recommended guidance for protocol – appendix 4. (If claustrophobic refer to sarcoma service with ultrasound).
 
-\    b. MRI findings:
+   b. MRI findings:
 
 * If diagnostic for non sarcoma (benign) (appendix 1) – report to GP. If appears inflammatory consider interval imaging.
 * If diagnostic for non sarcoma (malignant) (appendix 2) – report to GP and refer local oncology (CUP MDT).
 * If suspicious for sarcoma or indeterminate (appendix 3)–report to GP (notify sarcoma service -urgent).
 
-
-
 ### BIOPSY
 
 1. In nearly all cases, performed by sarcoma MDT and MDT radiologist.
 2. Occasionally can be performed locally (outside sarcoma MDT) if sarcoma MDT and local radiologist agreeable and sent to sarcoma histopathologist.
-
-
 
 ### PROVISION OF REFERRER GUIDANCE WITHIN RADIOLOGY REPORTS
 
