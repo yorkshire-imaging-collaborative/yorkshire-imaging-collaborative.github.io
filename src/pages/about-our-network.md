@@ -10,8 +10,8 @@ excerpt: A deep dive into the origins, vision, roadmap and organisational
 sidebar: true
 toc: true
 author: Daniel Fascia
-lastReview: 2022-04-06T14:42:48.018Z
-nextReview: 2022-04-06T14:42:48.026Z
+lastReview: 2022-07-12T14:42:48.018Z
+nextReview: 2022-12-01T15:42:48.026Z
 ---
 ## What it is
 
@@ -50,29 +50,29 @@ The YIC team were seconded to NHS England to fulfil the medical imaging deployme
 
 ## Transformation
 
-Our core vision is to improve processes and facilitate great clinical care by ensuring that medical images and reports are always available at the point of care wherever a consultation takes place. Although we could never have anticipated the value prior to 2020, our success has resonated in the era of remote consultation and the inability of patients to travel for care. It has forced us as a profession to challenge ancient paradigms of presenteeism and migrate towards a more eclectic mixture of technology driven remote medicine adhering to the same underlying principles of good care.
+Our core vision is to improve processes and facilitate great clinical care by ensuring that medical images and reports are always available at the point of care wherever a consultation takes place. Although we could never have anticipated the value prior to 2020, our success has resonated in the era of remote consultation and the inability of patients to travel for care. It has forced us as a profession to challenge ancient paradigms of presence and migrate towards a more eclectic mixture of technology driven remote medicine adhering to the same underlying principles of good care.
 
 ## Shared Core Services
 
 Procuring large scale infrastructure together as a region makes sense in a healthcare system where 97% of patients receive care in region (data: 2017 YIC via GE Finnamore).
 
-By operating services which scale well centrally as a region, greater benefit can be derived than with each hospital attempting to procure their own solutions and provide their own staff. This does not work for all services, but our early workshop style consultations in 2017 identified the elements which scale well.
+By operating services which scale well centrally as a region, greater benefit can be derived than with each hospital attempting to procure their own solutions and provide their own staff. This does not work for all services, but our early workshop style consultations identified the elements which scale well.
 
 * Articifial Intelligence for enhanced disease detection
 * Artificial Intelligence Business Analytics
 * Distributed online messaging (Microsoft Teams)
 * Remote meeting videoconferencing (Zoom, and now Microsoft Teams)
-* Programme Support Team
+* A central Programme Support Team
 
 ## Common Practices
 
 Our programme is firmly rooted in its clinical underpinnings and is led by a Consultant Radiologist (Dr Daniel Fascia). Dan’s vision has always been that the experts remain the leading light in the direction of the service and the core design of its needs. YIC provide all of the support and infrastructure required to allow experts to be just that and not need to think about things like planning meetings, creating agendas and documents.
 
-At the heart of our common practices we aim to standardise things which are suited to that, particulary tasks and documents which are tedious and repetitive but carried out by all hospitals. Through the adoption of a **minimum data set** approach we are not sufficiently prescriptive to restrict our organisations in their individuality but we do insist on achievement of minimum standards.
+At the heart of our common practices we aim to standardise things which need to be, particulary tasks and documents which are tedious and repetitive but carried out by all hospitals. Through the adoption of a **minimum data set** approach we are not sufficiently prescriptive to restrict our organisations in their individuality but we promote the achievement of minimum standards.
 
 ## Special Interest Groups
 
-Special Interest Groups (SIGs) are regarded as our leading light. These groups of expert radiologists and radiographers, and a separate group for service managers meet to discuss topics with a need for standardisation or improvement. They share ideas and review evidence to shape and drive forward minimum standard data sets for
+[Special Interest Groups (SIGs)](https://yorkshireimaging.nhs.uk/groups/) are regarded as our leading light. These groups of expert radiologists and radiographers, and a separate group for [Service Managers](https://yorkshireimaging.nhs.uk/groups/radiology-service-group/) meet to discuss topics with a need for standardisation or improvement. They share ideas and review evidence to shape and drive forward minimum standard data sets for
 
 * Patient Advice Documents
 * Scanning Protocols
@@ -81,11 +81,11 @@ Special Interest Groups (SIGs) are regarded as our leading light. These groups o
 
 We allow our SIGs to self direct whilst they are able to make autonomous progress but also ask them to review important topics nominated by the regional Medical Directors Forum (example: Cauda Equina Syndrome, Suspected Physical Abuse of Children)
 
-![alt text](/images/alexfrangi.jpeg "title")
 ### Process & Workflow
 
-The enormity of our transformation activity requires us to make changes to policies far beyond our area of expertise such as employment terms and contracts of working. Our extended relationship with hospital management departments enables progress in these challenging arenas such that traditionally difficult obstructions to progress are tackled.
+The enormity of our transformation activity requires us to make changes to policies far beyond our area of expertise such as employment terms and contracts of working. Our extended relationship with hospital executive management departments enables progress in these challenging arenas such that traditionally difficult obstructions to progress are tackled.
 
 * Cross site working governance
 * Cross site credentialling of doctors and radiographers
 * Remote working contract
+* Payroll for cross site working
