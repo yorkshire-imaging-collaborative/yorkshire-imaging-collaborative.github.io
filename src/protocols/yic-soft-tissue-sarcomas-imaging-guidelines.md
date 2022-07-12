@@ -6,6 +6,8 @@ groups:
 ---
 ### **FLOW CHART FOR SUSPECTED SARCOMA**
 
+![](/images/sarcoma.png)
+
 ### **DIAGNOSIS**
 
 1. **Patient attends GP with soft tissue mass and is assessed clinically;**
