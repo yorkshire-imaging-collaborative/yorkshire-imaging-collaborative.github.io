@@ -1,9 +1,11 @@
 ---
 title: YIC Soft Tissue Sarcomas Imaging Guidelines
-subtitle: YIC Soft Tissue Sarcomas Imaging Guidelines
+subtitle: Guidelines for diagnosis, biopsy and reporting of suspected sarcoma
 groups:
   - Musculoskeletal
 ---
+### **FLOW CHART FOR SUSPECTED SARCOMA**
+
 ### **DIAGNOSIS**
 
 1. **Patient attends GP with soft tissue mass and is assessed clinically;**
