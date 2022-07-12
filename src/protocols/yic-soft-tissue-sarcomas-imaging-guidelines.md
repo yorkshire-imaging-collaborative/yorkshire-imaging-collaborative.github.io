@@ -6,14 +6,12 @@ groups:
 ---
 ### **DIAGNOSIS**
 
-1. Patient attends GP with soft tissue mass and is assessed clinically;
+1. **Patient attends GP with soft tissue mass and is assessed clinically;**
 
    a. Observe/Discharge
 
    b. Investigate
-
-
-2.  Ultrasound
+2.  **Ultrasound**
 
    a. History re-taken regarding – size, duration, precipitants, growth, associated symptoms. Examined for position and local changes.
 
@@ -24,9 +22,7 @@ groups:
 * If diagnostic for lipoma but concerning symptoms (appendix 2) – report to GP +/- MRI (notify sarcoma service – non urgent). If lesion is being referred due to concerning clinical features this needs to be mentioned on the report.
 * If suspicious for sarcoma or indeterminate (appendix 3)–report to GP + radiologist organises local MRI.
 
-
-
-3. MRI – performed if not definitive on Ultrasound/local staging.
+3. **MRI – performed if not definitive on Ultrasound/local staging.**
 
    a. Recommended guidance for protocol – appendix 4. (If claustrophobic refer to sarcoma service with ultrasound).
 
