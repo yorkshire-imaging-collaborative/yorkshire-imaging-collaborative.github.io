@@ -6,9 +6,6 @@ subtitle: Our AI programme aims to augment the safety, speed and accuracy of our
   at the forefront of contemporary radiology.
 excerpt: Research and development and clinical translation within our regional
   AI super-sandbox
-tags:
-  - nav
-  - footer
 sidebar: true
 ---
 ## Our AI Vision
@@ -23,14 +20,4 @@ This facility benefits from the large 4-million patient population served by Yor
 
 In December 2019 we established an academic partnership with The University of Leeds department of Computational Science.
 
-## People
-
-## Infrastructure for AI
-
-## The YIC-AI Sandbox
-
-## Partnerships
-
 [The University of Leeds](https://eps.leeds.ac.uk/computing)
-
-Author: Dr Daniel Fascia
