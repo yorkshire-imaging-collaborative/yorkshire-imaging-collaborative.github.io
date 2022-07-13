@@ -1,0 +1,46 @@
+---
+layout: default
+order: 3
+
+title: Video Library
+subtitle: Browse and watch our video content on demand.
+excerpt: Meetings, explainers, tutorials and announcements. Browse and watch videos on demand.
+
+tags:
+    - nav
+    - footer
+
+eleventyNavigation:
+    parent: Home
+    key: Videos
+    title: Video Library
+
+---
+{% include 'components/header.njk' %}
+{% set hero = {
+    title: title,
+    subtitle: subtitle
+} %}
+{% include 'components/hero.njk' %}
+{% include 'components/breadcrumb.njk' %}
+
+<main id="main" role="main">
+    <div class="max-w-6xl mx-auto px-3">
+        <section id="cardList" class="flex flex-wrap">
+        {% for video in collections.videos | sort(true, false, 'date') %}
+          <div class="w-full md:w-1/2 p-2">
+            <a href="{{ video.url }}" class="inline-flex w-full flex-col group bg-white border border-b-4 border-grey-4 hover:border-grey-3">
+                  <div class="aspect-w-16 aspect-h-7">
+                    <img class="object-cover flex-1" src="{{ video.data.thumbnail }}" alt="{{ video.data.title }}"></div>
+                  <div class="p-6">
+                    <h2 class="text-blue group-hover:text-dark-pink underline group-hover:no-underline text-xl lg:text-2xl font-semibold">{{ video.data.title }}</h2>
+                    <span class="block mt-2 text-grey-2 text-sm">{{video.data.date | date}}</span>
+                  </div>
+                </a>
+          </div>
+        {% endfor %}
+        </section>
+    </div>
+</main>
+
+{% include 'components/footer.njk' %}

@@ -231,6 +231,13 @@ module.exports = function (eleventyConfig) {
     return groups;
   });
 
+  // Videos
+  eleventyConfig.addCollection("videos", (collection) => {
+    const videos = collection.getFilteredByGlob("src/videos/**/*");
+
+    return videos;
+  });
+
   // Hubs
   eleventyConfig.addCollection("hubs", (collection) => {
     const groups = collection.getFilteredByGlob("src/hubs/**/*");
