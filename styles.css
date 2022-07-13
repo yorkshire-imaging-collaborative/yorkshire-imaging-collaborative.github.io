@@ -483,10 +483,6 @@ input::-moz-placeholder, textarea::-moz-placeholder {
   color: #a0aec0;
 }
 
-input:-ms-input-placeholder, textarea:-ms-input-placeholder {
-  color: #a0aec0;
-}
-
 input::placeholder,
 textarea::placeholder {
   color: #a0aec0;
@@ -634,11 +630,6 @@ input::-moz-placeholder, textarea::-moz-placeholder {
   opacity: 1;
 }
 
-input:-ms-input-placeholder, textarea:-ms-input-placeholder {
-  color: #a0aec0;
-  opacity: 1;
-}
-
 input::placeholder, textarea::placeholder {
   color: #a0aec0;
   opacity: 1;
@@ -687,7 +678,6 @@ select {
   background-origin: border-box;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   flex-shrink: 0;
   height: 1rem;
@@ -2062,6 +2052,10 @@ select {
   justify-content: center;
 }
 
+.flex-1 {
+  flex: 1 1 0%;
+}
+
 .font-medium {
   font-weight: 500;
 }
@@ -2159,6 +2153,10 @@ select {
 
 .mb-1 {
   margin-bottom: 0.25rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .mr-2 {
