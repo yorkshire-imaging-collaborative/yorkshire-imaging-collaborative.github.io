@@ -69,4 +69,14 @@ minutes: >-
   * MYHT were working with GPs throughout producing their criteria - their system was using the ICE referral route, so that it doesn't reach radiology via CRIS. If a GP tried to refer a patient where a referral wasn't required, ICE would notify the GP that this was not justified and show them guidance.
 
   * Teams felt that this was a good system to allow them not to have to vet referrals - this could be standardised across the region.
+
+
+  #### Any Other Business
+
+
+  * Paula Marsh was stepping down as chairperson for the Gynae side of the SIG.
+
+  * This was a great opportunity for somebody to take over as chair, and lead the SIG to standardising regional protocols and pathways, and sharing best practice.
+
+  * If any members are interested in taking on the role as chair, please contact yorkshireimagingcollaborative@nhs.net
 ---
