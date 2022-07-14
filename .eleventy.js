@@ -280,9 +280,6 @@ module.exports = function (eleventyConfig) {
       return d1 < d2;
     });
     const sortedEvents =  pastEvents.sort(function (a, b) {
-      //return a.date - b.date; // sort by date - ascending
-      console.log(new Date(a.data.start).toISOString())
-
       let firstStart = new Date(a.data.start).toISOString();
       let secondStart = new Date(b.data.start).toISOString();
 
@@ -290,8 +287,6 @@ module.exports = function (eleventyConfig) {
       secondStart = DateTime.fromISO(secondStart).toMillis()
 
       return secondStart - firstStart; // sort by date - descending
-      //return a.inputPath.localeCompare(b.inputPath); // sort by path - ascending
-      //return b.inputPath.localeCompare(a.inputPath); // sort by path - descending
     });
 
     return sortedEvents
