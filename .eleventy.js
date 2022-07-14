@@ -271,6 +271,12 @@ module.exports = function (eleventyConfig) {
     return pastEvents;
   });
 
+  eleventyConfig.addCollection("sortedGroups", (collection) => {
+    const groups = collection.getFilteredByGlob("src/groups/*.md").sort((a, b) => a.fileSlug.localeCompare(b.fileSlug));
+    
+    return groups;
+  })
+
   // Custom Shortcodes
 
   // Transforms

@@ -27,7 +27,7 @@ eleventyNavigation:
 <main id="main" role="main">
     <div class="max-w-6xl mx-auto px-3">
         <section id="cardList" class="flex flex-wrap">
-        {% for group in collections.groups %}
+        {% for group in collections.sortedGroups %}
           <div class="w-full md:w-1/2 p-2">
           {% set card = 
               {
