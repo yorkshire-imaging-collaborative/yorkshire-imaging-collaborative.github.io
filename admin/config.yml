@@ -172,6 +172,28 @@ collections:
           display_fields: ["title"],
         }
 
+  - name: "videos"
+    label: "Videos"
+    label_singular: "Video"
+    folder: "src/videos"
+    create: true
+    path: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Youtube ID", name: "youtube_id", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - {
+          label: "Groups",
+          name: "groups",
+          widget: "relation",
+          multiple: true,
+          collection: "groups",
+          value_field: "{{title}}",
+          search_fields: ["title"],
+          display_fields: ["title"],
+        }
+        
   - name: "pages"
     label: "Pages"
     label_singular: "Page"
