@@ -12,4 +12,4 @@ module.exports = {
       return ["event", ...data.tags];
     },
   },
-};
+}
