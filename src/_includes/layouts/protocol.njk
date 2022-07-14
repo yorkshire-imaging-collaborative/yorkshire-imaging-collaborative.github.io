@@ -1,7 +1,40 @@
 ---
-layout: 'layouts/page.njk'
+layout: default
+tags: page
 ---
 
-<article>
-  {{ content | safe }}
-</article>
+{% include 'components/header.njk' %}
+{% include 'components/breadcrumb.njk' %}
+<main id="main">
+
+  <div class="max-w-6xl mx-auto px-3 mt-3 mb-8">
+    <div class="prose xl:prose-lg">
+      <h1 class="text-4xl font-extrabold">{{title}}</h1>
+    </div>
+  </div>
+
+  <div class="max-w-6xl mx-auto px-3 flex flex-col flex-col-reverse lg:flex-row">
+    <div class="prose lg:prose-lg lg:w-2/3">
+        
+        {% if subtitle %}
+        <p class="prose-lg xl:prose-xl pb-5">{{subtitle}}</p>
+        {% endif %}
+
+        <!-- [TODO] put a mobile sidebar here -->
+
+        {{ content | safe }}
+
+      {% include 'components/reviewMeta.njk' %}
+
+    </div>
+
+    {% if sidebar %}
+    {% block sidebar %}
+      {% include 'components/sidebar.njk' %}
+    {% endblock %}
+    {% endif %}
+
+  </div>
+</main>
+
+{% include 'components/footer.njk' %}
