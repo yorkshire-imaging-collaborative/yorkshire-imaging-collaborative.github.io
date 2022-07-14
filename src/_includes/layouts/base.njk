@@ -15,7 +15,7 @@
         <img :src="imgModalSrc" class="py-12 px-8 max-w-screen-xl mx-auto"/>
     </div>
     <script>
-        document.querySelectorAll('a img').forEach((elem) => {
+        document.querySelectorAll('a > img').forEach((elem) => {
             elem.setAttribute("x-on:click", "open = !open");
             elem.addEventListener('click', e => {
                 e.preventDefault();

@@ -271,6 +271,32 @@ module.exports = function (eleventyConfig) {
     return pastEvents;
   });
 
+  eleventyConfig.addCollection("pastEventsSorted", (collection) => {
+    const allEvents = collection.getFilteredByGlob("src/meetings/*.md");
+    const pastEvents = allEvents.filter((item) => {
+      const start = new Date(item.data.start).toISOString();
+      const d1 = DateTime.fromISO(start).toMillis();
+      const d2 = DateTime.now().toMillis();
+      return d1 < d2;
+    });
+    const sortedEvents =  pastEvents.sort(function (a, b) {
+      //return a.date - b.date; // sort by date - ascending
+      console.log(new Date(a.data.start).toISOString())
+
+      let firstStart = new Date(a.data.start).toISOString();
+      let secondStart = new Date(b.data.start).toISOString();
+
+      firstStart = DateTime.fromISO(firstStart).toMillis()
+      secondStart = DateTime.fromISO(secondStart).toMillis()
+
+      return secondStart - firstStart; // sort by date - descending
+      //return a.inputPath.localeCompare(b.inputPath); // sort by path - ascending
+      //return b.inputPath.localeCompare(a.inputPath); // sort by path - descending
+    });
+
+    return sortedEvents
+  });
+
   // Custom Shortcodes
 
   // Transforms

@@ -64,10 +64,12 @@ sidebar: true
         {% endif %}
       {% endfor %}
 
-      {% for item in collections.pastEvents | reverse %}
+      {% set has_past_event = false %}
+      {% for item in collections.pastEventsSorted  %}
           {% if eleventyNavigation.key in item.data.groups %}
-            {% if loop.first %}
-            <h3>Past Meetings</h3>
+            {% if not has_past_event %}
+              <h3>Past Meetings</h3>
+              {% set has_past_event = true %}
             {% endif %}
 
             <a href="{{item.url | url}}" class="bg-white my-2 flex items-center text-base">
