@@ -1,9 +1,11 @@
 ---
 title: Radiology Service Group
+groupKey: service-group
 subtitle: Radiology processes, operations and service development. A forum for
   regional Radiology Service Managers to meet, plan and share experience.
 excerpt: Operations and service management
 sidebar: true
+files: src/files/test-powerpoint.pptx
 ---
 
 
