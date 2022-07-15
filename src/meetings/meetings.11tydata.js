@@ -10,6 +10,7 @@ module.exports = {
     layout: () => "layouts/meeting.njk",
     tags: () => ["event"],
     sidebar: true,
-    minutes: (data) => data.minutes || ''
+    minutes: (data) => data.minutes || '',
+    files: (data) => data.files && data.files.replace('src', ''),
   },
 };

@@ -13,5 +13,6 @@ module.exports = {
         data.page.fileSlug
       }/index.html`;
     },
+    files: (data) => data.files.replace("src", "")
   },
 };

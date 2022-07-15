@@ -11,5 +11,6 @@ module.exports = {
       console.log(data.tags);
       return ["event", ...data.tags];
     },
+    files: (data) => data.files.replace('src', ''),
   },
 }

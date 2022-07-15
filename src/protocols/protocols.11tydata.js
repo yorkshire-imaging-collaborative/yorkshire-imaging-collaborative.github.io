@@ -9,5 +9,6 @@ module.exports = {
     },
     layout: () => "layouts/protocol.njk",
     tags: () => ["protocol"],
+    files: (data) => data.files.replace('src', ''),
   },
 };

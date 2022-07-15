@@ -1,12 +1,14 @@
-<a href="{{ card.link }}" class="inline-flex w-full flex-col group bg-white border border-b-4 border-grey-4 hover:border-grey-3">
+<div class="inline-flex w-full flex-col group bg-white border border-b-4 border-grey-4 hover:border-grey-3 clickable cursor-pointer">
   {% if card.image %}
     <div class="aspect-w-16 aspect-h-7">
       <img class="object-cover flex-1" src="{{ card.image }}" alt="{{ card.label }}"></div>
     {% endif %}
     <div class="p-6">
-      <h2 class="text-blue group-hover:text-dark-pink underline group-hover:no-underline text-xl lg:text-2xl font-semibold">{{ card.label }}</h2>
+      <h2 class="text-blue group-hover:text-dark-pink underline group-hover:no-underline text-xl lg:text-2xl font-semibold">
+        <a href="{{ card.link }}">{{ card.label }}</a>
+      </h2>
       {% if card.excerpt %}
         <p class="text-primary mt-4 mb-3 lg:text-lg line-clamp-2">{{ card.excerpt }}</p>
       {% endif %}
     </div>
-  </a>
+  </div>

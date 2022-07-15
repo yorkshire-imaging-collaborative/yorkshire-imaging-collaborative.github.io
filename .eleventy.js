@@ -30,6 +30,7 @@ module.exports = function (eleventyConfig) {
 
   /* Pass through */
   eleventyConfig.addPassthroughCopy("src/images");
+  eleventyConfig.addPassthroughCopy("src/files");
 
   // @TODO - The line below causes an error due to the first point here:
   // https://www.11ty.dev/blog/eleventy-one-point-oh/#minor
