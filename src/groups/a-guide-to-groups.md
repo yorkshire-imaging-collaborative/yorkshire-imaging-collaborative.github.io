@@ -4,7 +4,7 @@ groupKey: sig
 subtitle: How to run a successful radiology special interest group. A collection
   of tips and tricks for group leads and facilitators.
 excerpt: Running a successful special interest group
-sidebar: true
+sidebar: false
 ---
 The Yorkshire Imaging Collaborative (YIC) Special Interest Groups (SIGs) are a fundamental component of our operating model, emphasising the importance of everything we do being clinically driven and guided by the experts.
 
@@ -17,7 +17,7 @@ But we acknowledge that those experts have frequently received little or no trai
 3. Reduce problematic variation in radiology provision between postcodes
 4. Encourage common standards (imaging protocols, reporting standards, patient advice, procedural documents)
 
-## The Minimum Viable Standard (MVS) Approach
+## Minimum Viable Standard (MVS)
 
 Variation in the fabric of services makes standardisation of procedures and protocols a more difficult problem, prone to conflict. The aims are not to depersonalise departments and services, but to achieve a minimum standard deemed acceptable but there to be built upon.
 
@@ -37,7 +37,7 @@ After running SIGs for 2-years we have identified some techniques and styles whi
 * Be good followers, help the chairperson
 * Hold face to face meetings interspersed with virtual ones
 
-## How to be a good special interest group leader
+## Being a good special interest group lead
 
 Leadership is an artform, but when it comes to chairing a SIG or any other meeting of specialists we think we've picked up a few top tips:
 
