@@ -1,5 +1,5 @@
 ---
-title: "Breast "
+title: "Breast"
 groupKey: breast
 subtitle: ""
 excerpt: Breast imaging and intervention

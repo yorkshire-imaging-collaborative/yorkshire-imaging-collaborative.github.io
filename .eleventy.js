@@ -272,6 +272,27 @@ module.exports = function (eleventyConfig) {
     return pastEvents;
   });
 
+  eleventyConfig.addCollection("pastEventsSorted", (collection) => {
+    const allEvents = collection.getFilteredByGlob("src/meetings/*.md");
+    const pastEvents = allEvents.filter((item) => {
+      const start = new Date(item.data.start).toISOString();
+      const d1 = DateTime.fromISO(start).toMillis();
+      const d2 = DateTime.now().toMillis();
+      return d1 < d2;
+    });
+    const sortedEvents =  pastEvents.sort(function (a, b) {
+      let firstStart = new Date(a.data.start).toISOString();
+      let secondStart = new Date(b.data.start).toISOString();
+
+      firstStart = DateTime.fromISO(firstStart).toMillis()
+      secondStart = DateTime.fromISO(secondStart).toMillis()
+
+      return secondStart - firstStart; // sort by date - descending
+    });
+
+    return sortedEvents
+  });
+  
   eleventyConfig.addCollection("sortedGroups", (collection) => {
     const groups = collection.getFilteredByGlob("src/groups/*.md")
     

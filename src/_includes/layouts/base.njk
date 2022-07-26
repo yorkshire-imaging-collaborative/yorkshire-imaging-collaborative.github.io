@@ -10,12 +10,12 @@
 </head>
 <body class="{{ bodyClass }} h-screen flex flex-col" x-data="{ open: false, imgModalSrc: '' }" x-bind:class="open ? 'overflow-hidden' : ''">
     {{ content | safe }}
-    <div x-show="open" class="fixed top-0 left-0 h-screen w-screen bg-white">
+    <div x-show="open" class="fixed top-0 left-0 h-screen w-screen bg-white ie-lightbox" x-bind:class="open ? 'block' : 'hidden'">
         <button @click="open = false" class="absolute" style="right: 24px; top: 12px">Close</button>
         <img :src="imgModalSrc" class="py-12 px-8 max-w-screen-xl mx-auto"/>
     </div>
     <script>
-        document.querySelectorAll('a img').forEach((elem) => {
+        document.querySelectorAll('a > img').forEach((elem) => {
             elem.setAttribute("x-on:click", "open = !open");
             elem.addEventListener('click', e => {
                 e.preventDefault();

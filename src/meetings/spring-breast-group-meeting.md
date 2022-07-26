@@ -3,7 +3,7 @@ title: Spring Breast Group Meeting
 start: 2021-04-14T08:00:39.069Z
 end: 2021-04-14T09:00:39.074Z
 groups:
-  - "Breast "
+  - "Breast"
 eleventyNavigation:
   parent: breast
 location: MS Teams

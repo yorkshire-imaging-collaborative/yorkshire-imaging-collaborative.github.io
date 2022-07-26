@@ -3,7 +3,7 @@ title: Winter Breast Group Meeting
 start: 2022-02-16T10:00:40.370Z
 end: 2022-02-16T11:00:40.384Z
 groups:
-  - "Breast "
+  - "Breast"
 eleventyNavigation:
   parent: breast
 location: MS Teams
