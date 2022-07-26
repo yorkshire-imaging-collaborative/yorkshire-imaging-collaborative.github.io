@@ -1,6 +1,7 @@
 ---
 title: Protocol Test
 subtitle: Added additional fields
+sidebar: true
 toc: true
 author: Jack StackUp
 lastReview: 2022-07-14T09:05:28.161Z
