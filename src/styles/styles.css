@@ -160,6 +160,10 @@ ul.list li a {
   .ie-height-auto {
     @apply h-auto;
   }
+
+  .ie-lightbox {
+    @apply hidden;
+  }
 }
 
 /* Image */

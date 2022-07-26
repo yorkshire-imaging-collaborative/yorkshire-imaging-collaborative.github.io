@@ -291,6 +291,14 @@ module.exports = function (eleventyConfig) {
 
     return sortedEvents
   });
+  
+  eleventyConfig.addCollection("sortedGroups", (collection) => {
+    const groups = collection.getFilteredByGlob("src/groups/*.md")
+    
+    if (groups?.length > 0) {
+      return groups.sort((a, b) => a.fileSlug.localeCompare(b.fileSlug));
+    }
+  })
 
   // Custom Shortcodes
 

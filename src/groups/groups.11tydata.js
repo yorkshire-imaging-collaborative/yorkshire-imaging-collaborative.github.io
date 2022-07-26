@@ -9,4 +9,4 @@ module.exports = {
     layout: () => "layouts/sig.njk",
     tags: (data) => ["event", ...data.tags],
   },
-};
+}

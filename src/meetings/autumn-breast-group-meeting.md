@@ -3,7 +3,7 @@ title: Autumn Breast Group Meeting
 start: 2021-11-03T09:30:54.667Z
 end: 2021-11-03T10:30:54.672Z
 groups:
-  - "Breast "
+  - "Breast"
 eleventyNavigation:
   parent: breast
 location: MS Teams

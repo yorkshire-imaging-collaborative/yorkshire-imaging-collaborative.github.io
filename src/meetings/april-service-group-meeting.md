@@ -7,9 +7,9 @@ groups:
 eleventyNavigation:
   parent: radiology-service-group
 location: MS Teams
-agenda:
+agenda: |-
   This is what we are going to discuss in this meeting
-
-  * Shared Reporting Team Hosting Arrangements
-  * QA - Homeworking Stations
+  * Shared Reporting Team Hosting Arrangements * QA - Homeworking Stations
+filename: Test Powerpoint
+files: src/files/test-powerpoint.pptx
 ---
