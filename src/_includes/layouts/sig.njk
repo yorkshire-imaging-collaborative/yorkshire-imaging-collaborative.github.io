@@ -64,10 +64,12 @@ sidebar: true
         {% endif %}
       {% endfor %}
 
-      {% for item in collections.pastEvents | reverse %}
+      {% set has_past_event = false %}
+      {% for item in collections.pastEventsSorted  %}
           {% if eleventyNavigation.key in item.data.groups %}
-            {% if loop.first %}
-            <h3>Past Meetings</h3>
+            {% if not has_past_event %}
+              <h3>Past Meetings</h3>
+              {% set has_past_event = true %}
             {% endif %}
 
             <a href="{{item.url | url}}" class="bg-white my-2 flex items-center text-base">
@@ -110,10 +112,14 @@ sidebar: true
       {% endif %}
 
       {# Protocols #}
+      {% set has_protocol = false %}
+
       {% for protocol in collections.protocols %}
         {% if eleventyNavigation.key in protocol.data.groups %}
-          {% if loop.first %}
+
+          {% if not has_protocol %}
             <h2>Protocols</h2>
+            {% set has_protocol = true %}
           {% endif %}
 
           <a href="{{protocol.url | url }}" class="block bg-white px-3 py-1 my-1">
@@ -123,10 +129,13 @@ sidebar: true
       {% endfor %}
 
       {# Procedures #}
+      {% set has_procedures = false %}
+
       {% for procedure in collections.procedures %}
         {% if eleventyNavigation.key in procedure.data.groups %}
-          {% if loop.first %}
+          {% if not has_procedures %}
             <h2>Procedural Documents</h2>
+            {% set has_procedures = true %}
           {% endif %}
 
           <a href="{{procedure.url | url }}" class="block bg-white px-3 py-1 my-1">
@@ -135,11 +144,13 @@ sidebar: true
         {% endif %}
       {% endfor %}
 
-      {# Advice Documents#}
+      {# Advice Documents #}
+      {% set has_advice = false %}
       {% for advice in collections.advice %}
         {% if eleventyNavigation.key in advice.data.groups %}
-          {% if loop.first %}
+          {% if not has_advice %}
             <h2>Advice Documents</h2>
+            {% set has_advice = true %}
           {% endif %}
 
           <a href="{{advice.url | url }}" class="block bg-white px-3 py-1 my-1">
@@ -149,11 +160,14 @@ sidebar: true
       {% endfor %}
 
       {# Reporting Standards #}
+      {% set has_report = false %}
       {% for reporting in collections.reporting %}
         {% if eleventyNavigation.key in reporting.data.groups %}
-          {% if loop.first %}
+          {% if not has_report %}
             <h2>Reporting Documents</h2>
+            {% set has_report = true %}
           {% endif %}
+
 
           <a href="{{reporting.url | url }}" class="block bg-white px-3 py-1 my-1">
             {{ reporting.data.title }}
@@ -161,12 +175,15 @@ sidebar: true
         {% endif %}
       {% endfor %}
 
+      <!-- Reporting Standards -->
+      {% set has_standard = false %}
+
       {% for item in collections.reporting-standards %}
         {% if item.data.eleventyNavigation.parent in tags %}
         
-        {% if loop.first %}
-        <!-- Reporting Standards -->
-        <h2>Reporting Standards</h2>
+        {% if not has_standard %}
+          <h2>Reporting Standards</h2>
+          {% set has_standard = true %}
         {% endif %}
 
         <a href="{{item.url}}" class="block bg-white px-3 py-1 my-1">
@@ -176,12 +193,15 @@ sidebar: true
         {% endif %}
       {% endfor %}
 
+      <!-- Advice -->
+      {% set has_advice = false %}
+
       {% for item in collections.advice %}
         {% if item.data.eleventyNavigation.parent in tags %}
         
-        {% if loop.first %}
-        <!-- Advice -->
-        <h2>Advice</h2>
+        {% if not has_advice %}
+          <h2>Advice</h2>
+          {% set has_advice = true %}
         {% endif %}
 
         <a href="{{item.url}}" class="block bg-white px-3 py-1 my-1">

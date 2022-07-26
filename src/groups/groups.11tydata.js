@@ -7,9 +7,6 @@ module.exports = {
     },
     // groupKey: (data) => data.groupKey
     layout: () => "layouts/sig.njk",
-    tags: (data) => {
-      console.log(data.tags);
-      return ["event", ...data.tags];
-    },
+    tags: (data) => ["event", ...data.tags],
   },
 }

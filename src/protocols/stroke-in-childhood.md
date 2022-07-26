@@ -7,5 +7,4 @@ groups:
   - Paediatric
 ---
 
-
 ![](/images/stroke-in-childhood.png)
