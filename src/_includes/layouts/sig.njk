@@ -84,8 +84,6 @@ sidebar: true
         {% endif %}
       {% endfor %}
 
-      <pre>OI {{ groupKey }}!!! {{ sigmembers | json }}</pre>
-
       {% if sigmembers.records %}
         <h2>Group Membership</h2>
 
@@ -98,9 +96,6 @@ sidebar: true
             {% set _key = eleventyNavigation.key | lower | trim %}
           {% endif %}
 
-          <pre>{{ _key }}</pre>
-
-          <pre>{{ sigmemebers }}</pre>
           {% set taggedMembers = sigmembers.records | map("fields") | where('groupTag',  _key) | first %}
           
           {% for member in taggedMembers.MembersNames %}
