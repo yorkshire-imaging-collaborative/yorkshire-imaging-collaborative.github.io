@@ -117,7 +117,7 @@ sidebar: true
       {% for protocol in collections.protocols %}
         {% if eleventyNavigation.key in protocol.data.groups %}
 
-          {% if has_protocol == false %}
+          {% if not has_protocol %}
             <h2>Protocols</h2>
             {% set has_protocol = true %}
           {% endif %}
@@ -133,7 +133,7 @@ sidebar: true
 
       {% for procedure in collections.procedures %}
         {% if eleventyNavigation.key in procedure.data.groups %}
-          {% if has_procedures == false %}
+          {% if not has_procedures %}
             <h2>Procedural Documents</h2>
             {% set has_procedures = true %}
           {% endif %}
@@ -148,7 +148,7 @@ sidebar: true
       {% set has_advice = false %}
       {% for advice in collections.advice %}
         {% if eleventyNavigation.key in advice.data.groups %}
-          {% if has_advice == false %}
+          {% if not has_advice %}
             <h2>Advice Documents</h2>
             {% set has_advice = true %}
           {% endif %}
@@ -163,7 +163,7 @@ sidebar: true
       {% set has_report = false %}
       {% for reporting in collections.reporting %}
         {% if eleventyNavigation.key in reporting.data.groups %}
-          {% if has_report == false %}
+          {% if not has_report %}
             <h2>Reporting Documents</h2>
             {% set has_report = true %}
           {% endif %}
@@ -181,7 +181,7 @@ sidebar: true
       {% for item in collections.reporting-standards %}
         {% if item.data.eleventyNavigation.parent in tags %}
         
-        {% if has_standard == false %}
+        {% if not has_standard %}
           <h2>Reporting Standards</h2>
           {% set has_standard = true %}
         {% endif %}
@@ -199,7 +199,7 @@ sidebar: true
       {% for item in collections.advice %}
         {% if item.data.eleventyNavigation.parent in tags %}
         
-        {% if has_advice == false %}
+        {% if not has_advice %}
           <h2>Advice</h2>
           {% set has_advice = true %}
         {% endif %}
