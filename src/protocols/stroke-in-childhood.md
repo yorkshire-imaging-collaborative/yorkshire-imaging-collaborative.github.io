@@ -7,9 +7,4 @@ groups:
   - Paediatric
 ---
 
-
-THIS IS SOME TEXT
-
 ![](/images/stroke-in-childhood.png)
-
-This is some other text
