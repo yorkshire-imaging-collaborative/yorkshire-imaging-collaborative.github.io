@@ -66,7 +66,7 @@ module.exports = function (eleventyConfig) {
 
   // Custom inline date formatting using Luxon formats 'dd LLLL yyyy' etc
   eleventyConfig.addFilter("dateFormat", (date, format) => {
-    const dateFromISO = DateTime.fromISO(new Date(date).toISOString());
+    const dateFromISO = DateTime.fromISO(new Date(date).toLocaleString('en-GB'));
     return dateFromISO.toFormat(format);
   });
 
