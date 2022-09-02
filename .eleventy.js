@@ -66,10 +66,8 @@ module.exports = function (eleventyConfig) {
 
   // Custom inline date formatting using Luxon formats 'dd LLLL yyyy' etc
   eleventyConfig.addFilter("dateFormat", (date, format) => {
-    console.log({ date, format })
-    const dateFromISO = DateTime.fromISO(new Date(date).toLocaleString('en-GB'));
-    console.log({ dateFromISO })
-    return dateFromISO.toFormat(format);
+    const test =  DateTime.fromJSDate(date)
+    return test.toFormat(format)
   });
 
   // Humanly readable duration from date tag with param as end time e.g. {{ start | duration(end)}}
