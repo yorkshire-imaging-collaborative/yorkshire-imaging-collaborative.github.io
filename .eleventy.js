@@ -66,8 +66,7 @@ module.exports = function (eleventyConfig) {
 
   // Custom inline date formatting using Luxon formats 'dd LLLL yyyy' etc
   eleventyConfig.addFilter("dateFormat", (date, format) => {
-    const test =  DateTime.fromJSDate(date).setZone('system')
-    console.log({ test })
+    const test =  DateTime.fromJSDate(date).setZone('Europe/London')
     return test.toFormat(format);
   });
 
