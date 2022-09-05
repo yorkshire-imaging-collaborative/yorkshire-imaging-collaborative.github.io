@@ -7,6 +7,7 @@ groups:
 eleventyNavigation:
   parent: chest
 location: MS Teams
+invitation: MS Teams
 agenda: "* Review of Chest CT Protocols"
 minutes: |-
   ## Attendance
