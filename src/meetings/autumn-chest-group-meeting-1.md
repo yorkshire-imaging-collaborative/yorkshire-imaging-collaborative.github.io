@@ -12,13 +12,11 @@ agenda: "* Review of Chest CT Protocols"
 minutes: |-
   ## Attendance
 
-  gfythfdgjtjgg
+
 
   ## Actions
 
-  dttukhuh
+
 
   ## Discussion Points
-
-  fgujjkhkih
 ---
