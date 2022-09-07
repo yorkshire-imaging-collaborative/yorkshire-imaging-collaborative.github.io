@@ -1,5 +1,5 @@
 ---
-title: October Service Group Meeting
+title: 2021 October Service Group Meeting
 start: 2021-10-08T13:00:49.187Z
 end: 2021-10-10T14:00:49.192Z
 groups:
