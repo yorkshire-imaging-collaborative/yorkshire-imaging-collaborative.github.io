@@ -7,5 +7,6 @@ module.exports = {
     },
     layout: () => "layouts/procedure.njk",
     tags: () => ["procedure"],
+    files: (data) => data.files.replace("src", ""),
   },
 };

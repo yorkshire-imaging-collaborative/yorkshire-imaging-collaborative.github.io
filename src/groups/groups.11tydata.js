@@ -8,5 +8,6 @@ module.exports = {
     // groupKey: (data) => data.groupKey
     layout: () => "layouts/sig.njk",
     tags: (data) => ["event", ...data.tags],
+    files: (data) => data.files.replace('src', ''),
   },
 }

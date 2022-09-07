@@ -25,5 +25,15 @@
                     .imgModalSrc = elem.src
             });
         });
+
+        document.querySelectorAll('.clickable').forEach((elem) => {
+            const link = elem.querySelector("a");
+
+            if (link) {
+                elem.addEventListener('click', () => {
+                    window.location.href = link.href;
+                })
+            }
+        })
     </script>
 </body></html>

@@ -7,5 +7,6 @@ module.exports = {
     },
     layout: () => "layouts/page.njk",
     tags: () => ["reporting-standard"],
+    files: (data) => data.files.replace("src", ""),
   },
 };

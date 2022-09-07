@@ -24,6 +24,10 @@ tags: page
 
         {{ content | safe }}
 
+        {% if files %}
+          {% include 'components/file.njk' %}
+        {% endif %}
+
       {% include 'components/reviewMeta.njk' %}
 
     </div>

@@ -7,5 +7,6 @@ module.exports = {
     },
     layout: () => "layouts/page.njk",
     tags: () => ["advice"],
+    files: (data) => data.files.replace("src", ""),
   },
 };
