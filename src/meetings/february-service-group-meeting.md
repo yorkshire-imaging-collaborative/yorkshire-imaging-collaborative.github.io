@@ -1,5 +1,5 @@
 ---
-title: February Service Group Meeting
+title: 2022 February Service Group Meeting
 start: 2022-02-11T14:00:45.223Z
 end: 2022-02-11T15:00:45.231Z
 groups:
