@@ -1,5 +1,5 @@
 ---
-title: August Service Group Meeting
+title: 2022 August Service Group Meeting
 start: 2022-08-12T13:00:23.851Z
 end: 2022-08-12T14:00:23.864Z
 groups:
