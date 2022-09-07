@@ -287,3 +287,30 @@ collections:
       preview: false
     fields:
       - { label: Title, name: title, widget: string }
+  - name: settings
+    label: Settings
+    files:
+      - name: homepageOrder
+        label: Homepage Order
+        file: src/utils/pageCardOrder.md
+        fields:
+          - label: Homepage Order
+            name: order
+            widget: list
+            hint: Drag and drop list items in from the pages added to the Homepage card collection
+            fields: 
+              - label: Page
+                name: page 
+                widget: relation
+                collection: pageCards
+                searchFields: [title]
+                valueField: page
+  - name: pageCards
+    label: Homepage Cards
+    folder: src/layout/page-cards
+    create: true
+    fields: 
+      - { label: Title, name: title, widget: string }
+      - { label: Excerpt, name: excerpt, widget: string }
+      - { label: URL, name: url, widget: string, hint: This is the path to the page, for example `/business-intelligence` or `/groups` }
+
