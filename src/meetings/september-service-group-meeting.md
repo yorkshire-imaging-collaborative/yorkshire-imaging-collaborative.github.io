@@ -1,5 +1,5 @@
 ---
-title: September Service Group Meeting
+title: 2021 September Service Group Meeting
 start: 2021-09-10T13:00:42.049Z
 end: 2021-09-10T14:00:42.059Z
 groups:
