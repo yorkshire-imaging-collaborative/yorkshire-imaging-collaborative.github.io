@@ -17,4 +17,14 @@
                     ._x_dataStack[0]
                     .imgModalSrc = elem.src
             });
-        });</script></body>
+        });
+
+        document.querySelectorAll('.clickable').forEach((elem) => {
+            const link = elem.querySelector("a");
+
+            if (link) {
+                elem.addEventListener('click', () => {
+                    window.location.href = link.href;
+                })
+            }
+        })</script></body>

@@ -64,6 +64,19 @@ collections:
           widget: "markdown",
           required: false,
         }
+      - { label: Filename, widget: string, name: filename, hint: Please provide a 'friendly'/readable name, required: false }
+      - { label: File,
+          hint: Please note that only one file can be added presently,
+          name: files,
+          widget: file,
+          required: false,
+          media_folder: "src/files",
+          media_library: {
+            config: {
+              multiple: true
+            }
+          }
+        }
 
   - name: "groups"
     label: "Groups"
@@ -94,6 +107,19 @@ collections:
         }
       - { label: "Body", name: "body", widget: "markdown", required: false }
       - { label: Sidebar, name: sidebar, widget: boolean, required: false }
+      - { label: Filename, widget: string, name: filename, hint: Please provide a 'friendly'/readable name, required: false }
+      - { label: File,
+          hint: Please note that only one file can be added presently,
+          name: files,
+          widget: file,
+          required: false,
+          media_folder: "src/files",
+          media_library: {
+            config: {
+              multiple: true
+            }
+          }
+        }
 
   - name: "protocols"
     label: "Protocols"
@@ -124,6 +150,19 @@ collections:
           search_fields: ["title"],
           display_fields: ["title"],
         }
+      - { label: Filename, widget: string, name: filename, hint: Please provide a 'friendly'/readable name, required: false }
+      - { label: File,
+          hint: Please note that only one file can be added presently,
+          name: files,
+          widget: file,
+          required: false,
+          media_folder: "src/files",
+          media_library: {
+            config: {
+              multiple: true
+            }
+          }
+        }
 
   - name: "advice"
     label: "Advice Documents"
@@ -142,6 +181,19 @@ collections:
           value_field: "{{title}}",
           search_fields: ["title"],
           display_fields: ["title"],
+        }
+      - { label: Filename, widget: string, name: filename, hint: Please provide a 'friendly'/readable name, required: false }
+      - { label: File,
+          hint: Please note that only one file can be added presently,
+          name: files,
+          widget: file,
+          required: false,
+          media_folder: "src/files",
+          media_library: {
+            config: {
+              multiple: true
+            }
+          }
         }
 
   - name: "reporting-standards"
@@ -162,6 +214,19 @@ collections:
           search_fields: ["title"],
           display_fields: ["title"],
         }
+      - { label: Filename, widget: string, name: filename, hint: Please provide a 'friendly'/readable name, required: false }
+      - { label: File,
+          hint: Please note that only one file can be added presently,
+          name: files,
+          widget: file,
+          required: false,
+          media_folder: "src/files",
+          media_library: {
+            config: {
+              multiple: true
+            }
+          }
+        }
 
   - name: "procedures"
     label: "Procedural Documents"
@@ -180,6 +245,19 @@ collections:
           value_field: "{{title}}",
           search_fields: ["title"],
           display_fields: ["title"],
+        }
+      - { label: Filename, widget: string, name: filename, hint: Please provide a 'friendly'/readable name, required: false }
+      - { label: File,
+          hint: Please note that only one file can be added presently,
+          name: files,
+          widget: file,
+          required: false,
+          media_folder: "src/files",
+          media_library: {
+            config: {
+              multiple: true
+            }
+          }
         }
 
   - name: "pages"
@@ -244,6 +322,19 @@ collections:
       - { label: Author, name: author, widget: string }
       - { label: Last Review Date, name: lastReview, widget: date }
       - { label: Next Review Date, name: nextReview, widget: date }
+      - { label: Filename, widget: string, name: filename, hint: Please provide a 'friendly'/readable name, required: false }
+      - { label: File,
+          hint: Please note that only one file can be added presently,
+          name: files,
+          widget: file,
+          required: false,
+          media_folder: "src/files",
+          media_library: {
+            config: {
+              multiple: true
+            }
+          }
+        }
 
   - name: "hubs"
     label: "Hubs"
@@ -287,3 +378,31 @@ collections:
       preview: false
     fields:
       - { label: Title, name: title, widget: string }
+
+  - name: settings
+    label: Settings
+    files:
+      - name: homepageOrder
+        label: Homepage Order
+        file: src/utils/pageCardOrder.md
+        fields:
+          - label: Homepage Order
+            name: order
+            widget: list
+            hint: Drag and drop list items in from the pages added to the Homepage card collection
+            fields: 
+              - label: Page
+                name: page 
+                widget: relation
+                collection: pageCards
+                searchFields: [title]
+                valueField: page
+  - name: pageCards
+    label: Homepage Cards
+    folder: src/layout/page-cards
+    create: true
+    fields: 
+      - { label: Title, name: title, widget: string }
+      - { label: Excerpt, name: excerpt, widget: string }
+      - { label: URL, name: url, widget: string, hint: This is the path to the page, for example `/business-intelligence` or `/groups` }
+
