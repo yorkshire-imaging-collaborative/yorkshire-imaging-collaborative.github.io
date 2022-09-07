@@ -1,5 +1,5 @@
 ---
-title: November Service Group Meeting
+title: 2021 November Service Group Meeting
 start: 2021-11-12T14:00:44.448Z
 end: 2021-11-12T15:00:44.454Z
 groups:
