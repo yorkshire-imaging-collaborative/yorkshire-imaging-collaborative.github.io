@@ -66,8 +66,8 @@ module.exports = function (eleventyConfig) {
 
   // Custom inline date formatting using Luxon formats 'dd LLLL yyyy' etc
   eleventyConfig.addFilter("dateFormat", (date, format) => {
-    const test =  DateTime.fromJSDate(date).setZone('Europe/London')
-    return test.toFormat(format);
+    const formattedDate =  DateTime.fromJSDate(date).setZone('Europe/London')
+    return formattedDate.toFormat(format);
   });
 
   // Humanly readable duration from date tag with param as end time e.g. {{ start | duration(end)}}
