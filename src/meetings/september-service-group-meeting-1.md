@@ -1,5 +1,5 @@
 ---
-title: September Service Group Meeting
+title: 2022 September Service Group Meeting
 start: 2022-09-09T13:00:46.846Z
 end: 2022-09-09T14:00:46.866Z
 groups:
