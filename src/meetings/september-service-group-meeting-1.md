@@ -9,6 +9,7 @@ eleventyNavigation:
 location: MS Teams
 agenda: |-
   * U﻿pdate
+  * W﻿orkforce
   * i﻿Refer/OrderComms Funding
   * R﻿PAs & MPEs
   * A﻿pproach to 120% Activity
