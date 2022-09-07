@@ -1,5 +1,5 @@
 ---
-title: January Service Group Meeting
+title: 2022 January Service Group Meeting
 start: 2022-01-14T14:00:03.541Z
 end: 2022-01-14T15:00:03.546Z
 groups:
