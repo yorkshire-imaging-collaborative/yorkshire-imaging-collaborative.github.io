@@ -378,7 +378,10 @@ collections:
       preview: false
     fields:
       - { label: Title, name: title, widget: string }
+<<<<<<< HEAD
 
+=======
+>>>>>>> feature/homepage-layout
   - name: settings
     label: Settings
     files:
@@ -396,7 +399,7 @@ collections:
                 widget: relation
                 collection: pageCards
                 searchFields: [title]
-                valueField: page
+                valueField: title
   - name: pageCards
     label: Homepage Cards
     folder: src/layout/page-cards

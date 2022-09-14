@@ -22,23 +22,21 @@ eleventyNavigation:
 <main id="main">
   <div class="max-w-6xl mx-auto px-3">
 
-  <section id="cardList" class="flex flex-wrap">
+    <section id="cardList" class="flex flex-wrap">
+      {% for page in collections.homepages %}
+        <div class="w-full md:w-1/2 p-2">
+          {% set card = 
+              {
+                label: page.data.title,
+                link: page.data.url, 
+                excerpt: page.data.excerpt,
+                style: "transparent"
+                } %}
 
-  {% for page in collections.nav %}
-    <div class="w-full md:w-1/2 p-2">
-    {% set card = 
-        {
-          label: page.data.title,
-          link: page.url, 
-          excerpt: page.data.excerpt,
-          style: "transparent"
-          } %}
-
-    {% include 'components/card.njk' %}
-    </div>
-  {% endfor %}
-  </section>
-  
+          {% include 'components/card.njk' %}
+        </div>
+      {% endfor %}
+    </section>
   </div>
 </main>
 

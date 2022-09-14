@@ -181,6 +181,18 @@ module.exports = function (eleventyConfig) {
   // ... cssmin
   // ... jsmin
 
+  eleventyConfig.addCollection("homepages", (collection) => {
+    const pages = collection.getFilteredByGlob("src/utils/pageCardOrder.md");
+    const cards = collection.getFilteredByGlob("src/layout/page-cards/*.md");
+    const layout = pages.map((page) => page.data.order);
+
+    const data= layout.flat().map(({ page }) => {
+      return cards.find((card) => page === card.data.title)
+    });
+
+    return data;
+  });
+
   // Events
   eleventyConfig.addCollection("events", (collection) => {
     const events = collection.getFilteredByGlob("src/meetings/*.md");
@@ -280,26 +292,26 @@ module.exports = function (eleventyConfig) {
       const d2 = DateTime.now().toMillis();
       return d1 < d2;
     });
-    const sortedEvents =  pastEvents.sort(function (a, b) {
+    const sortedEvents = pastEvents.sort(function (a, b) {
       let firstStart = new Date(a.data.start).toISOString();
       let secondStart = new Date(b.data.start).toISOString();
 
-      firstStart = DateTime.fromISO(firstStart).toMillis()
-      secondStart = DateTime.fromISO(secondStart).toMillis()
+      firstStart = DateTime.fromISO(firstStart).toMillis();
+      secondStart = DateTime.fromISO(secondStart).toMillis();
 
       return secondStart - firstStart; // sort by date - descending
     });
 
-    return sortedEvents
+    return sortedEvents;
   });
-  
+
   eleventyConfig.addCollection("sortedGroups", (collection) => {
-    const groups = collection.getFilteredByGlob("src/groups/*.md")
-    
+    const groups = collection.getFilteredByGlob("src/groups/*.md");
+
     if (groups?.length > 0) {
       return groups.sort((a, b) => a.fileSlug.localeCompare(b.fileSlug));
     }
-  })
+  });
 
   // Custom Shortcodes
 
