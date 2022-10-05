@@ -8,6 +8,8 @@ tags:
   - booking
 ---
 
-An interesting point in history. When the YIC team visited Mid Yorkshire Hospitals in March 2018, we recorded a live questions and answers session. At this point in time, they were living in expectation of installing a new Enterprise Imaging PACS and the Xero viewer to their clinical teams. They were interested in exploring the challenges that this project would bring.
+Martin Kepa from [Medcurrent](https://www.medcurrent.com/) provides a walkthrough demonstration and takes questions from the YIC Core Team around their iRefer product in partnership with the Royal College of Radiologists.
 
-Much has since changed, but all of the aformentioned milestones where achieved on time with a minimal level of disruption which was rapidly resolved within a few months.
+Clinical Decision Support (CDS) is a type of AI software that allows interception of requests at the point of referral to step into the process and provide advice and guidance for the referrer towards a known pathway. iRefer is a bank of referral guidance maintained since 1989 by the Royal College of Radiologists.
+
+CDS is an effective way of managing the pre-acquisition input stage of radiology workflows in a regional network by sharing protocols created by our special interest groups with mappings to iRefer and specified NICIP codes.
