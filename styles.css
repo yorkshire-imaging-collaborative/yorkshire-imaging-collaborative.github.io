@@ -2420,12 +2420,6 @@ select {
   color: rgba(0, 94, 184, var(--text-opacity));
 }
 
-.text-grey-1 {
-  --text-opacity: 1;
-  color: #4c6272;
-  color: rgba(76, 98, 114, var(--text-opacity));
-}
-
 .text-grey-2 {
   --text-opacity: 1;
   color: #768692;
@@ -2500,22 +2494,9 @@ select {
   z-index: 50;
 }
 
-@-webkit-keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 @keyframes spin {
   to {
     transform: rotate(360deg);
-  }
-}
-
-@-webkit-keyframes ping {
-  75%, 100% {
-    transform: scale(2);
-    opacity: 0;
   }
 }
 
@@ -2526,43 +2507,21 @@ select {
   }
 }
 
-@-webkit-keyframes pulse {
-  50% {
-    opacity: .5;
-  }
-}
-
 @keyframes pulse {
   50% {
     opacity: .5;
   }
 }
 
-@-webkit-keyframes bounce {
-  0%, 100% {
-    transform: translateY(-25%);
-    -webkit-animation-timing-function: cubic-bezier(0.8,0,1,1);
-            animation-timing-function: cubic-bezier(0.8,0,1,1);
-  }
-
-  50% {
-    transform: none;
-    -webkit-animation-timing-function: cubic-bezier(0,0,0.2,1);
-            animation-timing-function: cubic-bezier(0,0,0.2,1);
-  }
-}
-
 @keyframes bounce {
   0%, 100% {
     transform: translateY(-25%);
-    -webkit-animation-timing-function: cubic-bezier(0.8,0,1,1);
-            animation-timing-function: cubic-bezier(0.8,0,1,1);
+    animation-timing-function: cubic-bezier(0.8,0,1,1);
   }
 
   50% {
     transform: none;
-    -webkit-animation-timing-function: cubic-bezier(0,0,0.2,1);
-            animation-timing-function: cubic-bezier(0,0,0.2,1);
+    animation-timing-function: cubic-bezier(0,0,0.2,1);
   }
 }
 
@@ -4111,10 +4070,6 @@ a:not(.card):not(.legacy-no-focus):focus {
 
   .sm\:aspect-h-16 {
     --tw-aspect-h: 16;
-  }
-
-  .sm\:flex-row {
-    flex-direction: row;
   }
 }
 
