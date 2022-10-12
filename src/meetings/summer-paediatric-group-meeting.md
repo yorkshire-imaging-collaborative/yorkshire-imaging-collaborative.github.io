@@ -7,6 +7,7 @@ groups:
 eleventyNavigation:
   parent: paediatric
 location: MS Teams
+invitation: ""
 agenda: |-
   This is what we are going to discuss in this meeting
 
