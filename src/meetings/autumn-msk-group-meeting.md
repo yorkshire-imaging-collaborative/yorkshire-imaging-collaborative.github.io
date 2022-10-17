@@ -22,17 +22,19 @@ minutes: >-
   ### Actions
 
 
-  1. Publish Sarcoma pathway on YIC website \[SIG PM’s]
+  * Publish Sarcoma pathway on YIC website \[SIG PM’s]
 
-  2. Publish minimum dataset for lumps and bumps 
-     \[SIG PM's]
-  3. Format Primary care diagnostic referral pathway for U/S
+  * Publish minimum dataset for lumps and bumps 
+    \[SIG PM's]
+  * Format Primary care diagnostic referral pathway for U/S
 
-  4. Circulate CRIS codes and protocols for MRI spine imaging \[ SIG PMs] 
+  * Circulate CRIS codes and protocols for MRI spine imaging \[ SIG PMs] 
 
-  5. Lisa Field asked for DEXA leads details in all trusts
+  * Lisa Field asked for DEXA leads details in all trusts
 
-  6.
+  * F﻿inalise MRI spine protocols
+
+
 
 
   ### K﻿ey Discussion Points
@@ -68,8 +70,4 @@ minutes: >-
   5. AOB
      Dan Fascia mentioned BSSR refresher course in Leeds 2023
      Lisa Field asked for DEXA leads details in all trusts (action SIG PMs)
-
-  For next meeting
-
-  Finalise MRI spine protocols
 ---
