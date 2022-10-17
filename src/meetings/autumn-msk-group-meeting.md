@@ -22,9 +22,14 @@ minutes: "### A﻿ttendance
   ### A﻿ctions
 
 
-  1. Upload Sarcoma Pathway to YIC website
+  1.\tPublish Sarcoma pathway on YIC website [SIG PM’s]\r
 
-  \   2﻿.
+  2.\tPublish minimum dataset for lumps and bumps \r[SIG PM's]
+
+  3.\tFormat Primary care diagnostic referral pathway for U/S\r
+
+  4.\tCirculate CRIS codes and protocols for MRI spine imaging [ SIG PMs]\r
+
 
 
   ### K﻿ey Discussion Points
@@ -41,31 +46,26 @@ minutes: "### A﻿ttendance
   threshold for referral for subcutaneous lipoma that has no concerning features
   from 7cm to 10cm. If there is cosmetic or pain concern then the GP will refer
   to plastic surgery. This new pathway to be uploaded to the YIC website (action
-  for SIG PMs)\r
+  for SIG PMs)
 
   Discussion around standardisation of MRI in “lumps” e.g T1, T2 FS or STIR in
   one or two planes and gadolinium not required (happy for this protocol to be
-  adopted)\r
+  adopted)
 
   Discussion around use of DIXON technique.\ 
 
-  \r
 
   Document discussion around standard protocol, use the YIC principle of a
   minimum dataset and publish on the MSK SIG page on website (action for SIG PMs
   to circulate)
 
 
-  3.\tPrimary Care Diagnostic Referral Pathway for U/S
+  3. Primary Care Diagnostic Referral Pathway for U/S
 
-  Phil Robinson gave background to this document. Need for written guidance
-  for GPs to refer to. With aim to restrict referrals. Discussion around hernia
-  referrals, shoulder pain, masses. \r
+  \   Phil Robinson gave background to this document. Need for written
+  guidance for GPs to refer to. With aim to restrict referrals. Discussion
+  around hernia referrals, shoulder pain, masses.\ 
 
-  Use YIC to make sure this applies. Phil R happy for us to use the document
-  with a YIC format for circulation and agreement. (action SIG PMs)\r
-
-
-
-  \r\n"
+  \   Use YIC to make sure this applies. Phil R happy for us to use the
+  document with a YIC format for circulation and agreement. (action SIG PMs)"
 ---
