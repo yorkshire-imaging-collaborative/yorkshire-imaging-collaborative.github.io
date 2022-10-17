@@ -2420,6 +2420,12 @@ select {
   color: rgba(0, 94, 184, var(--text-opacity));
 }
 
+.text-grey-1 {
+  --text-opacity: 1;
+  color: #4c6272;
+  color: rgba(76, 98, 114, var(--text-opacity));
+}
+
 .text-grey-2 {
   --text-opacity: 1;
   color: #768692;
@@ -4070,6 +4076,10 @@ a:not(.card):not(.legacy-no-focus):focus {
 
   .sm\:aspect-h-16 {
     --tw-aspect-h: 16;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
   }
 }
 
