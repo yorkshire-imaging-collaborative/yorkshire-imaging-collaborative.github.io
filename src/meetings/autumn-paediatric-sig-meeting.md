@@ -1,5 +1,5 @@
 ---
-title: Autumn Paediatric SIG Meeting
+title: Autumn Paediatric SIG Meeting 2022
 start: 2022-10-18T09:00:00.000Z
 end: 2022-10-18T10:00:28.547Z
 groups:
