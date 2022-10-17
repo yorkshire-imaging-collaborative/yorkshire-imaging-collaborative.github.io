@@ -12,86 +12,64 @@ agenda: |-
 
   * M﻿RI Protocols
   * A﻿ny Other Business
-minutes: "### A﻿ttendance
+minutes: >-
+  ### Attendance
 
 
-  Oliver Hough, Jo Housley, James Baren, Phil Robinson, Dan Fascia, Christian
-  Chew, Pankaj Nagtode
+  Oliver Hough, Jo Housley, James Baren, Phil Robinson, Dan Fascia, Christian Chew, Pankaj Nagtode
 
 
-  ### A﻿ctions
+  ### Actions
 
 
-  1.\tPublish Sarcoma pathway on YIC website [SIG PM’s]\r
+  1. Publish Sarcoma pathway on YIC website \[SIG PM’s]
 
-  2.\tPublish minimum dataset for lumps and bumps \r[SIG PM's]
+  2. Publish minimum dataset for lumps and bumps 
+     \[SIG PM's]
+  3. Format Primary care diagnostic referral pathway for U/S
 
-  3.\tFormat Primary care diagnostic referral pathway for U/S\r
+  4. Circulate CRIS codes and protocols for MRI spine imaging \[ SIG PMs] 
 
-  4.\tCirculate CRIS codes and protocols for MRI spine imaging [ SIG PMs]\r
+  5. Lisa Field asked for DEXA leads details in all trusts
 
+  6.
 
 
   ### K﻿ey Discussion Points
 
 
-  1﻿.\tJames Baren- new Chair
+  1﻿.	James Baren- new Chair
 
 
-  2﻿. Sarcoma Pathway- Phil Robinson gave background to the updated pathway
-  (new flow chart approved through Cancer Alliance and Rob Turner
-  (oncologist))  To prevent patients having to travel to Leeds and the undue
-  anxiety of being referred to the “Sarcoma” clinic. This is now a “live”
-  document as far as the radiologists are concerned. Main change was the
-  threshold for referral for subcutaneous lipoma that has no concerning features
-  from 7cm to 10cm. If there is cosmetic or pain concern then the GP will refer
-  to plastic surgery.\ 
+  2﻿. Sarcoma Pathway- Phil Robinson gave background to the updated pathway (new flow chart approved through Cancer Alliance and Rob Turner (oncologist))  To prevent patients having to travel to Leeds and the undue anxiety of being referred to the “Sarcoma” clinic. This is now a “live” document as far as the radiologists are concerned. Main change was the threshold for referral for subcutaneous lipoma that has no concerning features from 7cm to 10cm. If there is cosmetic or pain concern then the GP will refer to plastic surgery. 
 
 
-  Discussion around standardisation of MRI in “lumps” e.g T1, T2 FS or STIR in
-  one or two planes and gadolinium not required (happy for this protocol to be
-  adopted)
+  Discussion around standardisation of MRI in “lumps” e.g T1, T2 FS or STIR in one or two planes and gadolinium not required (happy for this protocol to be adopted)
 
-  Discussion around use of DIXON technique.\ 
+  Discussion around use of DIXON technique. 
 
 
-  Document discussion around standard protocol, use the YIC principle of a
-  minimum dataset and publish on the MSK SIG page on website.
+  Document discussion around standard protocol, use the YIC principle of a minimum dataset and publish on the MSK SIG page on website.
 
 
   3. Primary Care Diagnostic Referral Pathway for U/S
+     Phil Robinson gave background to this document. Need for written guidance for GPs to refer to. With aim to restrict referrals. Discussion around hernia referrals, shoulder pain, masses. 
+     Use YIC to make sure this applies. Phil R happy for us to use the document with a YIC format for circulation and agreement. 
 
-  \   Phil Robinson gave background to this document. Need for written
-  guidance for GPs to refer to. With aim to restrict referrals. Discussion
-  around hernia referrals, shoulder pain, masses.\ 
+  4﻿.	MRI Protocols
 
-  \   Use YIC to make sure this applies. Phil R happy for us to use the
-  document with a YIC format for circulation and agreement.\ 
+  Most commonly outsourced MRI are spine and knee. Discussion around reason behind minimum data set agreement. 
+
+  Discussion around lumbar spine, cervical spine and thoracic spine imaging.
+
+  Discussion about sending of localisers to PACS, coverage, extra sequences (reasons behind STIR) NICIP codes, DIXON technique
 
 
-  4﻿.\tMRI Protocols\r
+  5. AOB
+     Dan Fascia mentioned BSSR refresher course in Leeds 2023
+     Lisa Field asked for DEXA leads details in all trusts (action SIG PMs)
 
-  Most commonly outsourced MRI are spine and knee. Discussion around reason
-  behind minimum data set agreement. \r
+  For next meeting
 
-  Discussion around lumbar spine, cervical spine and thoracic spine imaging.\r
-
-  Discussion about sending of localisers to PACS, coverage, extra sequences
-  (reasons behind STIR) NICIP codes, DIXON technique\r
-
-  \r
-
-  5.\tAOB\r
-
-  Dan Fascia mentioned BSSR refresher course in Leeds 2023\r
-
-  Lisa Field asked for DEXA leads details in all trusts (action SIG PMs)\r
-
-  \r
-
-  For next meeting\r
-
-  Finalise MRI spine protocols\r
-
-  \n"
+  Finalise MRI spine protocols
 ---
