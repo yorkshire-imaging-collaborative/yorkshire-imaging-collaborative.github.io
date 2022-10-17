@@ -45,8 +45,8 @@ minutes: "### A﻿ttendance
   document as far as the radiologists are concerned. Main change was the
   threshold for referral for subcutaneous lipoma that has no concerning features
   from 7cm to 10cm. If there is cosmetic or pain concern then the GP will refer
-  to plastic surgery. This new pathway to be uploaded to the YIC website (action
-  for SIG PMs)
+  to plastic surgery.\ 
+
 
   Discussion around standardisation of MRI in “lumps” e.g T1, T2 FS or STIR in
   one or two planes and gadolinium not required (happy for this protocol to be
@@ -56,8 +56,7 @@ minutes: "### A﻿ttendance
 
 
   Document discussion around standard protocol, use the YIC principle of a
-  minimum dataset and publish on the MSK SIG page on website (action for SIG PMs
-  to circulate)
+  minimum dataset and publish on the MSK SIG page on website.
 
 
   3. Primary Care Diagnostic Referral Pathway for U/S
@@ -67,5 +66,32 @@ minutes: "### A﻿ttendance
   around hernia referrals, shoulder pain, masses.\ 
 
   \   Use YIC to make sure this applies. Phil R happy for us to use the
-  document with a YIC format for circulation and agreement. (action SIG PMs)"
+  document with a YIC format for circulation and agreement.\ 
+
+
+  4﻿.\tMRI Protocols\r
+
+  Most commonly outsourced MRI are spine and knee. Discussion around reason
+  behind minimum data set agreement. \r
+
+  Discussion around lumbar spine, cervical spine and thoracic spine imaging.\r
+
+  Discussion about sending of localisers to PACS, coverage, extra sequences
+  (reasons behind STIR) NICIP codes, DIXON technique\r
+
+  \r
+
+  5.\tAOB\r
+
+  Dan Fascia mentioned BSSR refresher course in Leeds 2023\r
+
+  Lisa Field asked for DEXA leads details in all trusts (action SIG PMs)\r
+
+  \r
+
+  For next meeting\r
+
+  Finalise MRI spine protocols\r
+
+  \n"
 ---
