@@ -8,15 +8,18 @@ eleventyNavigation:
   parent: chest
 location: MS Teams
 invitation: MS Teams
-agenda: "* Review of Chest CT Protocols"
+agenda: |-
+  This is what we are going to discuss in the meeting
+
+  1. Lung scanning protocols for agreement (produced in smaller working group)
+  2. Next steps for the Chest SIG & protocols to be prioritised
+  3. Any Other Business
 minutes: |-
   ## Attendance
 
 
 
   ## Actions
-
-
 
   ## Discussion Points
 ---
