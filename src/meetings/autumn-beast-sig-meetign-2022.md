@@ -1,5 +1,5 @@
 ---
-title: Autumn Beast SIG Meetign 2022
+title: 2022 Autumn Breast SIG Meeting
 start: 2022-10-12T09:00:24.327Z
 end: 2022-10-12T10:00:24.344Z
 groups:
