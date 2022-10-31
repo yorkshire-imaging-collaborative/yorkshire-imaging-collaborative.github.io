@@ -1,5 +1,5 @@
 ---
-title: Autumn Chest Group Meeting
+title: 2022 Autumn Chest Group Meeting
 start: 2022-09-15T09:00:26.015Z
 end: 2022-09-15T10:00:26.045Z
 groups:
