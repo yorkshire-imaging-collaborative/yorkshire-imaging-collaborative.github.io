@@ -6,6 +6,6 @@ order:
   - page: Insourcing
   - page: About Our Network
   - page: Video Library
-  - page: Peer Learning & Feedback
   - page: Meet the team
+  - page: Peer Learning & Feedback
 ---
