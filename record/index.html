@@ -1,0 +1,130 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><link rel="icon" href="images/favicon.png" type="image/png"><link rel="stylesheet" href="/styles.css"><title>View Your Application - Yorkshire Imaging Collaborative</title><meta name="description" content="Combined tech and transformation programme delivering total radiology interoperability across Yorkshire, the Humber and North Lincolnshire"><meta name="robots" content="index,follow"><meta name="author" content="Daniel Fascia"><link rel="canonical" href="https://yorkshireimaging.nhs.uk//record/"><meta property="og:title" content="View Your Application - Yorkshire Imaging Collaborative"><meta property="og:type" content="article"><meta property="og:url" content="https://yorkshireimaging.nhs.uk//record/"><meta property="og:description" content="Combined tech and transformation programme delivering total radiology interoperability across Yorkshire, the Humber and North Lincolnshire"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@yorks_imaging"><meta name="twitter:url" content="https://yorkshireimaging.nhs.uk//record/"><meta name="twitter:title" content="View Your Application - Yorkshire Imaging Collaborative"><meta name="twitter:description" content="Combined tech and transformation programme delivering total radiology interoperability across Yorkshire, the Humber and North Lincolnshire"><script defer="defer" src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script></head><body class="h-screen flex flex-col" x-data="{ open: false, imgModalSrc: '' }" x-bind:class="open ? 'overflow-hidden' : ''"><header class="bg-blue text-white-100 print:hidden" role="banner"><div class="max-w-6xl mx-auto md:px-4 md:py-3"><div class="inline-block p-2 md:p-0"><a id="logo" href="/" class="legacy-no-focus md:flex md:items-center text-white md:border-4 border-transparent hover:border-warm-yellow" aria-label="NHS homepage"><div class="relative w-24 pb-9"><svg class="absolute mb-2 md:mb-0 text-blue w-full h-auto top-0" xmlns="http://www.w3.org/2000/svg" role="presentation" focusable="false" viewBox="0 0 40 16"><path fill="#fff" d="M0 0h40v16H0z"></path><path fill="currentColor" d="M3.9 1.5h4.4l2.6 9h.1l1.8-9h3.3l-2.8 13H9l-2.7-9h-.1l-1.8 9H1.1M17.3 1.5h3.6l-1 4.9h4L25 1.5h3.5l-2.7
+                13h-3.5l1.1-5.6h-4.1l-1.2 5.6h-3.4M37.7 4.4c-.7-.3-1.6-.6-2.9-.6-1.4 0-2.5.2-2.5 1.3 0 1.8 5.1 1.2 5.1 5.1 0 3.6-3.3
+                4.5-6.4 4.5-1.3 0-2.9-.3-4-.7l.8-2.7c.7.4 2.1.7 3.2.7s2.8-.2 2.8-1.5c0-2.1-5.1-1.3-5.1-5 0-3.4 2.9-4.4 5.8-4.4 1.6 0
+                3.1.2 4 .6"></path><image src="https://assets.nhs.uk/images/nhs-logo.png" xlink:href=""></image></svg></div><h1 class="inline-flex text-base xl:text-2xl md:ml-4 mb-0 font-medium">Yorkshire Imaging Collaborative</h1></a></div></div></header><div id="hero" class="relative"><section class="hero bg-blue text-white-100"><div class="max-w-6xl mx-auto px-4 py-10 text-white"><h1 class="font-bold mb-5 text-2xl lg:text-4xl">View Your Application</h1><p class="prose-white text-lg lg:text-xl max-w-3xl lg:leading-relaxed"></p></div></section></div><style>.spinner,
+  .spinner:after {
+    position: relative;
+    box-sizing: border-box;
+  }
+
+  .spinner {
+    width: 64px;
+    height: 64px;
+    display: block;
+    color: #005eb8;
+    margin: 0 auto;
+  }
+
+  .spinner::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    border: 6px solid currentColor;
+    border-bottom-color: transparent;
+    border-radius: 100%;
+    background: transparent;
+
+    animation: ball-clip-rotate 0.75s linear infinite;
+  }
+
+  @keyframes ball-clip-rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }</style><main id="main"><div class="flex justify-center"><span id="loader" class="spinner" aria-label="loading PDF"></span><a id="viewer" href="#" class="bg-blue text-white px-4 py-2 hidden">View PDF</a></div></main><script src="/pdfkit.js"></script><script src="/blob-stream.js"></script><script>const urlParams = new URLSearchParams(window.location.search);
+  const record = urlParams.get("id");
+
+  console.log({ record });
+  if (record) {
+    const fetchData = async () => {
+      try {
+        const res = await fetch(
+          `https://eoagvw5xp4tcekx.m.pipedream.net?id=${record}`,
+          {
+            headers: {
+              "Content-Type": "application/json",
+            },
+            "Access-Control-Allow-Origin": "*",
+            method: "GET",
+            mode: "cors",
+          }
+        );
+
+        if (res.ok) {
+          const data = await res.json();
+
+          return data;
+        } else {
+          console.log("NOT OK");
+        }
+      } catch (error) {
+        console.log("THERE WAS AN ERROR", error);
+      }
+    };
+
+    const generatePDF = async () => {
+      const data = await fetchData();
+      // const data = {
+      //   Email: "d.fascia@nhs.net",
+      //   "First Name": "Daniel",
+      //   "Last Name": "Fascia",
+      //   Role: "YIC",
+      //   Salutation: "Dr",
+      //   "messy Designations": ["YIC Clinical Lead"],
+      //   Occupations: ["Consultant Radiologist"],
+      //   "Clinical Director": true,
+      //   "Group Lead": ["rec6JdBh93SkYl4rl"],
+      //   Groups: ["recFW2woFKEjix9BI", "rec6JdBh93SkYl4rl"],
+      //   Trusts: ["recoYFriSycboEgDp", "recLjnrV7KXTCLfJW"],
+      //   RegistrationNum: "6099640",
+      //   "REALM Lead": true,
+      //   FullName: "Dr Daniel Fascia",
+      // };
+
+      const doc = new PDFDocument();
+      const stream = doc.pipe(blobStream());
+
+      doc.fontSize(24).text(`${data["FullName"]}`);
+
+      doc.end();
+
+      stream.on("finish", () => {
+        const url = stream.toBlobURL("application/pdf");
+        // const iframe = document.querySelector("#iframe");
+        // iframe.src = url;
+
+        document.querySelector("#loader").style.display = "none";
+
+        const pdfViewer = document.querySelector("#viewer");
+
+        pdfViewer.href = url;
+        pdfViewer.classList.remove("hidden");
+        // window.location.href = url
+      });
+    };
+
+    generatePDF();
+  }</script><div x-show="open" class="fixed top-0 left-0 h-screen w-screen bg-white ie-lightbox" x-bind:class="open ? 'block' : 'hidden'"><button @click="open = false" class="absolute" style="right: 24px; top: 12px">Close</button> <img :src="imgModalSrc" class="py-12 px-8 max-w-screen-xl mx-auto"></div><script>document.querySelectorAll('a > img').forEach((elem) => {
+            elem.setAttribute("x-on:click", "open = !open");
+            elem.addEventListener('click', e => {
+                e.preventDefault();
+                document
+                    .body
+                    ._x_dataStack[0]
+                    .imgModalSrc = elem.src
+            });
+        });
+
+        document.querySelectorAll('.clickable').forEach((elem) => {
+            const link = elem.querySelector("a");
+
+            if (link) {
+                elem.addEventListener('click', () => {
+                    window.location.href = link.href;
+                })
+            }
+        })</script></body>
