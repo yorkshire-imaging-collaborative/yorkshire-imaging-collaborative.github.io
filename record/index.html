@@ -38,7 +38,6 @@
   }</style><main id="main"><div class="flex justify-center"><span id="loader" class="spinner" aria-label="loading PDF"></span><a id="viewer" href="#" class="bg-blue text-white px-4 py-2 hidden">View PDF</a></div></main><script src="/pdfkit.js"></script><script src="/blob-stream.js"></script><script>const urlParams = new URLSearchParams(window.location.search);
   const record = urlParams.get("id");
 
-  console.log({ record });
   if (record) {
     const fetchData = async () => {
       try {

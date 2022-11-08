@@ -483,6 +483,10 @@ input::-moz-placeholder, textarea::-moz-placeholder {
   color: #a0aec0;
 }
 
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color: #a0aec0;
+}
+
 input::placeholder,
 textarea::placeholder {
   color: #a0aec0;
@@ -630,6 +634,11 @@ input::-moz-placeholder, textarea::-moz-placeholder {
   opacity: 1;
 }
 
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color: #a0aec0;
+  opacity: 1;
+}
+
 input::placeholder, textarea::placeholder {
   color: #a0aec0;
   opacity: 1;
@@ -678,6 +687,7 @@ select {
   background-origin: border-box;
   -webkit-user-select: none;
      -moz-user-select: none;
+      -ms-user-select: none;
           user-select: none;
   flex-shrink: 0;
   height: 1rem;
