@@ -31,6 +31,8 @@ module.exports = function (eleventyConfig) {
   /* Pass through */
   eleventyConfig.addPassthroughCopy("src/images");
   eleventyConfig.addPassthroughCopy("src/files");
+  eleventyConfig.addPassthroughCopy("src/pdfkit.js");
+  eleventyConfig.addPassthroughCopy("src/blob-stream.js");
 
   // @TODO - The line below causes an error due to the first point here:
   // https://www.11ty.dev/blog/eleventy-one-point-oh/#minor
@@ -67,7 +69,7 @@ module.exports = function (eleventyConfig) {
 
   // Custom inline date formatting using Luxon formats 'dd LLLL yyyy' etc
   eleventyConfig.addFilter("dateFormat", (date, format) => {
-    const formattedDate =  DateTime.fromJSDate(date).setZone('Europe/London')
+    const formattedDate = DateTime.fromJSDate(date).setZone("Europe/London");
     return formattedDate.toFormat(format);
   });
 
@@ -186,8 +188,8 @@ module.exports = function (eleventyConfig) {
     const cards = collection.getFilteredByGlob("src/layout/page-cards/*.md");
     const layout = pages.map((page) => page.data.order);
 
-    const data= layout.flat().map(({ page }) => {
-      return cards.find((card) => page === card.data.title)
+    const data = layout.flat().map(({ page }) => {
+      return cards.find((card) => page === card.data.title);
     });
 
     return data;

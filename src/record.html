@@ -67,7 +67,6 @@ subtitle } %} {% include 'components/hero.njk' %}
   const urlParams = new URLSearchParams(window.location.search);
   const record = urlParams.get("id");
 
-  console.log({ record });
   if (record) {
     const fetchData = async () => {
       try {
