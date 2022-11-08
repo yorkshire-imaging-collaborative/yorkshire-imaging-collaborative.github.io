@@ -68,23 +68,6 @@
 
     const generatePDF = async () => {
       const data = await fetchData();
-      // const data = {
-      //   Email: "d.fascia@nhs.net",
-      //   "First Name": "Daniel",
-      //   "Last Name": "Fascia",
-      //   Role: "YIC",
-      //   Salutation: "Dr",
-      //   "messy Designations": ["YIC Clinical Lead"],
-      //   Occupations: ["Consultant Radiologist"],
-      //   "Clinical Director": true,
-      //   "Group Lead": ["rec6JdBh93SkYl4rl"],
-      //   Groups: ["recFW2woFKEjix9BI", "rec6JdBh93SkYl4rl"],
-      //   Trusts: ["recoYFriSycboEgDp", "recLjnrV7KXTCLfJW"],
-      //   RegistrationNum: "6099640",
-      //   "REALM Lead": true,
-      //   FullName: "Dr Daniel Fascia",
-      // };
-
       const doc = new PDFDocument();
       const stream = doc.pipe(blobStream());
 
@@ -94,8 +77,6 @@
 
       stream.on("finish", () => {
         const url = stream.toBlobURL("application/pdf");
-        // const iframe = document.querySelector("#iframe");
-        // iframe.src = url;
 
         document.querySelector("#loader").style.display = "none";
 
@@ -103,7 +84,6 @@
 
         pdfViewer.href = url;
         pdfViewer.classList.remove("hidden");
-        // window.location.href = url
       });
     };
 
