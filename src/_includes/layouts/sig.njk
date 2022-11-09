@@ -84,7 +84,8 @@ sidebar: true
         {% endif %}
       {% endfor %}
 
-      {% if sigmembers.records %}
+      <!-- @TODO: updated members -->
+      {% if sigmembers %}
         <h2>Group Membership</h2>
 
         {% set striper = cycler('bg-white', 'bg-white', 'bg-grey-4', 'bg-grey-4') %}
@@ -96,7 +97,8 @@ sidebar: true
             {% set _key = eleventyNavigation.key | lower | trim %}
           {% endif %}
 
-          {% set taggedMembers = sigmembers.records | map("fields") | where('groupTag',  _key) | first %}
+
+          {% set taggedMembers = sigmembers | where('groupTag',  _key) | first %}
           
           {% for member in taggedMembers.MembersNames %}
               <div class="w-1/2 px-3 py-2 {{striper.next()}}">
