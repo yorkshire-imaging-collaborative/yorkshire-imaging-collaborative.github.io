@@ -1,5 +1,5 @@
 ---
-title: Insourcing
+title: About our Insourcing Network
 tags:
   - nav
   - footer
@@ -7,10 +7,12 @@ subtitle: Our regional PACS network and insource reporting pool enable member
   Trusts to access a wide area network of specialists willing to carry out
   additional paid work. Clearer backlogs and enhanced access to expertise within
   the NHS reduces the need for more expensive private outsourcing.
-excerpt: Our insource reporting network is a validated alternative to private
-  outsourcing.
+excerpt: An in depth explanation of the philosophies and workings of our network
 sidebar: true
 toc: true
+author: Dr Daniel Fascia
+lastReview: 2022-11-15T14:03:54.883Z
+nextReview: 2023-11-10T14:03:54.925Z
 ---
 ## Why reinvent the wheel?
 
