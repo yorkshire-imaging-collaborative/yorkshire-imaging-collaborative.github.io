@@ -1,5 +1,5 @@
 ---
-title: Application
+title: 🚀 Sign up
 hub: Insourcing
 subtitle: Start your insource reporting career with Yorkshire Imaging Collaborative
 excerpt: Come and work for fee per service reporting network
