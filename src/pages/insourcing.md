@@ -1,5 +1,6 @@
 ---
 title: About our Insourcing Network
+hub: Insourcing
 tags:
   - nav
   - footer
