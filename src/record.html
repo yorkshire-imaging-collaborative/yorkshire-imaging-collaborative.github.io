@@ -84,7 +84,6 @@ subtitle } %} {% include 'components/hero.njk' %}
 
         if (res.ok) {
           const data = await res.json();
-
           return data;
         } else {
           console.log("NOT OK");
@@ -95,12 +94,73 @@ subtitle } %} {% include 'components/hero.njk' %}
     };
 
     const generatePDF = async () => {
-      const data = await fetchData();
+      const logo = await fetch("/images/nhs-logo.png").then((response) => {
+        return response.arrayBuffer();
+      });
+
+      const fontURLs = [
+        "https://assets.nhs.uk/fonts/FrutigerLTW01-45Light.ttf",
+        "https://assets.nhs.uk/fonts/FrutigerLTW01-55Roman.ttf",
+        "https://assets.nhs.uk/fonts/FrutigerLTW01-65Bold.ttf",
+      ];
+
+      const fonts = await Promise.all(
+        fontURLs.map(async (url) => {
+          try {
+            const res = await fetch(url);
+            return res.arrayBuffer();
+          } catch (error) {
+            console.warn("Issue fetching font from NHS assets");
+          }
+        })
+      );
+      console.log({ fonts });
+
+      // const data = await fetchData();
+      const data = {
+        FullName: "Jack Bradley",
+        Skillset: ["Skill 1", "Skill 2"],
+        Occupations: ["Occupation 1"],
+      };
+
       const doc = new PDFDocument();
       const stream = doc.pipe(blobStream());
+      console.log({ data });
 
-      doc.fontSize(24).text(`${data["FullName"]}`);
+      doc.registerFont("Frutiger", fonts[1]);
+      doc.registerFont("Frutiger-Bold", fonts[2]);
 
+      doc.rect(0, 0, 2480, 64).fill("#005eb8");
+
+      doc.image(logo, 16, 16, {
+        width: 64,
+      });
+
+      doc
+        .font("Frutiger-Bold")
+        .fillColor("#ffffff")
+        .fontSize(18)
+        .text("Yorkshire Imaging Collaborative", 100, 19);
+
+      doc.fontSize(22).fillColor("#212b32").text(data["FullName"], 24, 100);
+
+      doc.moveDown();
+
+      doc
+        .fontSize(14)
+        .text("Occupation: ", { continued: true })
+        .font("Frutiger")
+        .text(data["Occupations"].join(", "));
+
+      doc.moveDown();
+
+      doc.font("Frutiger-Bold").text("Skillset:");
+
+      doc.font("Frutiger").fontSize(12).list(data["Skillset"], {
+        indent: 16,
+      });
+
+      // END
       doc.end();
 
       stream.on("finish", () => {
