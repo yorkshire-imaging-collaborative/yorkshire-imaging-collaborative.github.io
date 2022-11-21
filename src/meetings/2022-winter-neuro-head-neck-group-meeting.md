@@ -7,4 +7,13 @@ groups:
 eleventyNavigation:
   parent: neuroradiology-head-neck
 location: Microsoft Team
+agenda: |-
+  
+
+  # Agenda
+
+  * Regional Reporting/ REALM update
+  * C﻿T Urogram - Update
+  * Kidney Protocol Standardisation CT/MRI
+  * T﻿P Biopsy Training
 ---
