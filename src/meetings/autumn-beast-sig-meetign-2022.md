@@ -39,15 +39,13 @@ agenda: "T﻿hese items will be discussed at the meeting:
   4. Any other Business\r\n"
 minutes: >-
   # Attendance
-    
+
 
   Tracy Durkin, Ayesha Rahman, Sarah Fox, Nicola Fenton, Nisha Sharma, Jo Housley, Debra Punshon
 
 
-
-
   ## A﻿ctions
-        
+
 
   * Doodle Poll date for next meeting \\[For SIG PM]
 
@@ -55,8 +53,6 @@ minutes: >-
 
 
   ### K﻿ey Discussion Points
-
-
 
 
   * Change in priorities for SIG group, support and guidance group, whilst still discussing common pathways/ new technologies and improvements in patient care
@@ -72,5 +68,8 @@ minutes: >-
   Most trusts have Tomosynthesis capabilities, diagnostic uses tend to differ between trusts. Discussion around Tomosynthesis needing to be double reported, local protocols in place.
 
 
-  Contrast enhanced mammography: availability of equipment/infrastructure and cannulating staff was raised, limiting the capacity of this examination type. Directly impacting the need for more MRI.
+  Contrast enhanced mammography: availability of equipment/infrastructure and cannulating staff was raised, limiting the capacity of this examination type. 
+
+
+  CEM could reduce need for breast MRI in certain situations
 ---
