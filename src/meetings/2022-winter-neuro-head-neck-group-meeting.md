@@ -8,12 +8,13 @@ eleventyNavigation:
   parent: neuroradiology-head-neck
 location: Microsoft Team
 agenda: |-
-  
-
   # Agenda
 
-  * Regional Reporting/ REALM update
-  * C﻿T Urogram - Update
-  * Kidney Protocol Standardisation CT/MRI
-  * T﻿P Biopsy Training
+
+
+  * Finalise CT Non con protocols
+  * Most common MRI protocols
+  * 3pm WYAAT Neurology Programme- Dr Sal Uka/Asifa Ali
+  * Regional Stroke Imaging - Dr Datta
+  * AOB
 ---
