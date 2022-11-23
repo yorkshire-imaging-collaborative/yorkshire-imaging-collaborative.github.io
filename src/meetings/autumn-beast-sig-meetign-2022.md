@@ -41,7 +41,7 @@ minutes: >-
   # Attendance
 
 
-  Tracy Durkin, Ayesha Rahman, Sarah Fox, Nicola Fenton, Nisha Sharma, Jo Housley, Debra Punshon
+  Tracy Durkin, Ayesha Rahman, Sarah Fox, Nicola Fenton, Nisha Sharma, Jo Housley, Debra Punshon, Ollie Hough
 
 
   ## A﻿ctions
