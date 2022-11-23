@@ -1,5 +1,5 @@
 ---
-title: 2022 Winter Urology Group Meeting
+title: 2023 Winter Urology Group Meeting
 start: 2023-01-17T10:00:28.761Z
 end: 2023-01-17T11:00:28.787Z
 groups:
