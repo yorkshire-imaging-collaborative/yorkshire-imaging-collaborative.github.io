@@ -10,11 +10,9 @@ location: Microsoft Team
 agenda: |-
   # Agenda
 
-
-
   * Finalise CT Non con protocols
   * Most common MRI protocols
-  * 3pm WYAAT Neurology Programme- Dr Sal Uka/Asifa Ali
-  * Regional Stroke Imaging - Dr Datta
-  * AOB
+  * Regional Stroke Imaging - Dr Datta (15:00 - 15:20)
+  * WYAAT Neurology Programme- Dr Sal Uka/Asifa Ali (15:20-15:40)
+  * A﻿OB
 ---
