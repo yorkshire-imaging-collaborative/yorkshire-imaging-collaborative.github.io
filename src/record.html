@@ -1,6 +1,6 @@
 ---
 layout: default
-title: View Your Application
+title: View Record
 excerpt: Combined tech and transformation programme delivering total radiology interoperability across Yorkshire, the Humber and North Lincolnshire
 date: 2020-04-30
 
@@ -70,17 +70,14 @@ subtitle } %} {% include 'components/hero.njk' %}
   if (record) {
     const fetchData = async () => {
       try {
-        const res = await fetch(
-          `https://eoagvw5xp4tcekx.m.pipedream.net?id=${record}`,
-          {
-            headers: {
-              "Content-Type": "application/json",
-            },
-            "Access-Control-Allow-Origin": "*",
-            method: "GET",
-            mode: "cors",
-          }
-        );
+        const res = await fetch(`https://eotpupm0t7uray9.m.pipedream.net`, {
+          headers: {
+            "Content-Type": "application/json",
+          },
+          "Access-Control-Allow-Origin": "*",
+          method: "GET",
+          mode: "cors",
+        });
 
         if (res.ok) {
           const data = await res.json();
@@ -116,21 +113,110 @@ subtitle } %} {% include 'components/hero.njk' %}
       );
       console.log({ fonts });
 
-      // const data = await fetchData();
-      const data = {
-        FullName: "Jack Bradley",
-        Skillset: ["Skill 1", "Skill 2"],
-        Occupations: ["Occupation 1"],
-      };
+      const data = await fetchData();
+
+      const skills = [
+        {
+          name: "Plain Film: Chest",
+          active: false,
+        },
+        {
+          name: "Plain Film: Abdominal",
+          active: false,
+        },
+        {
+          name: "Plain Film: MSK",
+          active: false,
+        },
+        {
+          name: "Plain Film: Paediatric",
+          active: false,
+        },
+        {
+          name: "CT: Body",
+          active: false,
+        },
+        {
+          name: "CT: Chest",
+          active: false,
+        },
+        {
+          name: "CT: Neuro, Head & Neck",
+          active: false,
+        },
+        {
+          name: "CT: Cardiac",
+          active: false,
+        },
+        {
+          name: "CT: Vascular",
+          active: false,
+        },
+        {
+          name: "CT: MSK",
+          active: false,
+        },
+        {
+          name: "CT: Paediatric",
+          active: false,
+        },
+        {
+          name: "CT: Breast",
+          active: false,
+        },
+        {
+          name: "MRI: Body",
+          active: false,
+        },
+        {
+          name: "MRI: Cardiac",
+          active: false,
+        },
+        {
+          name: "MRI: Vascular",
+          active: false,
+        },
+        {
+          name: "MRI: MSK",
+          active: false,
+        },
+        {
+          name: "MRI: Paediatric",
+          active: false,
+        },
+        {
+          name: "MRI: Breast",
+          active: false,
+        },
+        {
+          name: "Misc: Nuclear Medicine",
+          active: false,
+        },
+        {
+          name: "Misc: Breast",
+          active: false,
+        },
+        {
+          name: "Misc: DEXA",
+          active: false,
+        },
+      ];
+
+      if (data["Skillset"]) {
+        skills.forEach((skill) => {
+          data["Skillset"].find((_skill) => _skill === skill.name) &&
+            (skill.active = true);
+        });
+      }
 
       const doc = new PDFDocument();
       const stream = doc.pipe(blobStream());
-      console.log({ data });
 
       doc.registerFont("Frutiger", fonts[1]);
       doc.registerFont("Frutiger-Bold", fonts[2]);
 
       doc.rect(0, 0, 2480, 64).fill("#005eb8");
+      doc.rect(0, 728, 2480, 64).fill("#005eb8");
 
       doc.image(logo, 16, 16, {
         width: 64,
@@ -142,22 +228,48 @@ subtitle } %} {% include 'components/hero.njk' %}
         .fontSize(18)
         .text("Yorkshire Imaging Collaborative", 100, 19);
 
-      doc.fontSize(22).fillColor("#212b32").text(data["FullName"], 24, 100);
+      doc
+        .fontSize(22)
+        .fillColor("#212b32")
+        .text(data["FullName"].trim(), 24, 90);
 
-      doc.moveDown();
+      doc.moveDown(0.5);
 
       doc
         .fontSize(14)
-        .text("Occupation: ", { continued: true })
-        .font("Frutiger")
-        .text(data["Occupations"].join(", "));
+        .text(data["Occupations"].join(", "), { continued: true })
+        .text(` — ${data["RegistrationBody"]}`)
+        .moveDown(0.2);
 
-      doc.moveDown();
+      doc.fontSize(12).font("Frutiger").text(data["Email"]);
+      doc.moveDown(1.5);
 
-      doc.font("Frutiger-Bold").text("Skillset:");
+      doc.fontSize(14);
+      doc.font("Frutiger-Bold").text("Skills", { continued: true, width: 260 });
+      doc.text("YES", { continued: true, align: "right" }).text("NO", 100);
+      doc.font("Frutiger");
+      doc.moveDown(0.5);
 
-      doc.font("Frutiger").fontSize(12).list(data["Skillset"], {
-        indent: 16,
+      skills.forEach((skill, i) => {
+        doc
+          .font("Frutiger")
+          .fontSize(13)
+          .text(skill.name, { continued: true, width: 240 });
+
+        if (skill.name.split(":")[0] !== skills[i + 1]?.name.split(":")[0]) {
+          doc.moveDown(0.5);
+        } else {
+          doc.moveDown(0.4);
+        }
+
+        doc.font("ZapfDingbats").text(skill.active ? "4" : "", {
+          align: "right",
+          width: 40,
+        });
+        doc.text(!skill.active ? "5" : "", {
+          align: "right",
+          width: 320,
+        });
       });
 
       // END
