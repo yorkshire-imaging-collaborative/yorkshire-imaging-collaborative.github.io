@@ -54,8 +54,5 @@ minutes: >-
   I would recommend you all consider putting yourselves up for chest SIG lead. Although it doesn’t attract any formal PA / sessions work, the role is as strong or as light as you want it. The main role would be to take chest imaging in the YIC forward  - being the spokes person for chest imaging specialists in the region.
 
 
-  Please let myself know or any of the YIC management team. The emails will be provided on this message
-
-
-  <!--EndFragment-->
+  Please let myself know or any of the YIC management team.
 ---
