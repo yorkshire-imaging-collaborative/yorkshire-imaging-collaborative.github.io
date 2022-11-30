@@ -3,7 +3,8 @@ title: A guide to groups
 groupKey: sig
 subtitle: How to run a successful radiology special interest group. A collection
   of tips and tricks for group leads and facilitators.
-excerpt: Running a successful special interest group
+excerpt: Running a successful radiology special interest group. Tips and tricks
+  for group leads and facilitators.
 sidebar: false
 ---
 The Yorkshire Imaging Collaborative (YIC) Special Interest Groups (SIGs) are a fundamental component of our operating model, emphasising the importance of everything we do being clinically driven and guided by the experts.
