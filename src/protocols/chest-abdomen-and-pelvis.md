@@ -16,7 +16,7 @@ Staging and follow up of cancer
 
 ### C﻿ontrast
 
-Weight based Contrast 3ml/s
+Weight based Contrast @ 3ml/s 
 
 ### T﻿iming and Field of View
 
