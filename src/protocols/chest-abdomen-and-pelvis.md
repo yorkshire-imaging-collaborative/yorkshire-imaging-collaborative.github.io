@@ -16,15 +16,18 @@ Staging and follow up of cancer
 
 ### C﻿ontrast
 
-Oral 750mls water over 30 mins Weight based Omnipaque 350 3ml/s IV
+Weight based Contrast 3ml/s
 
 ### T﻿iming and Field of View
 
-Fixed 30s delay for thorax 65s delay abdomen pelvis
+Bolus tracking 8s delay thorax
+Then further 35s delay abdomen pelvis
+
+**FOV** - Lung Apices - Lesser Trochanters
 
 ### S﻿uggested Multiplanar Reconstructions
 
-* Axial 5mm 
+* Axial 3mm 
 * Coronal 3mm soft tissue 
 * Axial 1mm lung
 
