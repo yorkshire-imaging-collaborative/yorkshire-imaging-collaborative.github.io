@@ -1,11 +1,11 @@
 ---
 order:
-  - page: Business Intelligence
-  - page: Special Interest Groups
-  - page: Technology
-  - page: Insourcing
   - page: About Our Network
-  - page: Video Library
   - page: Meet the team
+  - page: Special Interest Groups
+  - page: Imaging Protocols
+  - page: Insourcing
+  - page: Video Library
+  - page: Technology
   - page: Peer Learning & Feedback
 ---
