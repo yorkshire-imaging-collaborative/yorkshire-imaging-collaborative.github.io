@@ -1,4 +1,6 @@
 ---
 title: Imaging Protocols
-excerpt: Minimum standard imaging protocols and recommended NICIP coding
+excerpt: Minimum viable protocols for imaging, and recommended NICIP codification
+tags:
+  - nav
 ---
