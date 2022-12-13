@@ -1,5 +1,5 @@
 ---
 title: Imaging Protocols
-excerpt: Regional imaging protocols and NICIP coding
+excerpt: Minimum standard diagnostic imaging protocols with suggested NICIP codification
 url: /imaging-protocols
 ---
