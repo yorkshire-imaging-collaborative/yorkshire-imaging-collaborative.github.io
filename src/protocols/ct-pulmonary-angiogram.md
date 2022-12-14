@@ -23,7 +23,7 @@ Suspected Pulmonary Embolism
 
 Bolus tracked on Pulmonary trunk
 
-Apices to Diaphragms
+**FOV -** Apices to Diaphragms
 
 ### Suggested Multiplanar Reconstructions
 
