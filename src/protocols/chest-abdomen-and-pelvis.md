@@ -8,6 +8,7 @@ lastReview: 2022-12-09T13:59:33.042Z
 nextReview: 2022-12-09T13:59:33.061Z
 groups:
   - Gastrointestinal
+  - Chest
 ---
 ### T﻿ypical Indications
 
