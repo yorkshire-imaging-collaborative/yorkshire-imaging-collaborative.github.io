@@ -19,7 +19,7 @@ Suspected Pulmonary Embolism
 
 70 mls Contrast Media @ 5 ml/s
 
-### Timing & FOV
+### Timing & Field Of View
 
 Bolus tracked on Pulmonary trunk
 
