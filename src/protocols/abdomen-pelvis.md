@@ -24,17 +24,17 @@ groups:
 
 W﻿eight based contrast @ 3ml/s
 
-
-
 ### T﻿iming + Field of View (FOV)
 
 (I﻿f not using Bolus tracking timings are in brackets)
 
-B﻿olus tracked on Descending Aorta 45s
+B﻿olus tracked on Descending Aorta 45s 
 
 Portal venous Abdomen + Pelvis (70s)
 
-### S﻿uggested MPR 
+**F﻿OV -** Diaphragm to symphysis pubis
+
+### S﻿uggested MPR
 
 A﻿xial 3mm
 
@@ -42,4 +42,27 @@ C﻿oronal 3mm soft tissue
 
 ### A﻿daptations
 
-A﻿P + ORAL- GIST recurrence
+**A﻿P - ORAL + IV**- GIST recurrence
+
+1. O﻿ral 1000mls 3% contrast over 60mins
+2. W﻿eight based contrast @ 3ml/s
+
+T﻿imings, FOV & suggested MPR are the same
+
+**A﻿P- ORAL -** Abdominal wall reconstruction/planning of abdominal wall repair. Patients with CI or IV contrast allergy
+
+O﻿ral 3% contrasr over 60mins
+
+T﻿imings, FOV & suggested MPR are the same
+
+**A﻿P + Groins** - staging penile cancer
+
+F﻿OV - Diaphragm to below groins (including penis)
+
+T﻿imings and suggested MPR are the same
+
+**A﻿P - NO IV NO ORAL -** Contrast allergy or CI to contrast
+
+N﻿on Contrast Abdomen and Pelvis
+
+F﻿OV and suggest MPR are the same
