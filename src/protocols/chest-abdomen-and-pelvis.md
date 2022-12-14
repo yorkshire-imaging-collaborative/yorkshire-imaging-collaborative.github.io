@@ -1,6 +1,6 @@
 ---
 title: Chest Abdomen and Pelvis
-subtitle: For staging and follow up of cancer
+subtitle: CAP
 sidebar: true
 toc: true
 author: Dr Damian Tolan & Oliver Hough
@@ -18,14 +18,15 @@ Staging and follow up of cancer
 
 Weight based Contrast @ 3ml/s 
 
-### T﻿iming and Field of View
+### Timing and Field of View
 
-Bolus tracking 8s delay thorax
-Then further 35s delay abdomen pelvis
+Bolus tracking on descending aorta 8s delay
+
+Then further 35s delay abdomen pelvis 
 
 **FOV** - Lung Apices - Lesser Trochanters
 
-### S﻿uggested Multiplanar Reconstructions
+### Suggested Multiplanar Reconstructions
 
 * Axial 3mm 
 * Coronal 3mm soft tissue 
