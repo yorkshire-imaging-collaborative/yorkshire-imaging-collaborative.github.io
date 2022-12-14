@@ -35,3 +35,9 @@ Then further 35s delay abdomen pelvis
 * Axial 1mm lung
 
 ### Adaptations
+
+C﻿AP + Oral Contrast
+
+C﻿AP + NO IV
+
+C﻿AP NO IV NO ORAL
