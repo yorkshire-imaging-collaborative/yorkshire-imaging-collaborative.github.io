@@ -15,10 +15,10 @@ groups:
 
 * A﻿cute abdominal pain, suspected perforation or obstruction
 * A﻿cute small or large bowel obstruction for conformation and assessment of level
-* A﻿bdominal spesis, pyrexia of unknown origin (PUO)
-* A﻿cute pancreatisis (best imaged after 6-10 days for assessing complication)
+* A﻿bdominal sepsis, pyrexia of unknown origin (PUO)
+* A﻿cute pancreatitis (best imaged after 6-10 days for assessing complication)
 * S﻿taging of ovarian cancer
-* F﻿ollow up of ovarian cancer to assess responce to treatment 
+* F﻿ollow up of ovarian cancer to assess response to treatment 
 
 ### C﻿ontrast
 
@@ -51,7 +51,7 @@ T﻿imings, FOV & suggested MPR are the same
 
 **A﻿P- ORAL -** Abdominal wall reconstruction/planning of abdominal wall repair. Patients with CI or IV contrast allergy
 
-O﻿ral 3% contrasr over 60mins
+O﻿ral 3% contrast over 60mins
 
 T﻿imings, FOV & suggested MPR are the same
 
@@ -65,4 +65,4 @@ T﻿imings and suggested MPR are the same
 
 N﻿on Contrast Abdomen and Pelvis
 
-F﻿OV and suggest MPR are the same
+F﻿OV and suggeste MPR are the samed
