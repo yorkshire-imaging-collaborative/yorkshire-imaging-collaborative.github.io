@@ -7,6 +7,7 @@ subtitle: Our AI programme aims to augment the safety, speed and accuracy of our
 excerpt: Research and development and clinical translation within our regional
   AI super-sandbox
 sidebar: true
+groupKey: artificial-intelligence
 ---
 ## Our AI Vision
 
