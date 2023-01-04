@@ -1,6 +1,6 @@
 ---
 title: Musculoskeletal
-groupKey: msk
+groupKey: musculoskeletal
 subtitle: Musculoskeletal (MSK) radiology is a large subspecialism of general
   radiology concerning the diagnostic imaging of bones, joints, ligaments and
   tendons as well as skeletal manifestations of other diseases. It also
