@@ -1,7 +1,7 @@
 [
     {
         "name": "Dr Daniel Fascia",
-        "desc": "Regional Clinical Lead, Consultant MSK Radiologist",
+        "desc": "Regional Clinical Director, Consultant MSK Radiologist",
         "avatar": "/images/danfascia.jpg",
         "twitter": "danfascia",
         "linkedin": "daniel-fascia-2a0340a4"
@@ -57,10 +57,18 @@
 
     {
         "name": "Dr Heshan Panditaratne",
-        "desc": "Transformation Board Lead",
+        "desc": "Transformation Board Lead, Consultant Radiologist",
         "avatar": "https://pbs.twimg.com/profile_images/615561624380944384/6mWq9nob_400x400.jpg",
         "twitter": "hesh05",
         "linkedin": "heshan-panditaratne-a9307246"
+    },
+    
+    {
+        "name": "Dr Olly Hulson",
+        "desc": "Regional Radiology Events and Learning Lead",
+        "avatar": "/images/olly-hulson.jpg",
+        "twitter": "olly_leeds",
+        "linkedin": "olly-hulson-83b91b77"
     },
 
     {
@@ -101,5 +109,13 @@
         "avatar": "/images/heatherwright.jpg",
         "twitter": "",
         "linkedin": ""
+    },
+    
+    {
+        "name": "Lynne Gathercole",
+        "desc": "Senior IT and Radiology Information Systems Manager",
+        "avatar": "/images/lynne-gathercole.jpg",
+        "twitter": "",
+        "linkedin": "lynne-gathercole-26738378"
     }
 ]
