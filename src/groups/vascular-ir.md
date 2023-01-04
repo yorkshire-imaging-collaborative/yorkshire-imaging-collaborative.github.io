@@ -1,5 +1,5 @@
 ---
 title: Vascular IR
-excerpt: Vascular IR
+excerpt: vascular-IR
 sidebar: true
 ---
