@@ -8,6 +8,11 @@ eleventyNavigation:
   parent: paediatric
 location: Leeds & West Yorkshire Radiology Academy, Ground Floor (Level B)
   Clarendon Wing, Leeds General Infirmary
-agenda: This meeting will be followed at 5.00pm by the Regional Paediatric
-  Network Interesting Cases Meeting (Invitations to follow separately)
+agenda: >-
+  
+
+  Agenda items to follow.
+
+
+  This meeting will be followed at 5.00pm by the Regional Paediatric Network Interesting Cases Meeting (Invitations to follow separately)
 ---
