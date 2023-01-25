@@ -94,7 +94,9 @@ subtitle } %} {% include 'components/hero.njk' %}
     };
 
     const generatePDF = async () => {
-      const logo = await fetch("/images/nhs-logo.png").then((response) => {
+      const logo = await fetch(
+        "https://assets.nhs.uk/images/nhs-logo.png"
+      ).then((response) => {
         return response.arrayBuffer();
       });
 
@@ -114,7 +116,6 @@ subtitle } %} {% include 'components/hero.njk' %}
           }
         })
       );
-      console.log({ fonts });
 
       const data = await fetchData();
 
