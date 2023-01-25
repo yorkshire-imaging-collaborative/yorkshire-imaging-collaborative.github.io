@@ -70,14 +70,17 @@ subtitle } %} {% include 'components/hero.njk' %}
   if (record) {
     const fetchData = async () => {
       try {
-        const res = await fetch(`https://eotpupm0t7uray9.m.pipedream.net`, {
-          headers: {
-            "Content-Type": "application/json",
-          },
-          "Access-Control-Allow-Origin": "*",
-          method: "GET",
-          mode: "cors",
-        });
+        const res = await fetch(
+          `https://eotpupm0t7uray9.m.pipedream.net?id=${record}`,
+          {
+            headers: {
+              "Content-Type": "application/json",
+            },
+            "Access-Control-Allow-Origin": "*",
+            method: "GET",
+            mode: "cors",
+          }
+        );
 
         if (res.ok) {
           const data = await res.json();
