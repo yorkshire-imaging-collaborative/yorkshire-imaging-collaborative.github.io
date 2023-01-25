@@ -12,5 +12,8 @@ agenda: >-
   Agenda items to follow.
 
 
+  This meeting will be held at the Leeds & West Yorkshire Radiology Academy, Ground Floor (Level B), Clarendon Wing, Leeds General Infirmary
+
+
   This meeting will be followed by the Regional Network Interesting Cases Meeting at 5pm. Invites to this will be sent separately.
 ---
