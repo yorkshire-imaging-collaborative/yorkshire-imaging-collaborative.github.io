@@ -65,9 +65,7 @@
     };
 
     const generatePDF = async () => {
-      const logo = await fetch(
-        "https://assets.nhs.uk/images/nhs-logo.png"
-      ).then((response) => {
+      const logo = await fetch("/images/nhs-logo.png").then((response) => {
         return response.arrayBuffer();
       });
 
@@ -193,9 +191,11 @@
       doc.rect(0, 0, 2480, 64).fill("#005eb8");
       doc.rect(0, 728, 2480, 64).fill("#005eb8");
 
-      doc.image(logo, 16, 16, {
-        width: 64,
-      });
+      if (logo?.byteLength > 0) {
+        doc.image(await logo, 16, 16, {
+          width: 64,
+        });
+      }
 
       doc
         .font("Frutiger-Bold")
