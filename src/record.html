@@ -239,10 +239,13 @@ subtitle } %} {% include 'components/hero.njk' %}
 
       doc.moveDown(0.5);
 
+      doc.fontSize(14).text(data["Occupations"].join(", ")).moveDown(0.2);
+
       doc
         .fontSize(14)
-        .text(data["Occupations"].join(", "), { continued: true })
-        .text(` — ${data["RegistrationBody"]}`)
+        .text(data["STHR"], { continued: true })
+        .text(` - ${data["RegistrationBody"] || ""}`, { continued: true })
+        .text(`: ${data["RegistrationNum"] || ""}`)
         .moveDown(0.2);
 
       doc.fontSize(12).font("Frutiger").text(data["Email"]);
