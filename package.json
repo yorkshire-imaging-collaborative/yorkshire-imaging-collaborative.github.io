@@ -32,6 +32,7 @@
     "markdown-it": "^12.0.4",
     "markdown-it-anchor": "^7.0.2",
     "pdfkit": "^0.13.0",
+    "pdfkit-table": "^0.1.99",
     "postcss": "^8.2.2",
     "slugify": "^1.6.5",
     "tailwindcss": "1.9.0"
