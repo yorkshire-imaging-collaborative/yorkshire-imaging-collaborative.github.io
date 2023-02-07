@@ -17,16 +17,16 @@ Suspected Pulmonary Embolism
 
 ### Contrast
 
-70 mls Contrast Media @ 5 ml/s
+70 mls Contrast Media @ 5 mls per second
 
 ### Timing & Field Of View
 
-Bolus tracked on Pulmonary trunk
+Bolus tracked with region of interest placed on Pulmonary artery- Tracker slice placement just below Carina
 
 **FOV -** Apices to Diaphragms
 
 ### Suggested Multiplanar Reconstructions
 
-1ml Soft tissue Axial
+1mm Soft tissue Axial
 
-1ml Lung Axial
+1mm Lung Axial
