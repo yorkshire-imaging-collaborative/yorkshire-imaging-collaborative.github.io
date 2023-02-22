@@ -27,4 +27,21 @@ agenda: >-
   5. A.O.B
 
   6. Dates/Actions for next meeting
+minutes: >-
+  # Attendance
+
+
+  *Damian Tolan, Debra Punshon, Oliver Hough, Jo Housley, David Stockell, Adam Culverwell, Catherine Roberts, Jonathan McConnell*
+
+
+  ## Key Discussion Points
+
+
+  * Discussion around change in departments and how easy/difficult it is to facilitate. Helpful if have the ability to say "this is what the region is doing". Challenges to rolling out change include cross site working/multiple scanners
+
+  * Discussion around current pressures-capacity and demand being the most common
+
+  * Use of YIC as a place to share common practices and prevent repeat scanning by sharing CT/MRI protocols
+
+  * Agfa EI- functionality issues
 ---
