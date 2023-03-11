@@ -1,5 +1,7 @@
 ---
-title: Artificial Intelligence Seed Fund
+title: 🔥Artificial Intelligence Seed Fund🔥
+tags:
+  - nav
 subtitle: A fund to support clinical trials of established radiology AI
   solutions in clinical practice
 excerpt: The YIC AI Seed Fund supports clinical trials of established radiology
