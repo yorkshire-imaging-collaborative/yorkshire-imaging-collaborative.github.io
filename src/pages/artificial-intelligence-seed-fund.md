@@ -1,5 +1,5 @@
 ---
-title: 🔥Artificial Intelligence Seed Fund🔥
+title: 🔥 Artificial Intelligence Seed Fund
 tags:
   - nav
 subtitle: A fund to support clinical trials of established radiology AI
