@@ -56,8 +56,6 @@ We look forward to receiving your proposals and working with the successful appl
 
 ## How we decide which projects to progress
 
-**Applications will remain open until 5th April 2023**
-
 After the closing date, we will review the applications for a number of criteria in conjunction with the Clinical Directors of each Trust who have submit an application.
 
 In the event of multiple suitable applications YIC will work with the Clinical Director to make a decision on which project to progress with the award. This will take into consideration:
