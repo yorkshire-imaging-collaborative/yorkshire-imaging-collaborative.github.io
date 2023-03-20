@@ -1,6 +1,6 @@
 ---
 title: Chest/Upper Abdomen
-subtitle: TA
+subtitle: Suggested NICIP code
 sidebar: true
 toc: true
 author: " Dr Damian Tolan & Debra Punshon"
@@ -15,29 +15,25 @@ groups:
 * Staging of newly diagnosed Lung cancer
 * Follow up of Lung cancer
 
-
-
 **Contrast**
 
 No Oral
 
-Weight based Omnipaque 350 @ 3mls/sec
-
-
+Weight based contrast @3ml/sec
 
 **Timings and Field of View (FOV)**
 
-Chest- Fixed delay 30 seconds
+Bolus tracked on descending Aorta
 
-Vocal Chords to Costo-phrenic angles
+Chest-  30 seconds delay
+
+**FOV** Vocal Chords to Costo-phrenic angles  
 
 Abdomen- 65 seconds delay
 
-Diaphragm to include Liver
+**FOV** Diaphragm to include Liver  
 
-Bolus tracked on descending Aorta
-
-**Suggested MPR**
+**Suggested Multiplanar Reconstructions**
 
 Axial- 2mm Soft tissue
 
