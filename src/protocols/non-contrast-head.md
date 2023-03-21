@@ -1,5 +1,5 @@
 ---
-title: NON CONTRAST HEAD
+title: Non Contrast Head
 subtitle: CSKUH
 author: Debra Punshon
 lastReview: 2023-03-21T10:53:44.807Z
