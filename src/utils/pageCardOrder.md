@@ -1,6 +1,5 @@
 ---
 order:
-  - page: 🔥Artificial Intelligence Seed Fund🔥
   - page: About Our Network
   - page: Meet the team
   - page: Special Interest Groups
