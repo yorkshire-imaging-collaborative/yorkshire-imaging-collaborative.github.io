@@ -1,6 +1,6 @@
 ---
 title: Chest Abdomen and Pelvis
-subtitle: CAP1 [INSERT NICIP CODE]
+subtitle: CCAPC
 sidebar: true
 toc: true
 author: Dr Damian Tolan & Oliver Hough
@@ -10,11 +10,11 @@ groups:
   - Chest
   - Gastrointestinal
 ---
-### T﻿ypical Indications
+### Typical Indications
 
 Staging and follow up of cancer
 
-### C﻿ontrast
+### Contrast
 
 Weight based Contrast @ 3ml/s 
 
@@ -36,23 +36,23 @@ Then further 35s delay PV abdomen pelvis
 
 ### Adaptations
 
-**C﻿AP + Oral Contrast** - T4 Colorectal cancer post-op surveillance 
+**CAP + Oral Contrast** - T4 Colorectal cancer post-op surveillance 
 
 1. Oral 1000ml 3% contrast over 60mins 
 2. W﻿eight based contrast @ 3ml/s
 
 Timings and FOV + MPR suggestions remain the same
 
-**C﻿AP - NO IV** -Patients with IV contrast allergy 
+**CAP - NO IV** -Patients with IV contrast allergy 
 
 1. 1000ml 3% contrast over 60mins 
 
-N﻿on-contrast (NC) Chest, Abdomen & Pelvis
+Non-contrast (NC) Chest, Abdomen & Pelvis
 
-**F﻿OV** + **MPR** suggestions remain the same
+**FOV** + **MPR** suggestions remain the same
 
-**C﻿AP- NO IV + NO ORAL** -Patients who do not require, are allergic or contraindicated to contrast
+**CAP- NO IV + NO ORAL** -Patients who do not require, are allergic or contraindicated to contrast
 
-N﻿on contrast Chest, Abdomen & Pelvis
+Non contrast Chest, Abdomen & Pelvis
 
-**F﻿OV** + **MPR** suggestions remain the same
+**FOV** + **MPR** suggestions remain the same
