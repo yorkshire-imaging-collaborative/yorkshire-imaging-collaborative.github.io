@@ -32,14 +32,6 @@
     },
 
     {
-        "name": "Helen Jeffrey",
-        "desc": "Programme Support Manager",
-        "avatar": "/images/helenjeffrey.jpg",
-        "twitter": "",
-        "linkedin": "helen-jeffrey-6a1300155"
-    },
-
-    {
         "name": "Aidan Lee",
         "desc": "Senior Technology Programme Manager",
         "avatar": "https://avatars.dicebear.com/api/personas/aidanlee.svg",
@@ -99,14 +91,6 @@
         "name": "Joanna Housley",
         "desc": "Radiographer (Special Interest Groups)",
         "avatar": "/images/joannahousley.jpg",
-        "twitter": "",
-        "linkedin": ""
-    },
-    
-    {
-        "name": "Heather Wright",
-        "desc": "Workforce Development Lead",
-        "avatar": "/images/heatherwright.jpg",
         "twitter": "",
         "linkedin": ""
     },
