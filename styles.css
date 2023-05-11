@@ -2434,12 +2434,6 @@ select {
   color: rgba(0, 94, 184, var(--text-opacity));
 }
 
-.text-grey-1 {
-  --text-opacity: 1;
-  color: #4c6272;
-  color: rgba(76, 98, 114, var(--text-opacity));
-}
-
 .text-grey-2 {
   --text-opacity: 1;
   color: #768692;
@@ -2523,6 +2517,10 @@ select {
   --transform-scale-x: 1;
   --transform-scale-y: 1;
   transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+}
+
+.transition {
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
 }
 
 @keyframes spin {
@@ -4101,10 +4099,6 @@ a:not(.card):not(.legacy-no-focus):focus {
 
   .sm\:aspect-h-16 {
     --tw-aspect-h: 16;
-  }
-
-  .sm\:flex-row {
-    flex-direction: row;
   }
 }
 
