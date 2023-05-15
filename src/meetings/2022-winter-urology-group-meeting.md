@@ -15,4 +15,6 @@ agenda: |-
   * C﻿T/MRI Kidney Protocols
   * T﻿P Training - Support 
   * A﻿OB
+minutes: C﻿ancelled by chair due to last minute clinical commitment. Rearranged
+  for March 2023.
 ---
