@@ -28,4 +28,6 @@ agenda: >-
   * Finalise CT protocols (15:40-15:55)
 
   * AOB If we get to this early we can discuss what MR protocols we can look at next
+minutes: T﻿his meeting did not go ahead as planned as the guest speakers could
+  not attend. Postponed for the future.
 ---
