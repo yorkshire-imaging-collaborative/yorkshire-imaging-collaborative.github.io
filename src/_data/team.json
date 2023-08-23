@@ -32,22 +32,6 @@
     },
 
     {
-        "name": "Aidan Lee",
-        "desc": "Senior Technology Programme Manager",
-        "avatar": "https://avatars.dicebear.com/api/personas/aidanlee.svg",
-        "twitter": "",
-        "linkedin": "aidan-lee-070677b"
-    },
-
-    {
-        "name": "Professor Alejandro Frangi",
-        "desc": "Chief Data Scientist",
-        "avatar": "https://pbs.twimg.com/profile_images/1295718623491903488/43jPVBnZ_400x400.jpg",
-        "twitter": "",
-        "linkedin": "alejandro-frangi"
-    },
-
-    {
         "name": "Dr Heshan Panditaratne",
         "desc": "Transformation Board Lead, Consultant Radiologist",
         "avatar": "https://pbs.twimg.com/profile_images/615561624380944384/6mWq9nob_400x400.jpg",
@@ -67,30 +51,6 @@
         "name": "Mark Lang",
         "desc": "Data Analyst",
         "avatar": "/images/marklang.jpeg",
-        "twitter": "",
-        "linkedin": ""
-    },
-    
-    {
-        "name": "Debra Punshon",
-        "desc": "Radiographer (Special Interest Groups)",
-        "avatar": "/images/debrapunshon.jpg",
-        "twitter": "",
-        "linkedin": ""
-    },
-    
-    {
-        "name": "Oliver Hough",
-        "desc": "Radiographer (Special Interest Groups)",
-        "avatar": "/images/oliverhough.jpg",
-        "twitter": "",
-        "linkedin": ""
-    },
-    
-    {
-        "name": "Joanna Housley",
-        "desc": "Radiographer (Special Interest Groups)",
-        "avatar": "/images/joannahousley.jpg",
         "twitter": "",
         "linkedin": ""
     },
