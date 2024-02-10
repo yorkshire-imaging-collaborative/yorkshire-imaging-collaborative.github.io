@@ -24,16 +24,19 @@ agenda: >-
   ## K﻿ey Discussion Points
 
   ### 1. Implementation details of Limited T2 sagittal imaging protocol for cauda equina syndrome
+  
   Discussion around topic, and Dan Fascia mentioned 2 years of experience using the protocol in Harrogate. James Baren asked to provide the implementation of the protocol for group sharing     (Appendix 1).
   A similar protocol has been implemented in Mid Yorkshire hospitals although it was pointed out that they have a step requiring scan time review by a radiologist which was felt unrealistic     and rate limiting. Dan Fascia suggested this needs to be done by the radiographer after acquiring the limited T2 sagittal scan, and based on the availability of a prior fully reported       MLSPN during the last 3-years.
 
   ### 2. MR Arthrography in the advent of Magnevist being discontinued
+  
   - Key point: Use high resolution joint specific MR protocols wherever possible instead of arthro (hip, wrist, ankle all commonplace. Shoulder less so)
   - Other products are available in pre-prepared format
   - Saline arthrography has growth in interest. It is an old technique but works well if pitfalls are avoided. Scan protocol should be adapted to use PD/PDFS to take advantage of the water     weighting. T1FS sequences have no role. A narrower 'scanning window' has been documented historically of time to scan within 1hr of saline injection which was lower than the window of 2hrs   with Gadolinium present.
   - Pankaj will share with us his pilot study on saline MRA - we are not only interested in image quality (expected to be fine), but user experience and pitfalls.
 
   ### 3. MSKUS waiting times
+  
   - Leeds experiencing increased waiting times due to surge in demand, needing to outsource
   - Not vetting and protocolling USS causes poor list quality and insurmountable, uncontrolled demand
   - Vetting and protocolling feels like wasted time: consider improving request pathways, forms, digital tools to implement decision trees for referrers
